@@ -1,0 +1,68 @@
+{
+  "uid" : "d75a47b03c8a43bb",
+  "name" : "TC03_CreateDoctor",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest.TC03_CreateDoctor",
+  "historyId" : "8dbad565d23e84e7f4f51f9dae014c94",
+  "time" : {
+    "start" : 1608097825616,
+    "stop" : 1608097927698,
+    "duration" : 102082
+  },
+  "description" : "Click on Login/Register button on the HomePage of EzScheduler.",
+  "descriptionHtml" : "<p>Click on Login/Register button on the HomePage of EzScheduler.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_CreateDoctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "6296@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d75a47b03c8a43bb.json",
+  "parameterValues" : [ ]
+}

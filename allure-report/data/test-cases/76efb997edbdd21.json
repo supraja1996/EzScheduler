@@ -1,0 +1,246 @@
+{
+  "uid" : "76efb997edbdd21",
+  "name" : "TC03_Navigation_to_the_GenerateSLots_Page",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.DoctorTest.TC03_Navigation_to_the_GenerateSLots_Page",
+  "historyId" : "e4803dbf009ed20ac29ff25eaf63c444",
+  "time" : {
+    "start" : 1608009086532,
+    "stop" : 1608009107756,
+    "duration" : 21224
+  },
+  "description" : "Navigates to the slot generation screen",
+  "descriptionHtml" : "<p>Navigates to the slot generation screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Navigation_to_the_GenerateSLots_Page"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "1272@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "99d54394a406b327",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607957111978,
+        "stop" : 1607957133548,
+        "duration" : 21570
+      }
+    }, {
+      "uid" : "6049d303dee10fc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605693162722,
+        "stop" : 1605693186494,
+        "duration" : 23772
+      }
+    }, {
+      "uid" : "e3860b369be7e9bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690356154,
+        "stop" : 1605690378712,
+        "duration" : 22558
+      }
+    }, {
+      "uid" : "90373d0dd7b82717",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605689882127,
+        "stop" : 1605689891554,
+        "duration" : 9427
+      }
+    }, {
+      "uid" : "99fbf5f8aeff1fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605689778966,
+        "stop" : 1605689788114,
+        "duration" : 9148
+      }
+    }, {
+      "uid" : "9985e4dc5bcc943e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605687997323,
+        "stop" : 1605688006519,
+        "duration" : 9196
+      }
+    }, {
+      "uid" : "5c0e382317c4eb02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604329505960,
+        "stop" : 1604329515412,
+        "duration" : 9452
+      }
+    }, {
+      "uid" : "26cb98544ad7c65d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604297434372,
+        "stop" : 1604297444018,
+        "duration" : 9646
+      }
+    }, {
+      "uid" : "5b650157ff3656a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604064897619,
+        "stop" : 1604064907724,
+        "duration" : 10105
+      }
+    }, {
+      "uid" : "41902b16073c310b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604048836930,
+        "stop" : 1604048846349,
+        "duration" : 9419
+      }
+    }, {
+      "uid" : "9002adf8d12d2f9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604048447875,
+        "stop" : 1604048457862,
+        "duration" : 9987
+      }
+    }, {
+      "uid" : "a8cb67a8b44250a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604040580203,
+        "stop" : 1604040589776,
+        "duration" : 9573
+      }
+    }, {
+      "uid" : "cd215dcccef15e29",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/div[4]/button[1]/div[1]/div[2]\"}\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: ffbcc1cee210c869ee1d5e071bf2007c\n*** Element info: {Using=xpath, value=/div[4]/button[1]/div[1]/div[2]}",
+      "time" : {
+        "start" : 1604040243660,
+        "stop" : 1604040250490,
+        "duration" : 6830
+      }
+    }, {
+      "uid" : "511cf1bb90542c65",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/div[4]/button[1]/div[1]/div[2]\"}\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: ac2509b4d972fa659d14770b52d40b39\n*** Element info: {Using=xpath, value=/div[4]/button[1]/div[1]/div[2]}",
+      "time" : {
+        "start" : 1604040060364,
+        "stop" : 1604040067164,
+        "duration" : 6800
+      }
+    }, {
+      "uid" : "84d0186df84ef0c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604036637252,
+        "stop" : 1604036646812,
+        "duration" : 9560
+      }
+    }, {
+      "uid" : "9e8ff653e79c6e1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603984173715,
+        "stop" : 1603984183121,
+        "duration" : 9406
+      }
+    }, {
+      "uid" : "4d08ef5298a9ef98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603983726538,
+        "stop" : 1603983735659,
+        "duration" : 9121
+      }
+    }, {
+      "uid" : "2905075743676413",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603881733413,
+        "stop" : 1603881733416,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "87b713d5aa49a244",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/87b713d5aa49a244",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608009086532,
+          "stop" : 1608009107756,
+          "duration" : 21224
+        }
+      }, {
+        "uid" : "88c1182c276d38de",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/88c1182c276d38de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608009086532,
+          "stop" : 1608009107756,
+          "duration" : 21224
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "76efb997edbdd21.json",
+  "parameterValues" : [ ]
+}

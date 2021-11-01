@@ -1,0 +1,75 @@
+{
+  "uid" : "42021077c1ddca98",
+  "name" : "TC02_AdminLogin",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.AdminTest.TC02_AdminLogin",
+  "historyId" : "36241b75e76dfd97db48053a50388b9e",
+  "time" : {
+    "start" : 1615548348055,
+    "stop" : 1615548360351,
+    "duration" : 12296
+  },
+  "description" : "Login with the Admin Credentials",
+  "descriptionHtml" : "<p>Login with the Admin Credentials</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_AdminLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "5284@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42021077c1ddca98.json",
+  "parameterValues" : [ ]
+}

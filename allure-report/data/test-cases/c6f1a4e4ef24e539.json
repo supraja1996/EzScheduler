@@ -1,0 +1,91 @@
+{
+  "uid" : "c6f1a4e4ef24e539",
+  "name" : "screenShot on [AdminTest passed=0 failed=0 skipped=0]",
+  "fullName" : "Default suite : Default test.screenShot on [AdminTest passed=0 failed=0 skipped=0]",
+  "historyId" : "8fe09262af4969fda7ca7d52863cdf7d",
+  "time" : {
+    "start" : 1612525530489,
+    "stop" : 1612525530489,
+    "duration" : 0
+  },
+  "description" : "@AfterMethod",
+  "descriptionHtml" : "<p>@AfterMethod</p>\n",
+  "status" : "skipped",
+  "statusMessage" : ": Skipped due to dependency on other skipped or failed test methods",
+  "statusTrace" : "ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods\r\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)\r\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.onConfigurationSkip(AllureTestListener.java:120)\r\n\tat org.testng.internal.TestListenerHelper.runPostConfigurationListeners(TestListenerHelper.java:37)\r\n\tat org.testng.internal.Invoker.runConfigurationListeners(Invoker.java:1384)\r\n\tat org.testng.internal.Invoker.handleConfigurationSkip(Invoker.java:250)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:200)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:536)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "15964@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testClass",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenShot on [AdminTest passed=0 failed=0 skipped=0]"
+  }, {
+    "name" : "package",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d340dc56378a3e29",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/d340dc56378a3e29",
+        "status" : "skipped",
+        "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+        "time" : {
+          "start" : 1612525530489,
+          "stop" : 1612525530489,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a6924f7fb6adc892",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/a6924f7fb6adc892",
+        "status" : "skipped",
+        "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+        "time" : {
+          "start" : 1612525530489,
+          "stop" : 1612525530489,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c6f1a4e4ef24e539.json",
+  "parameterValues" : [ ]
+}

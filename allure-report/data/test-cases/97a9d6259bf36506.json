@@ -1,0 +1,271 @@
+{
+  "uid" : "97a9d6259bf36506",
+  "name" : "TC02_AdminLogin",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest.TC02_AdminLogin",
+  "historyId" : "1c63a4c5783c55b3e7a0827e26f4d542",
+  "time" : {
+    "start" : 1609910432804,
+    "stop" : 1609910444570,
+    "duration" : 11766
+  },
+  "description" : "Login with the Admin Credentials",
+  "descriptionHtml" : "<p>Login with the Admin Credentials</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]",
+  "statusTrace" : "java.lang.AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat sailotech.com.EzScheduler.adminTests.CreateDoctorTest.TC02_AdminLogin(CreateDoctorTest.java:49)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]",
+    "statusTrace" : "java.lang.AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat sailotech.com.EzScheduler.adminTests.CreateDoctorTest.TC02_AdminLogin(CreateDoctorTest.java:49)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+    "steps" : [ {
+      "name" : "Login with Admin Credentials",
+      "time" : {
+        "start" : 1609910432807,
+        "stop" : 1609910444480,
+        "duration" : 11673
+      },
+      "status" : "failed",
+      "statusMessage" : "java.lang.AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat sailotech.com.EzScheduler.adminTests.CreateDoctorTest.TC02_AdminLogin(CreateDoctorTest.java:49)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_AdminLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "5564@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "722cb8c9affe8fd7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]",
+      "time" : {
+        "start" : 1609909886991,
+        "stop" : 1609909899091,
+        "duration" : 12100
+      }
+    }, {
+      "uid" : "eb13353668f27c89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609909288460,
+        "stop" : 1609909303142,
+        "duration" : 14682
+      }
+    }, {
+      "uid" : "f1915c659e053b2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609841547376,
+        "stop" : 1609841559773,
+        "duration" : 12397
+      }
+    }, {
+      "uid" : "72ece041a5125f3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609841208205,
+        "stop" : 1609841219543,
+        "duration" : 11338
+      }
+    }, {
+      "uid" : "32028e9ddab529ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608097813630,
+        "stop" : 1608097825525,
+        "duration" : 11895
+      }
+    }, {
+      "uid" : "62a37fa4b2db6381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608097347769,
+        "stop" : 1608097359890,
+        "duration" : 12121
+      }
+    }, {
+      "uid" : "99b23076537d1746",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608097148746,
+        "stop" : 1608097161784,
+        "duration" : 13038
+      }
+    }, {
+      "uid" : "98afad4b13794647",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608096930027,
+        "stop" : 1608096941471,
+        "duration" : 11444
+      }
+    }, {
+      "uid" : "361406f1bffdaf4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608096765484,
+        "stop" : 1608096778865,
+        "duration" : 13381
+      }
+    }, {
+      "uid" : "273881581063208a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608035802181,
+        "stop" : 1608035815189,
+        "duration" : 13008
+      }
+    }, {
+      "uid" : "d8dd5b43dde6df36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608034510208,
+        "stop" : 1608034522696,
+        "duration" : 12488
+      }
+    }, {
+      "uid" : "9da8434b0216669e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608034092304,
+        "stop" : 1608034106868,
+        "duration" : 14564
+      }
+    }, {
+      "uid" : "5cd5e17472a58910",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608033275387,
+        "stop" : 1608033288107,
+        "duration" : 12720
+      }
+    }, {
+      "uid" : "85c17bc4e9def7a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608032875127,
+        "stop" : 1608032889234,
+        "duration" : 14107
+      }
+    }, {
+      "uid" : "96e07f88b75748b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608032511662,
+        "stop" : 1608032525680,
+        "duration" : 14018
+      }
+    }, {
+      "uid" : "82fac3d10ed7a08a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608032320133,
+        "stop" : 1608032333197,
+        "duration" : 13064
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d2345954b94a49c8",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/d2345954b94a49c8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]",
+        "time" : {
+          "start" : 1609910432804,
+          "stop" : 1609910444570,
+          "duration" : 11766
+        }
+      }, {
+        "uid" : "cde59f2232e569f5",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/cde59f2232e569f5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]",
+        "time" : {
+          "start" : 1609910432804,
+          "stop" : 1609910444570,
+          "duration" : 11766
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "97a9d6259bf36506.json",
+  "parameterValues" : [ ]
+}

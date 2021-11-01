@@ -1,0 +1,68 @@
+{
+  "uid" : "f1f0603e87a415bd",
+  "name" : "TC01_Naviagtion_to_Register",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.DoctorRegistrationTest.TC01_Naviagtion_to_Register",
+  "historyId" : "7a97e56f9873add2648a9da9790a676f",
+  "time" : {
+    "start" : 1608206555866,
+    "stop" : 1608206561602,
+    "duration" : 5736
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorRegistrationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_Naviagtion_to_Register"
+  }, {
+    "name" : "testSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "thread",
+    "value" : "16188@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorRegistrationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorRegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1f0603e87a415bd.json",
+  "parameterValues" : [ ]
+}

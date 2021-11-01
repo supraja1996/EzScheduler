@@ -1,0 +1,68 @@
+{
+  "uid" : "84801aa5f2130543",
+  "name" : "TC06_Doctor_Logout",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.DoctorTest.TC06_Doctor_Logout",
+  "historyId" : "e1c77781172c11cdfabf66eac7d56504",
+  "time" : {
+    "start" : 1604297507270,
+    "stop" : 1604297512457,
+    "duration" : 5187
+  },
+  "description" : "Logout after success",
+  "descriptionHtml" : "<p>Logout after success</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Doctor Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC06_Doctor_Logout"
+  }, {
+    "name" : "testSuite",
+    "value" : "Doctor Suite"
+  }, {
+    "name" : "thread",
+    "value" : "8792@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Doctor Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Doctor Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "84801aa5f2130543.json",
+  "parameterValues" : [ ]
+}

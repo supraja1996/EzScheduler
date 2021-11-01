@@ -1,0 +1,78 @@
+{
+  "uid" : "fa17ddc94a61d40a",
+  "name" : "TC02_DoctorLogin",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest.TC02_DoctorLogin",
+  "historyId" : "fcc0c3d88df5cb9d8cd8d95d7bdf9524",
+  "time" : {
+    "start" : 1609145693906,
+    "stop" : 1609145708982,
+    "duration" : 15076
+  },
+  "description" : "Doctor should be logged in successfully",
+  "descriptionHtml" : "<p>Doctor should be logged in successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TCD_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_DoctorLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "12376@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TCD_02",
+    "url" : "TCD_02",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa17ddc94a61d40a.json",
+  "parameterValues" : [ ]
+}

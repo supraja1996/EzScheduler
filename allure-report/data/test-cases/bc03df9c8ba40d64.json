@@ -1,0 +1,77 @@
+{
+  "uid" : "bc03df9c8ba40d64",
+  "name" : "TC03_VerifyDoctor",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.AdminTest.TC03_VerifyDoctor",
+  "historyId" : "40e943e55bf3e97c4272f3d8f82894be",
+  "time" : {
+    "start" : 1615443392795,
+    "stop" : 1615443396044,
+    "duration" : 3249
+  },
+  "description" : "Verify the Doctors from the Unverified Queue",
+  "descriptionHtml" : "<p>Verify the Doctors from the Unverified Queue</p>\n",
+  "status" : "broken",
+  "statusMessage" : "ClassCastException: class org.openqa.selenium.By$ByXPath cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ByXPath and org.openqa.selenium.WebElement are in unnamed module of loader 'app')",
+  "statusTrace" : "java.lang.ClassCastException: class org.openqa.selenium.By$ByXPath cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ByXPath and org.openqa.selenium.WebElement are in unnamed module of loader 'app')\r\n\tat sailotech.com.EzScheduler.adminPages.RepositoryClass.unverifiedadminTable(RepositoryClass.java:66)\r\n\tat sailotech.com.EzScheduler.AdminFunctions.AdminFunctions.verifyDoctor(AdminFunctions.java:190)\r\n\tat sailotech.com.EzScheduler.adminTests.AdminTest.TC03_VerifyDoctor(AdminTest.java:65)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_03"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_VerifyDoctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "24912@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_03",
+    "url" : "TC_03",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc03df9c8ba40d64.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "831154d327ebb191",
+  "name" : "TC04_slot_booking",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.PatientAppointmentBookingTest.TC04_slot_booking",
+  "historyId" : "bd4fb006fb44c241591e09b72c06ca1f",
+  "time" : {
+    "start" : 1608707269156,
+    "stop" : 1608707424627,
+    "duration" : 155471
+  },
+  "description" : "Booked an appointment successfully",
+  "descriptionHtml" : "<p>Booked an appointment successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC04_slot_booking"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "13776@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "831154d327ebb191.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,142 @@
+{
+  "uid" : "ecb5ad4f094a8f70",
+  "name" : "TC02_DoctorLogin",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.DoctorLoginTest.TC02_DoctorLogin",
+  "historyId" : "d9699a3335b942878435c21f4b228527",
+  "time" : {
+    "start" : 1609136550609,
+    "stop" : 1609136566598,
+    "duration" : 15989
+  },
+  "description" : "Doctor should be logged in successfully",
+  "descriptionHtml" : "<p>Doctor should be logged in successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorLoginTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TCD_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_DoctorLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "6180@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorLoginTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorLoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TCD_01",
+    "url" : "TCD_01",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "5e0cb96446d51022",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609136282477,
+        "stop" : 1609136299761,
+        "duration" : 17284
+      }
+    }, {
+      "uid" : "d1b30e4c5f950157",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: email' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1609136109973,
+        "stop" : 1609136134027,
+        "duration" : 24054
+      }
+    }, {
+      "uid" : "b77e6578d67d0eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609135847620,
+        "stop" : 1609135861318,
+        "duration" : 13698
+      }
+    }, {
+      "uid" : "bf548cd430e62632",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609135724050,
+        "stop" : 1609135736852,
+        "duration" : 12802
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3f0a33f1115adc0c",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/3f0a33f1115adc0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609136550609,
+          "stop" : 1609136566598,
+          "duration" : 15989
+        }
+      }, {
+        "uid" : "de4ebf22d83a58c2",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/de4ebf22d83a58c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609136550609,
+          "stop" : 1609136566598,
+          "duration" : 15989
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ecb5ad4f094a8f70.json",
+  "parameterValues" : [ ]
+}

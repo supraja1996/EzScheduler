@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Smoke Test">  
+
+ 
+  <test thread-count="5" verbose="2" name="Smoke Test Cases">
+    <classes>          
+          <class name="sailotech.com.EzScheduler.providerTests.DoctorRegistrationTest"/> 
+          
+            <class name="sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"/> 
+              
+             <class name="sailotech.com.EzScheduler.providerTests.SlotGenerationTest"/> 
+             
+             <class name="sailotech.com.EzScheduler.consumerTests.PatientRegistrationTest"/>   
+             
+             <class name="sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"/>  
+             
+                    
+  
+            
+    </classes>
+  </test> 
+</suite>

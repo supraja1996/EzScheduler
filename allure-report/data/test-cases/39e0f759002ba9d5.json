@@ -1,0 +1,68 @@
+{
+  "uid" : "39e0f759002ba9d5",
+  "name" : "TC03_ReadMailforOtp",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest.TC03_ReadMailforOtp",
+  "historyId" : "c4a8dded33abd968081b666b2d3fd8a7",
+  "time" : {
+    "start" : 1608191464205,
+    "stop" : 1608191494118,
+    "duration" : 29913
+  },
+  "description" : "Patient Registration Page",
+  "descriptionHtml" : "<p>Patient Registration Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_ReadMailforOtp"
+  }, {
+    "name" : "testSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "thread",
+    "value" : "11652@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39e0f759002ba9d5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "7ca136be2d7587d6",
+  "name" : "TC03_Navigation_to_the_GenerateSLots_Page",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest.TC03_Navigation_to_the_GenerateSLots_Page",
+  "historyId" : "4f9dcea4b0b5c3fe3376a0c2493989f5",
+  "time" : {
+    "start" : 1608272272205,
+    "stop" : 1608272293392,
+    "duration" : 21187
+  },
+  "description" : "Navigates to the slot generation screen",
+  "descriptionHtml" : "<p>Navigates to the slot generation screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Navigation_to_the_GenerateSLots_Page"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "1020@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ca136be2d7587d6.json",
+  "parameterValues" : [ ]
+}

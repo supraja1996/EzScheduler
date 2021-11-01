@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Test Cases(failed)">
+    <classes>
+      <class name="sailotech.com.EzScheduler.consumerTests.PatientRegistrationTest">
+        <methods>
+          <include name="startRecording"/>
+          <include name="TC03_ReadMailforOtp"/>
+          <include name="TC01_Navigate_to_Patient_Registration"/>
+          <include name="beforeClass"/>
+          <include name="TC04_otpPage"/>
+          <include name="stopRecording"/>
+          <include name="TC02_Patient_Registration"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- sailotech.com.EzScheduler.consumerTests.PatientRegistrationTest -->
+    </classes>
+  </test> <!-- Smoke Test Cases(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

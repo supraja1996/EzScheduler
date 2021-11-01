@@ -1,0 +1,100 @@
+{
+  "uid" : "f6be60714270ecd",
+  "name" : "TC02_Check_For_VerifiedDoctor",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.CheckForVerifiedDoctorTest.TC02_Check_For_VerifiedDoctor",
+  "historyId" : "b4e97402744c04a77b91d7e7e927fd23",
+  "time" : {
+    "start" : 1609827588566,
+    "stop" : 1609827591365,
+    "duration" : 2799
+  },
+  "description" : "Check for the Verified Doctor in the Queue",
+  "descriptionHtml" : "<p>Check for the Verified Doctor in the Queue</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Check for the Verified Doctor in the Queue",
+      "time" : {
+        "start" : 1609827588580,
+        "stop" : 1609827591364,
+        "duration" : 2784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.CheckForVerifiedDoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_Check_For_VerifiedDoctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "19420@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.CheckForVerifiedDoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.CheckForVerifiedDoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6be60714270ecd.json",
+  "parameterValues" : [ ]
+}

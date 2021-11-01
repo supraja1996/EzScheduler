@@ -1,0 +1,148 @@
+{
+  "uid" : "622ba468d60001cb",
+  "name" : "TC02_ViewProfile_OF_VerifiedDoctor",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest.TC02_ViewProfile_OF_VerifiedDoctor",
+  "historyId" : "3e3476075bc4d14d463a35e8b033f4c6",
+  "time" : {
+    "start" : 1609834957693,
+    "stop" : 1609835002322,
+    "duration" : 44629
+  },
+  "description" : "View Doctor from verified Queue",
+  "descriptionHtml" : "<p>View Doctor from verified Queue</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "View Doctor from verified Queue",
+      "time" : {
+        "start" : 1609834957697,
+        "stop" : 1609835002258,
+        "duration" : 44561
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_ViewProfile_OF_VerifiedDoctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "12916@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a83f0e215f656b9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608271125867,
+        "stop" : 1608271160237,
+        "duration" : 34370
+      }
+    }, {
+      "uid" : "4bd3db7a9064c1e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/doctorProfile/] but found [https://demo.ezscheduler.io/doctorProfile]",
+      "time" : {
+        "start" : 1608271005702,
+        "stop" : 1608271041789,
+        "duration" : 36087
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "89358b6d95d2c574",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/89358b6d95d2c574",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609834957693,
+          "stop" : 1609835002322,
+          "duration" : 44629
+        }
+      }, {
+        "uid" : "f97c9d3af93703f5",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/f97c9d3af93703f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609834957693,
+          "stop" : 1609835002322,
+          "duration" : 44629
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "622ba468d60001cb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "a83f0e215f656b9d",
+  "name" : "TC02_ViewProfile_OF_VerifiedDoctor",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest.TC02_ViewProfile_OF_VerifiedDoctor",
+  "historyId" : "3e3476075bc4d14d463a35e8b033f4c6",
+  "time" : {
+    "start" : 1608271125867,
+    "stop" : 1608271160237,
+    "duration" : 34370
+  },
+  "description" : "Click on Login/Register button on the HomePage of EzScheduler.",
+  "descriptionHtml" : "<p>Click on Login/Register button on the HomePage of EzScheduler.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_ViewProfile_OF_VerifiedDoctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "19568@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a83f0e215f656b9d.json",
+  "parameterValues" : [ ]
+}

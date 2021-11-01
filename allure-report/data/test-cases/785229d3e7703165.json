@@ -1,0 +1,375 @@
+{
+  "uid" : "785229d3e7703165",
+  "name" : "TC03_serach_for_doctor",
+  "fullName" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest.TC03_serach_for_doctor",
+  "historyId" : "4a5484cbcfb2f03c760c26c271ea2987",
+  "time" : {
+    "start" : 1616675718456,
+    "stop" : 1616676512481,
+    "duration" : 794025
+  },
+  "description" : "Search For Doctor",
+  "descriptionHtml" : "<p>Search For Doctor</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Search For Doctor",
+      "time" : {
+        "start" : 1616675718462,
+        "stop" : 1616676512475,
+        "duration" : 794013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_03"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_serach_for_doctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "10020@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_03",
+    "url" : "TC_03",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4656e689853301a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616675176190,
+        "stop" : 1616675283478,
+        "duration" : 107288
+      }
+    }, {
+      "uid" : "37bb9c430d49ac86",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:48706\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1616672035274,
+        "stop" : 1616672330495,
+        "duration" : 295221
+      }
+    }, {
+      "uid" : "abc9058fb016e61c",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5414\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1616671564601,
+        "stop" : 1616671858381,
+        "duration" : 293780
+      }
+    }, {
+      "uid" : "73e5d0ced92cbde1",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:15660\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1616476627544,
+        "stop" : 1616479236216,
+        "duration" : 2608672
+      }
+    }, {
+      "uid" : "1c7632ab04f01857",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:40186\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1616134892487,
+        "stop" : 1616136366836,
+        "duration" : 1474349
+      }
+    }, {
+      "uid" : "2ba697ff1206e39",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/span/div\"}\n  (Session info: chrome=89.0.4389.90)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 89.0.4389.90, webStorageEnabled: true}\nSession ID: ba751a459c9ef5e75835d1c636163cbc\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/span/div}",
+      "time" : {
+        "start" : 1616134419446,
+        "stop" : 1616134625391,
+        "duration" : 205945
+      }
+    }, {
+      "uid" : "d0961b7898ae01c",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:19509\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1615966090780,
+        "stop" : 1615966186053,
+        "duration" : 95273
+      }
+    }, {
+      "uid" : "f87d521acf0ed465",
+      "status" : "broken",
+      "statusDetails" : "NumberFormatException: null",
+      "time" : {
+        "start" : 1615964881578,
+        "stop" : 1615964886400,
+        "duration" : 4822
+      }
+    }, {
+      "uid" : "b5535e565d8a9600",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615876974364,
+        "stop" : 1615877328586,
+        "duration" : 354222
+      }
+    }, {
+      "uid" : "5de29a5492d017ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615875808522,
+        "stop" : 1615876171306,
+        "duration" : 362784
+      }
+    }, {
+      "uid" : "247a547d572e4668",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615873355994,
+        "stop" : 1615873444672,
+        "duration" : 88678
+      }
+    }, {
+      "uid" : "b460262337d20388",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1615872910695,
+        "stop" : 1615872914971,
+        "duration" : 4276
+      }
+    }, {
+      "uid" : "3a199fa6fab91ad8",
+      "status" : "broken",
+      "statusDetails" : "ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1615872429097,
+        "stop" : 1615872434343,
+        "duration" : 5246
+      }
+    }, {
+      "uid" : "f42097d1b5d68971",
+      "status" : "broken",
+      "statusDetails" : "ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1615811698758,
+        "stop" : 1615811707314,
+        "duration" : 8556
+      }
+    }, {
+      "uid" : "daee535588f86d3c",
+      "status" : "broken",
+      "statusDetails" : "ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1615811405452,
+        "stop" : 1615811413417,
+        "duration" : 7965
+      }
+    }, {
+      "uid" : "52d1cde06c1660f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615810664137,
+        "stop" : 1615810673871,
+        "duration" : 9734
+      }
+    }, {
+      "uid" : "37e04e33b29d6144",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615810499834,
+        "stop" : 1615810509362,
+        "duration" : 9528
+      }
+    }, {
+      "uid" : "fd39947c38fc9570",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615810301049,
+        "stop" : 1615810310463,
+        "duration" : 9414
+      }
+    }, {
+      "uid" : "d65ffa2c3098ee68",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4685\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1615809959718,
+        "stop" : 1615810099358,
+        "duration" : 139640
+      }
+    }, {
+      "uid" : "744ef289f14e1bba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615805070236,
+        "stop" : 1615805459596,
+        "duration" : 389360
+      }
+    }, {
+      "uid" : "b5629ca9c0a0db9e",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:6302\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1615804305132,
+        "stop" : 1615804389453,
+        "duration" : 84321
+      }
+    }, {
+      "uid" : "390000e3411779f5",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1614844037495,
+        "stop" : 1614844037510,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "fdb86f5fcab67892",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1614843839596,
+        "stop" : 1614843839600,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "f841d687ee13019e",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1614842512384,
+        "stop" : 1614842512388,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "75406f53f3eb6804",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1614842292328,
+        "stop" : 1614842292332,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "16aad6c2f0badb6f",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1614842151372,
+        "stop" : 1614842151377,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "f527ae4faa83d5b4",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1613713554506,
+        "stop" : 1613713554545,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "64bac274796cd7d1",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1613713468778,
+        "stop" : 1613713468779,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8a97cf34f9509775",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/8a97cf34f9509775",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616675718456,
+          "stop" : 1616676512481,
+          "duration" : 794025
+        }
+      }, {
+        "uid" : "686d485b1da3e32e",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/686d485b1da3e32e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616675718456,
+          "stop" : 1616676512481,
+          "duration" : 794025
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "785229d3e7703165.json",
+  "parameterValues" : [ ]
+}

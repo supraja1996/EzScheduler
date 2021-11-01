@@ -1,0 +1,220 @@
+{
+  "uid" : "b6e424595c7d6c4d",
+  "name" : "TC02_Patient_Registration on [PatientRegistrationTest passed=0 failed=0 skipped=0]",
+  "fullName" : "sailotech.com.EzScheduler.consumerTests.PatientRegistrationTest.TC02_Patient_Registration",
+  "historyId" : "410cba4378e5668ee0a3491c2a12a137",
+  "time" : {
+    "start" : 1613637442323,
+    "stop" : 1613642665724,
+    "duration" : 5223401
+  },
+  "description" : "Patient to register",
+  "descriptionHtml" : "<p>Patient to register</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Patient to register",
+      "time" : {
+        "start" : 1613637442326,
+        "stop" : 1613642665621,
+        "duration" : 5223295
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientRegistrationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_Patient_Registration"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "15972@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientRegistrationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientRegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8365c26cab4312ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613626940219,
+        "stop" : 1613632164521,
+        "duration" : 5224302
+      }
+    }, {
+      "uid" : "38e05982009476e6",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: name' (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1613552815614,
+        "stop" : 1613554252162,
+        "duration" : 1436548
+      }
+    }, {
+      "uid" : "8afc4cbc45edd980",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1613547008864,
+        "stop" : 1613551377654,
+        "duration" : 4368790
+      }
+    }, {
+      "uid" : "f828ac2f1c7f0353",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1613542012224,
+        "stop" : 1613544775155,
+        "duration" : 2762931
+      }
+    }, {
+      "uid" : "65295305216e09ec",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (a7ce761f0d0ca0bac6ea25556eeef898)] -> xpath: //span[contains(text(),'')]] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: a7ce761f0d0ca0bac6ea25556eeef898",
+      "time" : {
+        "start" : 1613470223145,
+        "stop" : 1613472833020,
+        "duration" : 2609875
+      }
+    }, {
+      "uid" : "303d019ea564cf1e",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (234517b1b5ba3d06a0c6feebc4e030f7)] -> xpath: //span[contains(text(),'')]] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: 234517b1b5ba3d06a0c6feebc4e030f7",
+      "time" : {
+        "start" : 1613462846983,
+        "stop" : 1613465778805,
+        "duration" : 2931822
+      }
+    }, {
+      "uid" : "343a0ea4e2cc85de",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (ff93e4646d314bae2ecc37ed1d058c1f)] -> xpath: //span[contains(text(),'')]] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: ff93e4646d314bae2ecc37ed1d058c1f",
+      "time" : {
+        "start" : 1613461148906,
+        "stop" : 1613462315301,
+        "duration" : 1166395
+      }
+    }, {
+      "uid" : "5b4750dbf19acc93",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1613459566504,
+        "stop" : 1613459579235,
+        "duration" : 12731
+      }
+    }, {
+      "uid" : "cc454fb5f80e9b6d",
+      "status" : "broken",
+      "statusDetails" : "IllegalArgumentException: Keys to send should be a not null CharSequence",
+      "time" : {
+        "start" : 1613458464098,
+        "stop" : 1613458745519,
+        "duration" : 281421
+      }
+    }, {
+      "uid" : "9d902d9a561d1dbf",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1613458308044,
+        "stop" : 1613458320036,
+        "duration" : 11992
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2ff112bb12675d29",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/2ff112bb12675d29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613637442323,
+          "stop" : 1613642665724,
+          "duration" : 5223401
+        }
+      }, {
+        "uid" : "f47d0691617bc12c",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/f47d0691617bc12c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613637442323,
+          "stop" : 1613642665724,
+          "duration" : 5223401
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b6e424595c7d6c4d.json",
+  "parameterValues" : [ ]
+}

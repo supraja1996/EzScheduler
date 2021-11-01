@@ -1,0 +1,240 @@
+{
+  "uid" : "78f3336e91efdce3",
+  "name" : "TC03_serach_for_doctor on [PatientAppointmentBookingTest passed=0 failed=0 skipped=0]",
+  "fullName" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest.TC03_serach_for_doctor",
+  "historyId" : "9ceaf14d9120870681e355dd898461d6",
+  "time" : {
+    "start" : 1614947469159,
+    "stop" : 1614948265505,
+    "duration" : 796346
+  },
+  "description" : "Search For Doctor",
+  "descriptionHtml" : "<p>Search For Doctor</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Search For Doctor",
+      "time" : {
+        "start" : 1614947469168,
+        "stop" : 1614948265501,
+        "duration" : 796333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_03"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_serach_for_doctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "21808@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_03",
+    "url" : "TC_03",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e5f46842e15cde20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614930870445,
+        "stop" : 1614931543873,
+        "duration" : 673428
+      }
+    }, {
+      "uid" : "43d476d29aa2e477",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:16851\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1614924225994,
+        "stop" : 1614924314454,
+        "duration" : 88460
+      }
+    }, {
+      "uid" : "d93a785792e35d13",
+      "status" : "broken",
+      "statusDetails" : "EmptyFileException: The supplied file was empty (zero bytes long)",
+      "time" : {
+        "start" : 1614841890862,
+        "stop" : 1614841891103,
+        "duration" : 241
+      }
+    }, {
+      "uid" : "fb6a20d26a181a27",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:2030\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1614838391231,
+        "stop" : 1614840981840,
+        "duration" : 2590609
+      }
+    }, {
+      "uid" : "1c87bfd6c486eae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614837115602,
+        "stop" : 1614837740191,
+        "duration" : 624589
+      }
+    }, {
+      "uid" : "1b44db38dea49604",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614686534999,
+        "stop" : 1614686617103,
+        "duration" : 82104
+      }
+    }, {
+      "uid" : "4b1ea7aca9cea51a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613999413071,
+        "stop" : 1613999562761,
+        "duration" : 149690
+      }
+    }, {
+      "uid" : "77665e0c46ddb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613998859073,
+        "stop" : 1613998996897,
+        "duration" : 137824
+      }
+    }, {
+      "uid" : "5e5926052ae77792",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613997210637,
+        "stop" : 1613997483299,
+        "duration" : 272662
+      }
+    }, {
+      "uid" : "865eeafc27bac9c",
+      "status" : "broken",
+      "statusDetails" : "NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=88.0.4324.182)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.182, webStorageEnabled: true}\nSession ID: 2c7734431424876a7f99b60a0c4cfcee\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[0]/span[2]}",
+      "time" : {
+        "start" : 1613730002106,
+        "stop" : 1613730020967,
+        "duration" : 18861
+      }
+    }, {
+      "uid" : "433d3cacfa66cdba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613729542901,
+        "stop" : 1613729761100,
+        "duration" : 218199
+      }
+    }, {
+      "uid" : "9fbc711aee57c65c",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1613727504818,
+        "stop" : 1613727656518,
+        "duration" : 151700
+      }
+    }, {
+      "uid" : "4a00737f6e2c2bc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613726244888,
+        "stop" : 1613726395212,
+        "duration" : 150324
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6f2d12d06c70fdb",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/6f2d12d06c70fdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614947469159,
+          "stop" : 1614948265505,
+          "duration" : 796346
+        }
+      }, {
+        "uid" : "6d68f78261a78380",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/6d68f78261a78380",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614947469159,
+          "stop" : 1614948265505,
+          "duration" : 796346
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "78f3336e91efdce3.json",
+  "parameterValues" : [ ]
+}

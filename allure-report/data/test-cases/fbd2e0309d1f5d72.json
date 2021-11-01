@@ -1,0 +1,100 @@
+{
+  "uid" : "fbd2e0309d1f5d72",
+  "name" : "TC03_Navigation_to_the_GenerateSLots_Page",
+  "fullName" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest.TC03_Navigation_to_the_GenerateSLots_Page",
+  "historyId" : "6495288636e4f30202dd538717e6927e",
+  "time" : {
+    "start" : 1610518009441,
+    "stop" : 1610518138094,
+    "duration" : 128653
+  },
+  "description" : "Navigate to Slot Generation Page",
+  "descriptionHtml" : "<p>Navigate to Slot Generation Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Slot Generation Page",
+      "time" : {
+        "start" : 1610518009453,
+        "stop" : 1610518138092,
+        "duration" : 128639
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_03"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Navigation_to_the_GenerateSLots_Page"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "14104@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_03",
+    "url" : "TC_03",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbd2e0309d1f5d72.json",
+  "parameterValues" : [ ]
+}

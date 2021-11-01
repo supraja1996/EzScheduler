@@ -1,0 +1,100 @@
+{
+  "uid" : "b44e773955ab578b",
+  "name" : "TC01_Naviagtion_to_Register on [DoctorRegistrationTest passed=0 failed=0 skipped=0]",
+  "fullName" : "sailotech.com.EzScheduler.providerTests.DoctorRegistrationTest.TC01_Naviagtion_to_Register",
+  "historyId" : "8df9450e1d89bbd8cfb66e12fb6c37ec",
+  "time" : {
+    "start" : 1613041171234,
+    "stop" : 1613041175467,
+    "duration" : 4233
+  },
+  "description" : "Naviagte to Doctor Registration Page from Home Page",
+  "descriptionHtml" : "<p>Naviagte to Doctor Registration Page from Home Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Naviagtion to Doctor Registration Page",
+      "time" : {
+        "start" : 1613041171609,
+        "stop" : 1613041175445,
+        "duration" : 3836
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.providerTests.DoctorRegistrationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_Naviagtion_to_Register"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "16108@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.providerTests.DoctorRegistrationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.providerTests.DoctorRegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_01",
+    "url" : "TC_01",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b44e773955ab578b.json",
+  "parameterValues" : [ ]
+}

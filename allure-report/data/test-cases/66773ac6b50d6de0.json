@@ -1,0 +1,140 @@
+{
+  "uid" : "66773ac6b50d6de0",
+  "name" : "TC03_Naviagtion_To_VerifiedQueue",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest.TC03_Naviagtion_To_VerifiedQueue",
+  "historyId" : "35c5650b63407f50ee0441d6caf5bd8d",
+  "time" : {
+    "start" : 1608617102926,
+    "stop" : 1608617103161,
+    "duration" : 235
+  },
+  "description" : "Naviagte to Verified Queue",
+  "descriptionHtml" : "<p>Naviagte to Verified Queue</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Naviagtion_To_VerifiedQueue"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "19208@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cabfbf41e5ddba52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608206682517,
+        "stop" : 1608206683090,
+        "duration" : 573
+      }
+    }, {
+      "uid" : "dc2d2bddc7d266ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608205641467,
+        "stop" : 1608205642136,
+        "duration" : 669
+      }
+    }, {
+      "uid" : "c068bdcab55a63eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608193292341,
+        "stop" : 1608193292876,
+        "duration" : 535
+      }
+    }, {
+      "uid" : "8411d78b782fa8bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608192035643,
+        "stop" : 1608192036568,
+        "duration" : 925
+      }
+    }, {
+      "uid" : "453d15c392702a2b",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1608191192443,
+        "stop" : 1608191192446,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "34f985f418614924",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/34f985f418614924",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608617102926,
+          "stop" : 1608617103161,
+          "duration" : 235
+        }
+      }, {
+        "uid" : "82c6582037ef33be",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/82c6582037ef33be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608617102926,
+          "stop" : 1608617103161,
+          "duration" : 235
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "66773ac6b50d6de0.json",
+  "parameterValues" : [ ]
+}

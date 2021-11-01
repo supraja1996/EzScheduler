@@ -1,0 +1,757 @@
+{
+  "uid" : "a06594f4a3a93ccd",
+  "name" : "TC02_DoctorRegisterPage",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.DoctorRegistrationTest.TC02_DoctorRegisterPage",
+  "historyId" : "294a1ddb76f0e8a598fa06a73ad2a3c2",
+  "time" : {
+    "start" : 1609931418734,
+    "stop" : 1609931496203,
+    "duration" : 77469
+  },
+  "description" : "Register with the Doctor Details",
+  "descriptionHtml" : "<p>Register with the Doctor Details</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Register with Doctor Details",
+      "time" : {
+        "start" : 1609931418741,
+        "stop" : 1609931496201,
+        "duration" : 77460
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorRegistrationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_DoctorRegisterPage"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "22980@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorRegistrationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorRegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "622f3fdd9c61b6a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609930246441,
+        "stop" : 1609930323644,
+        "duration" : 77203
+      }
+    }, {
+      "uid" : "e201fc90c0563c9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609930030323,
+        "stop" : 1609930110573,
+        "duration" : 80250
+      }
+    }, {
+      "uid" : "2987624fd93be164",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608206561887,
+        "stop" : 1608206621721,
+        "duration" : 59834
+      }
+    }, {
+      "uid" : "91aef26584bc725c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608205528239,
+        "stop" : 1608205584293,
+        "duration" : 56054
+      }
+    }, {
+      "uid" : "cc6894c134669077",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1608193224585,
+        "stop" : 1608193224589,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "a36291a92ab086c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608191919002,
+        "stop" : 1608191975511,
+        "duration" : 56509
+      }
+    }, {
+      "uid" : "d36efcb74d21fe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608191040200,
+        "stop" : 1608191097348,
+        "duration" : 57148
+      }
+    }, {
+      "uid" : "652c51d397963207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608013025103,
+        "stop" : 1608013081872,
+        "duration" : 56769
+      }
+    }, {
+      "uid" : "8de6a731b7245676",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class = 'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer']\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: fb3a26538468de7912b2c2e43c07c15a\n*** Element info: {Using=xpath, value=//div[@class = 'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer']}",
+      "time" : {
+        "start" : 1608012636021,
+        "stop" : 1608012687071,
+        "duration" : 51050
+      }
+    }, {
+      "uid" : "e095332c78dd4468",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class = 'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer']\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 7133f02bc6387f19c627f1675477d59e\n*** Element info: {Using=xpath, value=//div[@class = 'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer']}",
+      "time" : {
+        "start" : 1608012259815,
+        "stop" : 1608012310744,
+        "duration" : 50929
+      }
+    }, {
+      "uid" : "df49ffc18a1749e8",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div/div/p\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 9907ff978fffc4ac4b2c95f55ea6dace\n*** Element info: {Using=xpath, value=//div/div/p}",
+      "time" : {
+        "start" : 1608010142602,
+        "stop" : 1608010195611,
+        "duration" : 53009
+      }
+    }, {
+      "uid" : "2bc07cc79a4780ce",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (1b3caaedb5c7be89c862cef42e8ebae6)] -> xpath: //span[contains(text(),'M')]] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 1b3caaedb5c7be89c862cef42e8ebae6",
+      "time" : {
+        "start" : 1608009969850,
+        "stop" : 1608009990863,
+        "duration" : 21013
+      }
+    }, {
+      "uid" : "e878c49fc20ecf95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607662778800,
+        "stop" : 1607662836759,
+        "duration" : 57959
+      }
+    }, {
+      "uid" : "5ea127921c2c8d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607504113841,
+        "stop" : 1607504170081,
+        "duration" : 56240
+      }
+    }, {
+      "uid" : "7481dc5555f6f9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607503930595,
+        "stop" : 1607503987395,
+        "duration" : 56800
+      }
+    }, {
+      "uid" : "dd7d991a733b1e5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607501068218,
+        "stop" : 1607501123561,
+        "duration" : 55343
+      }
+    }, {
+      "uid" : "50c583e578766668",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607500829384,
+        "stop" : 1607500878876,
+        "duration" : 49492
+      }
+    }, {
+      "uid" : "200d6131d4a9b640",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607500189195,
+        "stop" : 1607500244115,
+        "duration" : 54920
+      }
+    }, {
+      "uid" : "c8e8a2d73262abc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607499880410,
+        "stop" : 1607499931481,
+        "duration" : 51071
+      }
+    }, {
+      "uid" : "1fc8f56ad3e5cfec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607499712011,
+        "stop" : 1607499768067,
+        "duration" : 56056
+      }
+    }, {
+      "uid" : "25d2d02da592b3e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605606036211,
+        "stop" : 1605606088840,
+        "duration" : 52629
+      }
+    }, {
+      "uid" : "c3163940f8081ac1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605605756727,
+        "stop" : 1605605816059,
+        "duration" : 59332
+      }
+    }, {
+      "uid" : "78e4b111c453d852",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605075434037,
+        "stop" : 1605075563434,
+        "duration" : 129397
+      }
+    }, {
+      "uid" : "698b4f4f2910aea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605075217225,
+        "stop" : 1605075270453,
+        "duration" : 53228
+      }
+    }, {
+      "uid" : "8c2987dcd5134f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605074764782,
+        "stop" : 1605074818768,
+        "duration" : 53986
+      }
+    }, {
+      "uid" : "61118011fb01e9fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605074455056,
+        "stop" : 1605074509871,
+        "duration" : 54815
+      }
+    }, {
+      "uid" : "4b275a8f7d25112c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605072979376,
+        "stop" : 1605073028564,
+        "duration" : 49188
+      }
+    }, {
+      "uid" : "8093355b8bcf1fe8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605072793390,
+        "stop" : 1605072842700,
+        "duration" : 49310
+      }
+    }, {
+      "uid" : "310c817fea99e11e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605072389133,
+        "stop" : 1605072439139,
+        "duration" : 50006
+      }
+    }, {
+      "uid" : "c2c441b31019393f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605072218221,
+        "stop" : 1605072267995,
+        "duration" : 49774
+      }
+    }, {
+      "uid" : "79c87f69e066ea09",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div/div/div/div/main/div/div/div/div/div/div/div/div/div/div/div/div[1]/div[1]/button[2]\"}\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 56dcf3443d8ce22261a18281254f58b5\n*** Element info: {Using=xpath, value=//body/div/div/div/div/main/div/div/div/div/div/div/div/div/div/div/div/div[1]/div[1]/button[2]}",
+      "time" : {
+        "start" : 1605071514339,
+        "stop" : 1605071562938,
+        "duration" : 48599
+      }
+    }, {
+      "uid" : "aabfe456d3aca662",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605004905068,
+        "stop" : 1605004966087,
+        "duration" : 61019
+      }
+    }, {
+      "uid" : "1c3eee53a3762440",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1605004714542,
+        "stop" : 1605004714544,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "b9769377b70c4a3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605004232798,
+        "stop" : 1605004291845,
+        "duration" : 59047
+      }
+    }, {
+      "uid" : "584ad8be879e3012",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605001863516,
+        "stop" : 1605001924813,
+        "duration" : 61297
+      }
+    }, {
+      "uid" : "5ec08680ccdbb0d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605001473778,
+        "stop" : 1605001532607,
+        "duration" : 58829
+      }
+    }, {
+      "uid" : "b9f13e606074fd1c",
+      "status" : "broken",
+      "statusDetails" : "ElementNotVisibleException: element not visible\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 49890cef37981bd1641dbef1574230e4",
+      "time" : {
+        "start" : 1605000964337,
+        "stop" : 1605001010380,
+        "duration" : 46043
+      }
+    }, {
+      "uid" : "644a83bcd3564b22",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (2eef7b6e1cbdd0ae1383380274bc2aa9)] -> xpath: //div/button[1]/span] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 2eef7b6e1cbdd0ae1383380274bc2aa9",
+      "time" : {
+        "start" : 1605000816727,
+        "stop" : 1605000870616,
+        "duration" : 53889
+      }
+    }, {
+      "uid" : "9475a4f88496cf41",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[1]/div/p\"}\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 16265a10deb08d10692d057f0b613ea6\n*** Element info: {Using=xpath, value=//div[1]/div/p}",
+      "time" : {
+        "start" : 1605000322526,
+        "stop" : 1605000370814,
+        "duration" : 48288
+      }
+    }, {
+      "uid" : "f247d4d1dd72d2ee",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[2]/div[1]/div[1]/button[1]/span[1]/svg\"}\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: cea97dbe04eb4014ebce0324654b1b40\n*** Element info: {Using=xpath, value=//div[2]/div[1]/div[1]/button[1]/span[1]/svg}",
+      "time" : {
+        "start" : 1605000144316,
+        "stop" : 1605000190934,
+        "duration" : 46618
+      }
+    }, {
+      "uid" : "c4f808c3933968e2",
+      "status" : "broken",
+      "statusDetails" : "InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///div[2]/div[1]/div[1]/button[1]/span[1]/svg because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '///div[2]/div[1]/div[1]/button[1]/span[1]/svg' is not a valid XPath expression.\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 446d12913ef5d22f4de2c03c30349673\n*** Element info: {Using=xpath, value=///div[2]/div[1]/div[1]/button[1]/span[1]/svg}",
+      "time" : {
+        "start" : 1604999923826,
+        "stop" : 1604999969672,
+        "duration" : 45846
+      }
+    }, {
+      "uid" : "2db16cdb343acf19",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[1]/div/p\"}\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 70ea707913e92cbe82aa364f70fcbe4f\n*** Element info: {Using=xpath, value=//div[1]/div/p}",
+      "time" : {
+        "start" : 1604997747870,
+        "stop" : 1604997820319,
+        "duration" : 72449
+      }
+    }, {
+      "uid" : "ba043ba0f3db7c0b",
+      "status" : "broken",
+      "statusDetails" : "NumberFormatException: null",
+      "time" : {
+        "start" : 1604996335688,
+        "stop" : 1604996381155,
+        "duration" : 45467
+      }
+    }, {
+      "uid" : "41ce71fb66fbefd0",
+      "status" : "broken",
+      "statusDetails" : "NumberFormatException: null",
+      "time" : {
+        "start" : 1604996225282,
+        "stop" : 1604996271077,
+        "duration" : 45795
+      }
+    }, {
+      "uid" : "b2a7a9ee3f545fb6",
+      "status" : "broken",
+      "statusDetails" : "NumberFormatException: null",
+      "time" : {
+        "start" : 1604996066702,
+        "stop" : 1604996113412,
+        "duration" : 46710
+      }
+    }, {
+      "uid" : "3293d463fc7c3332",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[1]/div/p\"}\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 4d40386a674b25428eb5626bd307ffb0\n*** Element info: {Using=xpath, value=//div[1]/div/p}",
+      "time" : {
+        "start" : 1604995434076,
+        "stop" : 1604995482607,
+        "duration" : 48531
+      }
+    }, {
+      "uid" : "fa78cdd8f657e6d4",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class,'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer')]\"}\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: cfcbd61a591d3cc4ce2fce3a14151151\n*** Element info: {Using=xpath, value=//div[contains(@class,'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer')]}",
+      "time" : {
+        "start" : 1604994242875,
+        "stop" : 1604994290567,
+        "duration" : 47692
+      }
+    }, {
+      "uid" : "fbd2b1750b98fca8",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class,'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer')]\"}\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: c4c0ae7c1b478807bee7063c85198bb8\n*** Element info: {Using=xpath, value=//div[contains(@class,'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer')]}",
+      "time" : {
+        "start" : 1604993195089,
+        "stop" : 1604993243695,
+        "duration" : 48606
+      }
+    }, {
+      "uid" : "b3f70e5d35477ad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604931093657,
+        "stop" : 1604931139411,
+        "duration" : 45754
+      }
+    }, {
+      "uid" : "dd3e1257124dabd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604930158758,
+        "stop" : 1604930204741,
+        "duration" : 45983
+      }
+    }, {
+      "uid" : "587e78b8e00f923a",
+      "status" : "broken",
+      "statusDetails" : "InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[contains(text(),'2008'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(text(),'2008']' is not a valid XPath expression.\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 2d7ff7bc8e459609ecfb4484c74ec60c\n*** Element info: {Using=xpath, value=//div[contains(text(),'2008']}",
+      "time" : {
+        "start" : 1604929820577,
+        "stop" : 1604929865459,
+        "duration" : 44882
+      }
+    }, {
+      "uid" : "c49239585b6bb852",
+      "status" : "broken",
+      "statusDetails" : "InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[contains(text(),2008] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(text(),2008]' is not a valid XPath expression.\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 1437d2e9093867c34738cdb4d7a46c81\n*** Element info: {Using=xpath, value=//div[contains(text(),2008]}",
+      "time" : {
+        "start" : 1604929150046,
+        "stop" : 1604929197229,
+        "duration" : 47183
+      }
+    }, {
+      "uid" : "75d43a782a554c65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604928271706,
+        "stop" : 1604928312363,
+        "duration" : 40657
+      }
+    }, {
+      "uid" : "b153af3adc373e7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604926695503,
+        "stop" : 1604926733722,
+        "duration" : 38219
+      }
+    }, {
+      "uid" : "c8edeafcd6e91d09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604926534329,
+        "stop" : 1604926572386,
+        "duration" : 38057
+      }
+    }, {
+      "uid" : "7f37df48e0d4a3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604926402562,
+        "stop" : 1604926441336,
+        "duration" : 38774
+      }
+    }, {
+      "uid" : "85096dbb4b847dbc",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class,'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer')]\"}\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 3dada50765cf60b429e53db87fb015db\n*** Element info: {Using=xpath, value=//div[contains(@class,'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer')]}",
+      "time" : {
+        "start" : 1604926236902,
+        "stop" : 1604926277843,
+        "duration" : 40941
+      }
+    }, {
+      "uid" : "cc7d9a7713839fa2",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1604926134830,
+        "stop" : 1604926172007,
+        "duration" : 37177
+      }
+    }, {
+      "uid" : "21e1959086c9814b",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1604925992476,
+        "stop" : 1604926030755,
+        "duration" : 38279
+      }
+    }, {
+      "uid" : "81108e6753446c43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604923970608,
+        "stop" : 1604924008497,
+        "duration" : 37889
+      }
+    }, {
+      "uid" : "3ad7aade45b0b713",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604922118514,
+        "stop" : 1604922154705,
+        "duration" : 36191
+      }
+    }, {
+      "uid" : "833fa196bbdd56f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604921931297,
+        "stop" : 1604921967910,
+        "duration" : 36613
+      }
+    }, {
+      "uid" : "a506c49e01bbede2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604921928394,
+        "stop" : 1604921961783,
+        "duration" : 33389
+      }
+    }, {
+      "uid" : "91a5b95c917416ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604921800924,
+        "stop" : 1604921815777,
+        "duration" : 14853
+      }
+    }, {
+      "uid" : "a6678c2dcb0a9fff",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: cannot focus element\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 5524f36121f5e501a0399ef22ad4a803",
+      "time" : {
+        "start" : 1604921373069,
+        "stop" : 1604921385114,
+        "duration" : 12045
+      }
+    }, {
+      "uid" : "c7b37602ebf073b6",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: cannot focus element\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: dac9584db001dc6bcc1f7d85491f0aad",
+      "time" : {
+        "start" : 1604921134687,
+        "stop" : 1604921146850,
+        "duration" : 12163
+      }
+    }, {
+      "uid" : "e9416152797794db",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: cannot focus element\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 4d373384fcbda6ea9cd324c718aad97a",
+      "time" : {
+        "start" : 1604920913573,
+        "stop" : 1604920927503,
+        "duration" : 13930
+      }
+    }, {
+      "uid" : "33dc08b0c78f3aa2",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1604915902400,
+        "stop" : 1604915915440,
+        "duration" : 13040
+      }
+    }, {
+      "uid" : "651d3f9332580d2c",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1604915702069,
+        "stop" : 1604915712585,
+        "duration" : 10516
+      }
+    }, {
+      "uid" : "1eb9ac39159f23a7",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1604915533900,
+        "stop" : 1604915546065,
+        "duration" : 12165
+      }
+    }, {
+      "uid" : "6d5f739904da8156",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1604914915400,
+        "stop" : 1604914927365,
+        "duration" : 11965
+      }
+    }, {
+      "uid" : "ea546acc5eb7f127",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1604914456926,
+        "stop" : 1604914468975,
+        "duration" : 12049
+      }
+    }, {
+      "uid" : "8b81f6598772fb50",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1604913502857,
+        "stop" : 1604913513424,
+        "duration" : 10567
+      }
+    }, {
+      "uid" : "767d399ae2d85878",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1604913241844,
+        "stop" : 1604913252922,
+        "duration" : 11078
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "13df901558371d6b",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/13df901558371d6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609931418734,
+          "stop" : 1609931496203,
+          "duration" : 77469
+        }
+      }, {
+        "uid" : "927b90d4b3a09824",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/927b90d4b3a09824",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609931418734,
+          "stop" : 1609931496203,
+          "duration" : 77469
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a06594f4a3a93ccd.json",
+  "parameterValues" : [ ]
+}

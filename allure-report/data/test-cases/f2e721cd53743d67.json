@@ -1,0 +1,212 @@
+{
+  "uid" : "f2e721cd53743d67",
+  "name" : "TC01_Naviagtion_to_Login on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+  "fullName" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest.TC01_Naviagtion_to_Login",
+  "historyId" : "38d4dcd7cf10e1e089885e8dac0573d6",
+  "time" : {
+    "start" : 1613134473467,
+    "stop" : 1613134477880,
+    "duration" : 4413
+  },
+  "description" : "Naviagte to Doctor Login Page from Home Page",
+  "descriptionHtml" : "<p>Naviagte to Doctor Login Page from Home Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Naviagtion to Doctor Login",
+      "time" : {
+        "start" : 1613134473596,
+        "stop" : 1613134477235,
+        "duration" : 3639
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_Naviagtion_to_Login"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "7764@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_01",
+    "url" : "TC_01",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "888c403256ce7ac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613131870289,
+        "stop" : 1613131874933,
+        "duration" : 4644
+      }
+    }, {
+      "uid" : "ae82227c81e3e27d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613128949273,
+        "stop" : 1613128953981,
+        "duration" : 4708
+      }
+    }, {
+      "uid" : "7b13a9e6ad4b959c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613115283356,
+        "stop" : 1613115287757,
+        "duration" : 4401
+      }
+    }, {
+      "uid" : "d12652e8a3a3d250",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613113242456,
+        "stop" : 1613113246932,
+        "duration" : 4476
+      }
+    }, {
+      "uid" : "239b85a160ecd5b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613112454049,
+        "stop" : 1613112458567,
+        "duration" : 4518
+      }
+    }, {
+      "uid" : "6a46d31321eb6600",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613111297822,
+        "stop" : 1613111302456,
+        "duration" : 4634
+      }
+    }, {
+      "uid" : "93f9315192fda098",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613109065161,
+        "stop" : 1613109069547,
+        "duration" : 4386
+      }
+    }, {
+      "uid" : "c2be973f1bfab80f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613107620838,
+        "stop" : 1613107625269,
+        "duration" : 4431
+      }
+    }, {
+      "uid" : "37ad0e1967f1d02a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613054077296,
+        "stop" : 1613054081846,
+        "duration" : 4550
+      }
+    }, {
+      "uid" : "16e3f7c9e18fbc01",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1613052144500,
+        "stop" : 1613052145608,
+        "duration" : 1108
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "22bf0ca5c825ed63",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/22bf0ca5c825ed63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613134473467,
+          "stop" : 1613134477880,
+          "duration" : 4413
+        }
+      }, {
+        "uid" : "b0fed24367e2b57b",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/b0fed24367e2b57b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613134473467,
+          "stop" : 1613134477880,
+          "duration" : 4413
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f2e721cd53743d67.json",
+  "parameterValues" : [ ]
+}

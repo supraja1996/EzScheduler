@@ -1,0 +1,70 @@
+{
+  "uid" : "966efa687ef11657",
+  "name" : "TC03_Navigation_to_Unverified_Queue",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest.TC03_Navigation_to_Unverified_Queue",
+  "historyId" : "d2d6db55af9796fa345e4731bd1b37f4",
+  "time" : {
+    "start" : 1607416559396,
+    "stop" : 1607416570998,
+    "duration" : 11602
+  },
+  "description" : "Click on Login/Register button on the HomePage of EzScheduler.",
+  "descriptionHtml" : "<p>Click on Login/Register button on the HomePage of EzScheduler.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "IndexOutOfBoundsException: Index: 26, Size: 26",
+  "statusTrace" : "java.lang.IndexOutOfBoundsException: Index: 26, Size: 26\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:657)\n\tat java.util.ArrayList.get(ArrayList.java:433)\n\tat sailotech.com.EzScheduler.adminPages.AdminVerification.verifiy_particular_Doctor(AdminVerification.java:52)\n\tat sailotech.com.EzScheduler.adminTests.AdminLoginTest.TC03_Navigation_to_Unverified_Queue(AdminLoginTest.java:50)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\n\tat org.testng.TestNG.run(TestNG.java:1017)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Admin Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Navigation_to_Unverified_Queue"
+  }, {
+    "name" : "testSuite",
+    "value" : "Admin Suite"
+  }, {
+    "name" : "thread",
+    "value" : "18316@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Admin Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Admin Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "966efa687ef11657.json",
+  "parameterValues" : [ ]
+}

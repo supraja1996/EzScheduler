@@ -1,0 +1,68 @@
+{
+  "uid" : "7e126863c7783c83",
+  "name" : "TC03_Navigation_to_the_GenerateSLots_Page",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest.TC03_Navigation_to_the_GenerateSLots_Page",
+  "historyId" : "4f9dcea4b0b5c3fe3376a0c2493989f5",
+  "time" : {
+    "start" : 1608193503665,
+    "stop" : 1608193532173,
+    "duration" : 28508
+  },
+  "description" : "Navigates to the slot generation screen",
+  "descriptionHtml" : "<p>Navigates to the slot generation screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Navigation_to_the_GenerateSLots_Page"
+  }, {
+    "name" : "testSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "thread",
+    "value" : "14248@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e126863c7783c83.json",
+  "parameterValues" : [ ]
+}

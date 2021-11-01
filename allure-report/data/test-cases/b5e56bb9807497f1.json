@@ -1,0 +1,147 @@
+{
+  "uid" : "b5e56bb9807497f1",
+  "name" : "TC01_AdminLogin",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest.TC01_AdminLogin",
+  "historyId" : "6f24652a470f8f1801a370d0faec514a",
+  "time" : {
+    "start" : 1609834942698,
+    "stop" : 1609834957566,
+    "duration" : 14868
+  },
+  "description" : "Naviagte to Admin Login Page from Home Page",
+  "descriptionHtml" : "<p>Naviagte to Admin Login Page from Home Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Admin Login Page and Login with the credentials",
+      "time" : {
+        "start" : 1609834942770,
+        "stop" : 1609834956977,
+        "duration" : 14207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_AdminLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "12916@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.ViewDcotorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_01",
+    "url" : "TC_01",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "996985eba99663a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608271108970,
+        "stop" : 1608271124987,
+        "duration" : 16017
+      }
+    }, {
+      "uid" : "a53ca8d42230b4f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608270990258,
+        "stop" : 1608271005408,
+        "duration" : 15150
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "aab02213990737a6",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/aab02213990737a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609834942698,
+          "stop" : 1609834957566,
+          "duration" : 14868
+        }
+      }, {
+        "uid" : "487bd4685343ee0d",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/487bd4685343ee0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609834942698,
+          "stop" : 1609834957566,
+          "duration" : 14868
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b5e56bb9807497f1.json",
+  "parameterValues" : [ ]
+}

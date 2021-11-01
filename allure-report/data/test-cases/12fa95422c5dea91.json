@@ -1,0 +1,119 @@
+{
+  "uid" : "12fa95422c5dea91",
+  "name" : "TC04_slot_booking",
+  "fullName" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest.TC04_slot_booking",
+  "historyId" : "407424451d292f365c93fa66f017248d",
+  "time" : {
+    "start" : 1613713554595,
+    "stop" : 1613713554603,
+    "duration" : 8
+  },
+  "description" : "Book an Appointment for a Doctor",
+  "descriptionHtml" : "<p>Book an Appointment for a Doctor</p>\n",
+  "status" : "skipped",
+  "statusMessage" : ": Skipped due to dependency on other skipped or failed test methods",
+  "statusTrace" : "ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods\r\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)\r\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:186)\r\n\tat org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:61)\r\n\tat org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)\r\n\tat org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1063)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_04"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC04_slot_booking"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "16312@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_04",
+    "url" : "TC_04",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dc646d2ea9e06c6c",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1613713468869,
+        "stop" : 1613713468875,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b599a4616a3bcacb",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/b599a4616a3bcacb",
+        "status" : "skipped",
+        "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+        "time" : {
+          "start" : 1613713554595,
+          "stop" : 1613713554603,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "1a0a8fc46169abe2",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/1a0a8fc46169abe2",
+        "status" : "skipped",
+        "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+        "time" : {
+          "start" : 1613713554595,
+          "stop" : 1613713554603,
+          "duration" : 8
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "12fa95422c5dea91.json",
+  "parameterValues" : [ ]
+}

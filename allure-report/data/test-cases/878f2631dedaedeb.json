@@ -1,0 +1,171 @@
+{
+  "uid" : "878f2631dedaedeb",
+  "name" : "TC05_Doctor_Logout on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+  "fullName" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest.TC05_Doctor_Logout",
+  "historyId" : "4201b46d81b8b2f0f22dfb80cef40b0",
+  "time" : {
+    "start" : 1613132847766,
+    "stop" : 1613132852544,
+    "duration" : 4778
+  },
+  "description" : "Logout after slot generation",
+  "descriptionHtml" : "<p>Logout after slot generation</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logout after slot generation",
+      "time" : {
+        "start" : 1613132847776,
+        "stop" : 1613132852531,
+        "duration" : 4755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_05"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC05_Doctor_Logout"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "10440@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_05",
+    "url" : "TC_05",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3389c86f958cb097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129918932,
+        "stop" : 1613129923584,
+        "duration" : 4652
+      }
+    }, {
+      "uid" : "c3bad4ab021c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613116245644,
+        "stop" : 1613116249776,
+        "duration" : 4132
+      }
+    }, {
+      "uid" : "2b4106fa4e089d71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613114228519,
+        "stop" : 1613114233462,
+        "duration" : 4943
+      }
+    }, {
+      "uid" : "c6b2eff66d61151d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613110032870,
+        "stop" : 1613110037124,
+        "duration" : 4254
+      }
+    }, {
+      "uid" : "e59691dd109f094e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613108585338,
+        "stop" : 1613108590118,
+        "duration" : 4780
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9f826208e33adf9",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/9f826208e33adf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613132847766,
+          "stop" : 1613132852544,
+          "duration" : 4778
+        }
+      }, {
+        "uid" : "fa500ad5f94ef43e",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/fa500ad5f94ef43e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613132847766,
+          "stop" : 1613132852544,
+          "duration" : 4778
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "878f2631dedaedeb.json",
+  "parameterValues" : [ ]
+}

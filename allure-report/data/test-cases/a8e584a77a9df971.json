@@ -1,0 +1,150 @@
+{
+  "uid" : "a8e584a77a9df971",
+  "name" : "TC02_AdminLogin",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.InvalidLoginCredentialsTest.TC02_AdminLogin",
+  "historyId" : "aefc8906e984c1cc2a3aa0a0fd028c40",
+  "time" : {
+    "start" : 1608021594588,
+    "stop" : 1608021602211,
+    "duration" : 7623
+  },
+  "description" : "Click on Login/Register button on the HomePage of EzScheduler.",
+  "descriptionHtml" : "<p>Click on Login/Register button on the HomePage of EzScheduler.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.InvalidLoginCredentialsTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_AdminLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "8044@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.InvalidLoginCredentialsTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.InvalidLoginCredentialsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "920d260b51ac5428",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608021514070,
+        "stop" : 1608021522584,
+        "duration" : 8514
+      }
+    }, {
+      "uid" : "48f142abe2f2ee99",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[@class = 'MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-marginDense']\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 6ed36c2560ddca0d7d7751306ebeff63\n*** Element info: {Using=xpath, value=//p[@class = 'MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-marginDense']}",
+      "time" : {
+        "start" : 1608021426008,
+        "stop" : 1608021436189,
+        "duration" : 10181
+      }
+    }, {
+      "uid" : "3123ebdba8767f9a",
+      "status" : "broken",
+      "statusDetails" : "Error: Unresolved compilation problem: \n\tThe method blankUserName() is undefined for the type InvalidLoginCredentials\n",
+      "time" : {
+        "start" : 1608021230515,
+        "stop" : 1608021230596,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "d8e6f78b0003071b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608021098438,
+        "stop" : 1608021107116,
+        "duration" : 8678
+      }
+    }, {
+      "uid" : "17c25b50482eebf9",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[@class = 'MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-marginDense']\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 3a062376b86affa5136da9cedf75afcc\n*** Element info: {Using=xpath, value=//p[@class = 'MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-marginDense']}",
+      "time" : {
+        "start" : 1608020963996,
+        "stop" : 1608020973174,
+        "duration" : 9178
+      }
+    }, {
+      "uid" : "13bc26c39e265d70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608020701247,
+        "stop" : 1608020701307,
+        "duration" : 60
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "73a6d398d10ba095",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/73a6d398d10ba095",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608021594588,
+          "stop" : 1608021602211,
+          "duration" : 7623
+        }
+      }, {
+        "uid" : "b57443d43b4758f0",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/b57443d43b4758f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608021594588,
+          "stop" : 1608021602211,
+          "duration" : 7623
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a8e584a77a9df971.json",
+  "parameterValues" : [ ]
+}

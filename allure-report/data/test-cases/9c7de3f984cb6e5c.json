@@ -1,0 +1,68 @@
+{
+  "uid" : "9c7de3f984cb6e5c",
+  "name" : "TC03_Navigation_to_Unverified_Queue",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest.TC03_Navigation_to_Unverified_Queue",
+  "historyId" : "d2d6db55af9796fa345e4731bd1b37f4",
+  "time" : {
+    "start" : 1607412759979,
+    "stop" : 1607412771503,
+    "duration" : 11524
+  },
+  "description" : "Click on Login/Register button on the HomePage of EzScheduler.",
+  "descriptionHtml" : "<p>Click on Login/Register button on the HomePage of EzScheduler.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Admin Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Navigation_to_Unverified_Queue"
+  }, {
+    "name" : "testSuite",
+    "value" : "Admin Suite"
+  }, {
+    "name" : "thread",
+    "value" : "19420@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Admin Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Admin Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c7de3f984cb6e5c.json",
+  "parameterValues" : [ ]
+}

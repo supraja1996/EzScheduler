@@ -1,0 +1,215 @@
+{
+  "uid" : "fafbab433667346e",
+  "name" : "TC04_slot_booking",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.PatientTest.TC04_slot_booking",
+  "historyId" : "d59ddd3043957f91092e6c065ef28dc1",
+  "time" : {
+    "start" : 1604047087464,
+    "stop" : 1604047137681,
+    "duration" : 50217
+  },
+  "description" : "Booked an appointment successfully",
+  "descriptionHtml" : "<p>Booked an appointment successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Patient Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC04_slot_booking"
+  }, {
+    "name" : "testSuite",
+    "value" : "Patient Suite"
+  }, {
+    "name" : "thread",
+    "value" : "4120@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Patient Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Patient Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8cce709296da768e",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=1]/div/div[3]/div/div/div[4]/span[14]\"}\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: db8f6010a2e056700cae4e9f18f71649\n*** Element info: {Using=xpath, value=//*[@id=1]/div/div[3]/div/div/div[4]/span[14]}",
+      "time" : {
+        "start" : 1604044551908,
+        "stop" : 1604044589709,
+        "duration" : 37801
+      }
+    }, {
+      "uid" : "4d65cec900e51c25",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=1]/div/div[3]/div/div/div[0]/span[2]\"}\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: 92b37a5fe11f3506d37f880569a5fe34\n*** Element info: {Using=xpath, value=//*[@id=1]/div/div[3]/div/div/div[0]/span[2]}",
+      "time" : {
+        "start" : 1604042982907,
+        "stop" : 1604042987752,
+        "duration" : 4845
+      }
+    }, {
+      "uid" : "302a7d2befa6097f",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=1]/div/div[3]/div/div/div[0]/span[2]\"}\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: a2ce3295717f9d92e9f4a5123e3b4018\n*** Element info: {Using=xpath, value=//*[@id=1]/div/div[3]/div/div/div[0]/span[2]}",
+      "time" : {
+        "start" : 1604042442599,
+        "stop" : 1604042447144,
+        "duration" : 4545
+      }
+    }, {
+      "uid" : "a844c9f2db2ab08a",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=1]/div/div[3]/div/div/div[0]/span[2]\"}\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: bb3be39519fb14bc4d43a6a4ae6dcbe6\n*** Element info: {Using=xpath, value=//*[@id=1]/div/div[3]/div/div/div[0]/span[2]}",
+      "time" : {
+        "start" : 1604042232474,
+        "stop" : 1604042237130,
+        "duration" : 4656
+      }
+    }, {
+      "uid" : "fe34e672b6d560c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603983222986,
+        "stop" : 1603983266407,
+        "duration" : 43421
+      }
+    }, {
+      "uid" : "24842c7dd6ea22b",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603981951009,
+        "stop" : 1603981951011,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "2256b617017dfd10",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603888187681,
+        "stop" : 1603888187682,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a918f34aeca9db24",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603886676689,
+        "stop" : 1603886676690,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1429d1632a242df7",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603886390713,
+        "stop" : 1603886390715,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "cf3ddf3c097a691f",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603886090770,
+        "stop" : 1603886090771,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4f09bad5e6702523",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603885211865,
+        "stop" : 1603885211867,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5259b0b218ecb58a",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603884723394,
+        "stop" : 1603884723396,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "171e7c38ba0fbdba",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603883985439,
+        "stop" : 1603883985441,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "85d27f7a91fbd7b1",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/85d27f7a91fbd7b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604047087464,
+          "stop" : 1604047137681,
+          "duration" : 50217
+        }
+      }, {
+        "uid" : "4a5e07ba2b3fd90e",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/4a5e07ba2b3fd90e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604047087464,
+          "stop" : 1604047137681,
+          "duration" : 50217
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fafbab433667346e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "9f2c440b4ae44d99",
+  "name" : "TC03_serach_for_doctor",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.PatientTest.TC03_serach_for_doctor",
+  "historyId" : "f894d886a219d65160f0fc3ae9aad829",
+  "time" : {
+    "start" : 1603983206522,
+    "stop" : 1603983222981,
+    "duration" : 16459
+  },
+  "description" : "Patient Logged in Successfully",
+  "descriptionHtml" : "<p>Patient Logged in Successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Patient Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_serach_for_doctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Patient Suite"
+  }, {
+    "name" : "thread",
+    "value" : "17604@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Patient Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Patient Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f2c440b4ae44d99.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,190 @@
+{
+  "uid" : "3c2b3bc22cbd8246",
+  "name" : "setUp on [AdminLoginTest passed=0 failed=0 skipped=0]",
+  "fullName" : "Default suite : Default test.setUp on [AdminLoginTest passed=0 failed=0 skipped=0]",
+  "historyId" : "83271de005b146ffb208237fecdfe8e5",
+  "time" : {
+    "start" : 1612176510889,
+    "stop" : 1612176510891,
+    "duration" : 2
+  },
+  "description" : "@BeforeMethod",
+  "descriptionHtml" : "<p>@BeforeMethod</p>\n",
+  "status" : "skipped",
+  "statusMessage" : ": Skipped due to dependency on other skipped or failed test methods",
+  "statusTrace" : "ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods\r\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)\r\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.onConfigurationSkip(AllureTestListener.java:120)\r\n\tat org.testng.internal.TestListenerHelper.runPostConfigurationListeners(TestListenerHelper.java:37)\r\n\tat org.testng.internal.Invoker.runConfigurationListeners(Invoker.java:1384)\r\n\tat org.testng.internal.Invoker.handleConfigurationSkip(Invoker.java:250)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:200)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:523)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "21764@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testClass",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "setUp on [AdminLoginTest passed=0 failed=0 skipped=0]"
+  }, {
+    "name" : "package",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7fbee9fbd8b9cde8",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612176372128,
+        "stop" : 1612176372131,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "499eb2dbaf7d68f9",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612176251785,
+        "stop" : 1612176251810,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "2d74fd6fc476a10b",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612175628726,
+        "stop" : 1612175628729,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "2db61b5f09f1a3ca",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612169802100,
+        "stop" : 1612169802103,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "8b7166b202b7c824",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612169207444,
+        "stop" : 1612169207447,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "63dc483d6a964613",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612168617940,
+        "stop" : 1612168617942,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "bd8b9291265c045b",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612168475118,
+        "stop" : 1612168475120,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "143fc94c9f2ae757",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612166205183,
+        "stop" : 1612166205186,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "fcfb15e0a888fcc2",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612165657646,
+        "stop" : 1612165657648,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "61b7940a1b34907f",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612164159511,
+        "stop" : 1612164159514,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "71a9a94ebc2f02b9",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1612163975238,
+        "stop" : 1612163975240,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3652a5dd71aef1b5",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/3652a5dd71aef1b5",
+        "status" : "skipped",
+        "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+        "time" : {
+          "start" : 1612176510889,
+          "stop" : 1612176510891,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "e0c5e473c4ba2609",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/e0c5e473c4ba2609",
+        "status" : "skipped",
+        "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+        "time" : {
+          "start" : 1612176510889,
+          "stop" : 1612176510891,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3c2b3bc22cbd8246.json",
+  "parameterValues" : [ ]
+}

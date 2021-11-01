@@ -1,0 +1,168 @@
+{
+  "uid" : "efc2e74cc71d72d4",
+  "name" : "TC03_AdminLogin",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.InvalidLoginCredentialsTest.TC03_AdminLogin",
+  "historyId" : "4eeb64e6f00798a3429d4f26400a102f",
+  "time" : {
+    "start" : 1609392679666,
+    "stop" : 1609392691400,
+    "duration" : 11734
+  },
+  "description" : "Click on Login/Register button on the HomePage of EzScheduler.",
+  "descriptionHtml" : "<p>Click on Login/Register button on the HomePage of EzScheduler.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.InvalidLoginCredentialsTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_AdminLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "16848@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.InvalidLoginCredentialsTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.InvalidLoginCredentialsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7da77e4d5bee21e0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/adminLogin] but found [https://demo.ezscheduler.io/doctorQueue]",
+      "time" : {
+        "start" : 1609392579485,
+        "stop" : 1609392590642,
+        "duration" : 11157
+      }
+    }, {
+      "uid" : "a5e624af8fcedd99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608615244924,
+        "stop" : 1608615254917,
+        "duration" : 9993
+      }
+    }, {
+      "uid" : "a9adfab0477387d4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [Invalid Username/Password] but found [Invalid Credentials]",
+      "time" : {
+        "start" : 1608615125993,
+        "stop" : 1608615135506,
+        "duration" : 9513
+      }
+    }, {
+      "uid" : "5ed1e3b44811c72d",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//form/fieldset/div/div[1]/div/p\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 4054dcc72b2b2ff84cb41eff586e0171\n*** Element info: {Using=xpath, value=//form/fieldset/div/div[1]/div/p}",
+      "time" : {
+        "start" : 1608536044707,
+        "stop" : 1608536051913,
+        "duration" : 7206
+      }
+    }, {
+      "uid" : "b2c6d35031add177",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608535912176,
+        "stop" : 1608535917820,
+        "duration" : 5644
+      }
+    }, {
+      "uid" : "7306d14edc99a38e",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1608533677115,
+        "stop" : 1608533682295,
+        "duration" : 5180
+      }
+    }, {
+      "uid" : "d46ec569f03aa83b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608026775143,
+        "stop" : 1608026783659,
+        "duration" : 8516
+      }
+    }, {
+      "uid" : "7c80c9e6f50fe8b6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [InvalidCredentials] but found [Invalid Credentials]",
+      "time" : {
+        "start" : 1608026682301,
+        "stop" : 1608026694576,
+        "duration" : 12275
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "28f24a79e6df311a",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/28f24a79e6df311a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609392679666,
+          "stop" : 1609392691400,
+          "duration" : 11734
+        }
+      }, {
+        "uid" : "86752c8d93cc7baf",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/86752c8d93cc7baf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609392679666,
+          "stop" : 1609392691400,
+          "duration" : 11734
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "efc2e74cc71d72d4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,187 @@
+{
+  "uid" : "e4996aaebadba073",
+  "name" : "TC03_VerifyDoctor",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.AdminTest.TC03_VerifyDoctor",
+  "historyId" : "40e943e55bf3e97c4272f3d8f82894be",
+  "time" : {
+    "start" : 1615557185440,
+    "stop" : 1615557360409,
+    "duration" : 174969
+  },
+  "description" : "Verify the Doctors from the Unverified Queue",
+  "descriptionHtml" : "<p>Verify the Doctors from the Unverified Queue</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_03"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_VerifyDoctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "4936@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_03",
+    "url" : "TC_03",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2434d37062839390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615548360435,
+        "stop" : 1615548374744,
+        "duration" : 14309
+      }
+    }, {
+      "uid" : "39e0519dfe515605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615533744491,
+        "stop" : 1615534082286,
+        "duration" : 337795
+      }
+    }, {
+      "uid" : "c3af99d7d8471031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615532200998,
+        "stop" : 1615532377975,
+        "duration" : 176977
+      }
+    }, {
+      "uid" : "3701571034ec436b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615531351412,
+        "stop" : 1615531385396,
+        "duration" : 33984
+      }
+    }, {
+      "uid" : "212aaabadef0d7eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615530926584,
+        "stop" : 1615531021815,
+        "duration" : 95231
+      }
+    }, {
+      "uid" : "2b3e47616a4fd45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615446666116,
+        "stop" : 1615446875404,
+        "duration" : 209288
+      }
+    }, {
+      "uid" : "1fc37d42726a6ff9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615444435805,
+        "stop" : 1615444723643,
+        "duration" : 287838
+      }
+    }, {
+      "uid" : "bc03df9c8ba40d64",
+      "status" : "broken",
+      "statusDetails" : "ClassCastException: class org.openqa.selenium.By$ByXPath cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ByXPath and org.openqa.selenium.WebElement are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1615443392795,
+        "stop" : 1615443396044,
+        "duration" : 3249
+      }
+    }, {
+      "uid" : "a3da601173cfb6a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615442420222,
+        "stop" : 1615442436988,
+        "duration" : 16766
+      }
+    }, {
+      "uid" : "ddb67c52121dcda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615442291510,
+        "stop" : 1615442308451,
+        "duration" : 16941
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "1ae9809f90671abf",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/1ae9809f90671abf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615557185440,
+          "stop" : 1615557360409,
+          "duration" : 174969
+        }
+      }, {
+        "uid" : "92351e985f0f8ea2",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/92351e985f0f8ea2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615557185440,
+          "stop" : 1615557360409,
+          "duration" : 174969
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e4996aaebadba073.json",
+  "parameterValues" : [ ]
+}

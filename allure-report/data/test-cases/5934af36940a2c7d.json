@@ -1,0 +1,336 @@
+{
+  "uid" : "5934af36940a2c7d",
+  "name" : "TC02_Patient_Registration",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest.TC02_Patient_Registration",
+  "historyId" : "72a568dcd634ec873a938675431b4c5e",
+  "time" : {
+    "start" : 1610343548943,
+    "stop" : 1610343571378,
+    "duration" : 22435
+  },
+  "description" : "Patient to register",
+  "descriptionHtml" : "<p>Patient to register</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Patient to register",
+      "time" : {
+        "start" : 1610343548951,
+        "stop" : 1610343571306,
+        "duration" : 22355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_Patient_Registration"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "15444@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1dd162c9481845f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610087338221,
+        "stop" : 1610087355009,
+        "duration" : 16788
+      }
+    }, {
+      "uid" : "49103729bfde62c0",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Verify OTP')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 01e81988c6f050670382a18f0accdcf0\n*** Element info: {Using=xpath, value=//span[contains(text(),'Verify OTP')]}",
+      "time" : {
+        "start" : 1610087069283,
+        "stop" : 1610087081281,
+        "duration" : 11998
+      }
+    }, {
+      "uid" : "de08094fa13ad24d",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button/span[contains(text(),'Verify OTP')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 421c8e75a644545d92fb6b1c513045cb\n*** Element info: {Using=xpath, value=//button/span[contains(text(),'Verify OTP')]}",
+      "time" : {
+        "start" : 1610086918195,
+        "stop" : 1610086931824,
+        "duration" : 13629
+      }
+    }, {
+      "uid" : "78262e2af7f6f26c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610086271992,
+        "stop" : 1610086283790,
+        "duration" : 11798
+      }
+    }, {
+      "uid" : "f059a0601fb72df3",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button/span[contains(text(),'Verify OTP')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 873f3bfa0f19e7aa082a877f3421cbb9\n*** Element info: {Using=xpath, value=//button/span[contains(text(),'Verify OTP')]}",
+      "time" : {
+        "start" : 1610085768192,
+        "stop" : 1610085781580,
+        "duration" : 13388
+      }
+    }, {
+      "uid" : "b8c8f617214823ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610084870170,
+        "stop" : 1610084880668,
+        "duration" : 10498
+      }
+    }, {
+      "uid" : "f57e8ac4049bfd3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608207124520,
+        "stop" : 1608207169677,
+        "duration" : 45157
+      }
+    }, {
+      "uid" : "7502630fa3312967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608206052378,
+        "stop" : 1608206062662,
+        "duration" : 10284
+      }
+    }, {
+      "uid" : "651b08a6bf971720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608193706109,
+        "stop" : 1608193718340,
+        "duration" : 12231
+      }
+    }, {
+      "uid" : "c2893a9891035a1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608192467971,
+        "stop" : 1608192480564,
+        "duration" : 12593
+      }
+    }, {
+      "uid" : "2f3cf57d1cc8c89e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608191452233,
+        "stop" : 1608191464193,
+        "duration" : 11960
+      }
+    }, {
+      "uid" : "9fd36cee5fe2ffec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605614109646,
+        "stop" : 1605614121447,
+        "duration" : 11801
+      }
+    }, {
+      "uid" : "acba75917d9dbe30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613889756,
+        "stop" : 1605613901754,
+        "duration" : 11998
+      }
+    }, {
+      "uid" : "cfcd28fcb8961f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613585232,
+        "stop" : 1605613597163,
+        "duration" : 11931
+      }
+    }, {
+      "uid" : "3acd2b8757ddd535",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613418769,
+        "stop" : 1605613431110,
+        "duration" : 12341
+      }
+    }, {
+      "uid" : "ffbe205897292178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613126287,
+        "stop" : 1605613139164,
+        "duration" : 12877
+      }
+    }, {
+      "uid" : "4871a9dc526a9a24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605612945783,
+        "stop" : 1605612956906,
+        "duration" : 11123
+      }
+    }, {
+      "uid" : "9e7151757a0f6cdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605612696260,
+        "stop" : 1605612707244,
+        "duration" : 10984
+      }
+    }, {
+      "uid" : "14f422289162f11c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605612422374,
+        "stop" : 1605612435777,
+        "duration" : 13403
+      }
+    }, {
+      "uid" : "9b923b216b3e046",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605612141769,
+        "stop" : 1605612154406,
+        "duration" : 12637
+      }
+    }, {
+      "uid" : "eb3ff75b48cd4182",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605611863096,
+        "stop" : 1605611875141,
+        "duration" : 12045
+      }
+    }, {
+      "uid" : "a1622675beedf413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605610558897,
+        "stop" : 1605610570923,
+        "duration" : 12026
+      }
+    }, {
+      "uid" : "b1218b1cd7c1dd51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605610411640,
+        "stop" : 1605610423208,
+        "duration" : 11568
+      }
+    }, {
+      "uid" : "ad2e1ec49835ab14",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1605610125094,
+        "stop" : 1605610140815,
+        "duration" : 15721
+      }
+    }, {
+      "uid" : "7943a694070520fa",
+      "status" : "broken",
+      "statusDetails" : "IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1605609870096,
+        "stop" : 1605609882953,
+        "duration" : 12857
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6c5bc5494ba6ce26",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/6c5bc5494ba6ce26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610343548943,
+          "stop" : 1610343571378,
+          "duration" : 22435
+        }
+      }, {
+        "uid" : "54cbca40a178cc50",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/54cbca40a178cc50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610343548943,
+          "stop" : 1610343571378,
+          "duration" : 22435
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5934af36940a2c7d.json",
+  "parameterValues" : [ ]
+}

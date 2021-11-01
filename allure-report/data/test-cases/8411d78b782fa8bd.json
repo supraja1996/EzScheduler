@@ -1,0 +1,68 @@
+{
+  "uid" : "8411d78b782fa8bd",
+  "name" : "TC03_Naviagtion_To_VerifiedQueue",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest.TC03_Naviagtion_To_VerifiedQueue",
+  "historyId" : "35c5650b63407f50ee0441d6caf5bd8d",
+  "time" : {
+    "start" : 1608192035643,
+    "stop" : 1608192036568,
+    "duration" : 925
+  },
+  "description" : "Naviagte to Verified Queue",
+  "descriptionHtml" : "<p>Naviagte to Verified Queue</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Naviagtion_To_VerifiedQueue"
+  }, {
+    "name" : "testSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "thread",
+    "value" : "15848@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8411d78b782fa8bd.json",
+  "parameterValues" : [ ]
+}

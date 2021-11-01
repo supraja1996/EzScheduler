@@ -1,0 +1,927 @@
+{
+  "uid" : "727dca8739a86405",
+  "name" : "TC01_Navigate_to_AdminLogin",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest.TC01_Navigate_to_AdminLogin",
+  "historyId" : "e719f60758a14698680e74da4defc362",
+  "time" : {
+    "start" : 1609853278939,
+    "stop" : 1609853283632,
+    "duration" : 4693
+  },
+  "description" : "Naviagte to Admin Login Page from Home Page",
+  "descriptionHtml" : "<p>Naviagte to Admin Login Page from Home Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Naviagtion to Admin Login",
+      "time" : {
+        "start" : 1609853279036,
+        "stop" : 1609853282815,
+        "duration" : 3779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_Navigate_to_AdminLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "17440@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_01",
+    "url" : "TC_01",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d2eeb4e71a0c9393",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609853165164,
+        "stop" : 1609853169684,
+        "duration" : 4520
+      }
+    }, {
+      "uid" : "ed8eda95d693de01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609738921224,
+        "stop" : 1609738926111,
+        "duration" : 4887
+      }
+    }, {
+      "uid" : "472b2deaa477ed3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609738823264,
+        "stop" : 1609738827972,
+        "duration" : 4708
+      }
+    }, {
+      "uid" : "5afef4d5c54090cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737632228,
+        "stop" : 1609737636721,
+        "duration" : 4493
+      }
+    }, {
+      "uid" : "b186e689fb415861",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609393055769,
+        "stop" : 1609393059949,
+        "duration" : 4180
+      }
+    }, {
+      "uid" : "36d5413d2f7f91b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608613785015,
+        "stop" : 1608613789529,
+        "duration" : 4514
+      }
+    }, {
+      "uid" : "c0c322f01ac3a23a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542382825,
+        "stop" : 1608542386710,
+        "duration" : 3885
+      }
+    }, {
+      "uid" : "6828c806be6344cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542071351,
+        "stop" : 1608542076608,
+        "duration" : 5257
+      }
+    }, {
+      "uid" : "62fcc4cc121a0166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541928102,
+        "stop" : 1608541932131,
+        "duration" : 4029
+      }
+    }, {
+      "uid" : "ffe4dbf15873c8dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541672885,
+        "stop" : 1608541677748,
+        "duration" : 4863
+      }
+    }, {
+      "uid" : "3273fa7c1b0ded3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541460161,
+        "stop" : 1608541464329,
+        "duration" : 4168
+      }
+    }, {
+      "uid" : "759be9b1aba45a04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608027273598,
+        "stop" : 1608027278267,
+        "duration" : 4669
+      }
+    }, {
+      "uid" : "649c91748138061b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608027129460,
+        "stop" : 1608027134939,
+        "duration" : 5479
+      }
+    }, {
+      "uid" : "f780cad97fca0b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608027042649,
+        "stop" : 1608027047160,
+        "duration" : 4511
+      }
+    }, {
+      "uid" : "23f12800b8a21e9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608020566937,
+        "stop" : 1608020571376,
+        "duration" : 4439
+      }
+    }, {
+      "uid" : "bf0c5cac9cfa4cf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608018253058,
+        "stop" : 1608018258025,
+        "duration" : 4967
+      }
+    }, {
+      "uid" : "70234d8ea926ee8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608017957097,
+        "stop" : 1608017962398,
+        "duration" : 5301
+      }
+    }, {
+      "uid" : "32a49160890fee4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608015542312,
+        "stop" : 1608015547835,
+        "duration" : 5523
+      }
+    }, {
+      "uid" : "80d85b5f02a77c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608015368246,
+        "stop" : 1608015372919,
+        "duration" : 4673
+      }
+    }, {
+      "uid" : "160bf5d7b7cb5720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608013451772,
+        "stop" : 1608013456291,
+        "duration" : 4519
+      }
+    }, {
+      "uid" : "21eb83a149da1646",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607956342637,
+        "stop" : 1607956347698,
+        "duration" : 5061
+      }
+    }, {
+      "uid" : "472a463710e58df4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607955884703,
+        "stop" : 1607955889455,
+        "duration" : 4752
+      }
+    }, {
+      "uid" : "f5cd5a1d80170f80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607955265230,
+        "stop" : 1607955269359,
+        "duration" : 4129
+      }
+    }, {
+      "uid" : "55c72bad6fa99aab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607954912537,
+        "stop" : 1607954917431,
+        "duration" : 4894
+      }
+    }, {
+      "uid" : "f1ba4133a0e3477c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607954103268,
+        "stop" : 1607954107923,
+        "duration" : 4655
+      }
+    }, {
+      "uid" : "941815cb6f1dc096",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607953875929,
+        "stop" : 1607953881312,
+        "duration" : 5383
+      }
+    }, {
+      "uid" : "cf329152fc1106bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607953711966,
+        "stop" : 1607953716860,
+        "duration" : 4894
+      }
+    }, {
+      "uid" : "1faf0a27428c45d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607953486834,
+        "stop" : 1607953491323,
+        "duration" : 4489
+      }
+    }, {
+      "uid" : "3d5356e5e37970ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607952901242,
+        "stop" : 1607952905877,
+        "duration" : 4635
+      }
+    }, {
+      "uid" : "566ecdfe80d0a10b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607948725473,
+        "stop" : 1607948729560,
+        "duration" : 4087
+      }
+    }, {
+      "uid" : "6455bcd6d75985d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607948179990,
+        "stop" : 1607948184717,
+        "duration" : 4727
+      }
+    }, {
+      "uid" : "51233b1f73b27a2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607948048035,
+        "stop" : 1607948052978,
+        "duration" : 4943
+      }
+    }, {
+      "uid" : "41e056665bd31774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947910872,
+        "stop" : 1607947916479,
+        "duration" : 5607
+      }
+    }, {
+      "uid" : "eafec12a518a620e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947637874,
+        "stop" : 1607947642933,
+        "duration" : 5059
+      }
+    }, {
+      "uid" : "6da0495934428d7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947523055,
+        "stop" : 1607947528145,
+        "duration" : 5090
+      }
+    }, {
+      "uid" : "bd44d9493bd500cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947430633,
+        "stop" : 1607947435400,
+        "duration" : 4767
+      }
+    }, {
+      "uid" : "2ef7fd9004405d21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947264743,
+        "stop" : 1607947269158,
+        "duration" : 4415
+      }
+    }, {
+      "uid" : "8bdd1ed55c9f3bbc",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (c1349e895ddc2bce0e233d4b2b9851db)] -> xpath: //li[3]//h5[1]//a[1]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: c1349e895ddc2bce0e233d4b2b9851db",
+      "time" : {
+        "start" : 1607947155610,
+        "stop" : 1607947174127,
+        "duration" : 18517
+      }
+    }, {
+      "uid" : "ab28af09c2ef96b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947002845,
+        "stop" : 1607947007402,
+        "duration" : 4557
+      }
+    }, {
+      "uid" : "dc2b1ce8e0119861",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607946424131,
+        "stop" : 1607946430006,
+        "duration" : 5875
+      }
+    }, {
+      "uid" : "f6102a579a876afe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607946211223,
+        "stop" : 1607946216589,
+        "duration" : 5366
+      }
+    }, {
+      "uid" : "4f85f199ac914135",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607945305819,
+        "stop" : 1607945311366,
+        "duration" : 5547
+      }
+    }, {
+      "uid" : "8dd0081e950a0839",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607945200065,
+        "stop" : 1607945204210,
+        "duration" : 4145
+      }
+    }, {
+      "uid" : "c28bcad21bdb10ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607944297960,
+        "stop" : 1607944302443,
+        "duration" : 4483
+      }
+    }, {
+      "uid" : "d345cf7efebb33eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607944170110,
+        "stop" : 1607944174918,
+        "duration" : 4808
+      }
+    }, {
+      "uid" : "974457dd4c7fdd6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607944054379,
+        "stop" : 1607944059916,
+        "duration" : 5537
+      }
+    }, {
+      "uid" : "e67cf1db3ded3cc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943879598,
+        "stop" : 1607943884574,
+        "duration" : 4976
+      }
+    }, {
+      "uid" : "6a51deece29423a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943659142,
+        "stop" : 1607943663478,
+        "duration" : 4336
+      }
+    }, {
+      "uid" : "6460b7b9f5ee4236",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943274265,
+        "stop" : 1607943278974,
+        "duration" : 4709
+      }
+    }, {
+      "uid" : "c3f07b28e347e9a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607938727161,
+        "stop" : 1607938732656,
+        "duration" : 5495
+      }
+    }, {
+      "uid" : "d38d8f5c7b85a795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607931850201,
+        "stop" : 1607931854949,
+        "duration" : 4748
+      }
+    }, {
+      "uid" : "f917ddb716839c34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607931498352,
+        "stop" : 1607931503454,
+        "duration" : 5102
+      }
+    }, {
+      "uid" : "901cf38350b7c8f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607930903875,
+        "stop" : 1607930908009,
+        "duration" : 4134
+      }
+    }, {
+      "uid" : "c41da7840dfb94b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607930749519,
+        "stop" : 1607930754291,
+        "duration" : 4772
+      }
+    }, {
+      "uid" : "53400467b5473307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607498875261,
+        "stop" : 1607498880805,
+        "duration" : 5544
+      }
+    }, {
+      "uid" : "a8b3d5587866a6c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607494986698,
+        "stop" : 1607494991316,
+        "duration" : 4618
+      }
+    }, {
+      "uid" : "b788a71141c4fa0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607494553621,
+        "stop" : 1607494558062,
+        "duration" : 4441
+      }
+    }, {
+      "uid" : "b0ae2ecb534b75fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607490868491,
+        "stop" : 1607490873463,
+        "duration" : 4972
+      }
+    }, {
+      "uid" : "d0ebec571e9b148d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607435012326,
+        "stop" : 1607435017226,
+        "duration" : 4900
+      }
+    }, {
+      "uid" : "cef88934c406745c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607431601150,
+        "stop" : 1607431607066,
+        "duration" : 5916
+      }
+    }, {
+      "uid" : "ceb46e34dfc3a719",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607431342786,
+        "stop" : 1607431348869,
+        "duration" : 6083
+      }
+    }, {
+      "uid" : "1ce8b3d8363720e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607431229497,
+        "stop" : 1607431234148,
+        "duration" : 4651
+      }
+    }, {
+      "uid" : "b55c5f770a0a26f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607430581080,
+        "stop" : 1607430585833,
+        "duration" : 4753
+      }
+    }, {
+      "uid" : "31c8638380f83f3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607429501989,
+        "stop" : 1607429506773,
+        "duration" : 4784
+      }
+    }, {
+      "uid" : "e12a2f840d8e757d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607429382927,
+        "stop" : 1607429387561,
+        "duration" : 4634
+      }
+    }, {
+      "uid" : "b6fa2857a6b29165",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607428818159,
+        "stop" : 1607428822811,
+        "duration" : 4652
+      }
+    }, {
+      "uid" : "7977bc6c00d20be8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607428572813,
+        "stop" : 1607428577601,
+        "duration" : 4788
+      }
+    }, {
+      "uid" : "87bbe5344ed7e4bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607428476514,
+        "stop" : 1607428481871,
+        "duration" : 5357
+      }
+    }, {
+      "uid" : "acbbf3306c225e6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607427144096,
+        "stop" : 1607427150166,
+        "duration" : 6070
+      }
+    }, {
+      "uid" : "ca0dca77aeb134e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607426868723,
+        "stop" : 1607426874704,
+        "duration" : 5981
+      }
+    }, {
+      "uid" : "88e47edd6aa5f2d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607425088549,
+        "stop" : 1607425096012,
+        "duration" : 7463
+      }
+    }, {
+      "uid" : "c18552e2ba656b44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607424680926,
+        "stop" : 1607424687896,
+        "duration" : 6970
+      }
+    }, {
+      "uid" : "fb1b1a91b7f7074e",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (eaefd6ed8289fdbb6a2c55ef6c547ac3)] -> xpath: //li[3]//h5[1]//a[1]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: eaefd6ed8289fdbb6a2c55ef6c547ac3",
+      "time" : {
+        "start" : 1607424544395,
+        "stop" : 1607424568612,
+        "duration" : 24217
+      }
+    }, {
+      "uid" : "f87dfa601095b206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607424129249,
+        "stop" : 1607424136329,
+        "duration" : 7080
+      }
+    }, {
+      "uid" : "b057800e6b5d1ee7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607423956079,
+        "stop" : 1607423975995,
+        "duration" : 19916
+      }
+    }, {
+      "uid" : "d87fa285d36c5a41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607423729224,
+        "stop" : 1607423736547,
+        "duration" : 7323
+      }
+    }, {
+      "uid" : "29c2f3fc4668efb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607423200031,
+        "stop" : 1607423206419,
+        "duration" : 6388
+      }
+    }, {
+      "uid" : "10ce8bf778fa66ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607422897309,
+        "stop" : 1607422904847,
+        "duration" : 7538
+      }
+    }, {
+      "uid" : "caeba6234ebd7d54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607422733471,
+        "stop" : 1607422739030,
+        "duration" : 5559
+      }
+    }, {
+      "uid" : "e92db33f7f277590",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607421251351,
+        "stop" : 1607421256452,
+        "duration" : 5101
+      }
+    }, {
+      "uid" : "e4aa9aa4f950091f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607420870742,
+        "stop" : 1607420875672,
+        "duration" : 4930
+      }
+    }, {
+      "uid" : "2498b14c10227443",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607420420790,
+        "stop" : 1607420426852,
+        "duration" : 6062
+      }
+    }, {
+      "uid" : "f23bd0da85b6360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607418908491,
+        "stop" : 1607418914030,
+        "duration" : 5539
+      }
+    }, {
+      "uid" : "26311cd8b63fa531",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607417258925,
+        "stop" : 1607417263985,
+        "duration" : 5060
+      }
+    }, {
+      "uid" : "7b8e9a4b4b5b8258",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607416531717,
+        "stop" : 1607416546237,
+        "duration" : 14520
+      }
+    }, {
+      "uid" : "88d42c4549c3b1a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607415884789,
+        "stop" : 1607415889439,
+        "duration" : 4650
+      }
+    }, {
+      "uid" : "8a341a70552adc9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607415637853,
+        "stop" : 1607415641940,
+        "duration" : 4087
+      }
+    }, {
+      "uid" : "97f3c092535c0892",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (9228a46329ad5013949192df48d161ed)] -> xpath: //li[3]//h5[1]//a[1]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 9228a46329ad5013949192df48d161ed",
+      "time" : {
+        "start" : 1607415484850,
+        "stop" : 1607415503251,
+        "duration" : 18401
+      }
+    }, {
+      "uid" : "254016fb7f6c824a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607415150247,
+        "stop" : 1607415154012,
+        "duration" : 3765
+      }
+    }, {
+      "uid" : "33cbb444b78d21c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607412735535,
+        "stop" : 1607412746176,
+        "duration" : 10641
+      }
+    }, {
+      "uid" : "f13ef7089e913804",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604476438493,
+        "stop" : 1604476442244,
+        "duration" : 3751
+      }
+    }, {
+      "uid" : "6c407a7bdaf4c25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604407178137,
+        "stop" : 1604407181726,
+        "duration" : 3589
+      }
+    }, {
+      "uid" : "335f099388a40c0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604384009413,
+        "stop" : 1604384013391,
+        "duration" : 3978
+      }
+    }, {
+      "uid" : "3e26a450a296c447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604383835749,
+        "stop" : 1604383839217,
+        "duration" : 3468
+      }
+    }, {
+      "uid" : "7463d9e9fbb5eff3",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss27\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: 2f77351eb415e1e6cddb5bee924f2a12",
+      "time" : {
+        "start" : 1604383662147,
+        "stop" : 1604383665506,
+        "duration" : 3359
+      }
+    }, {
+      "uid" : "33e1e6d0cdc0466c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604383219454,
+        "stop" : 1604383222840,
+        "duration" : 3386
+      }
+    }, {
+      "uid" : "c4bc0f7a38527066",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604382756490,
+        "stop" : 1604382760496,
+        "duration" : 4006
+      }
+    }, {
+      "uid" : "63899f4ae593f72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604382537632,
+        "stop" : 1604382542032,
+        "duration" : 4400
+      }
+    }, {
+      "uid" : "e2e24e10acbb44e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604298885359,
+        "stop" : 1604298889340,
+        "duration" : 3981
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8278fcf41a24bd6a",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/8278fcf41a24bd6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609853278939,
+          "stop" : 1609853283632,
+          "duration" : 4693
+        }
+      }, {
+        "uid" : "61873689ff93855f",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/61873689ff93855f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609853278939,
+          "stop" : 1609853283632,
+          "duration" : 4693
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "727dca8739a86405.json",
+  "parameterValues" : [ ]
+}

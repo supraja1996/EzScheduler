@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56",
+    "name" : "Default suite",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 8,
+      "skipped" : 10,
+      "passed" : 82,
+      "unknown" : 0,
+      "total" : 101
+    }
+  }, {
+    "uid" : "a447a21f746e5da60c98f8f3b662e17c",
+    "name" : "Default suite : Default test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 13,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 20
+    }
+  }, {
+    "uid" : "fc1fa82a644b80853456f3b263017b84",
+    "name" : "Doctor Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "8a9fa3d84093771a13ca7958af8decc3",
+    "name" : "Smoke Test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "c07db0468f5f37739be43d26f9136847",
+    "name" : "Patient Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

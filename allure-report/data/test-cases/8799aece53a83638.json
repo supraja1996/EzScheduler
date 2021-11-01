@@ -1,0 +1,259 @@
+{
+  "uid" : "8799aece53a83638",
+  "name" : "TC01_Navigate_to_AdminLogin",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest.TC01_Navigate_to_AdminLogin",
+  "historyId" : "20da674a5d3ba4915b6d1200d972fc6e",
+  "time" : {
+    "start" : 1609910427177,
+    "stop" : 1609910432566,
+    "duration" : 5389
+  },
+  "description" : "Naviagte to Admin Login Page from Home Page",
+  "descriptionHtml" : "<p>Naviagte to Admin Login Page from Home Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Naviagtion to Admin Login",
+      "time" : {
+        "start" : 1609910427282,
+        "stop" : 1609910431546,
+        "duration" : 4264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_Navigate_to_AdminLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "5564@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateDoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_01",
+    "url" : "TC_01",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ff172499841fc87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609909881250,
+        "stop" : 1609909886739,
+        "duration" : 5489
+      }
+    }, {
+      "uid" : "57b82ec67483aff3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609909280111,
+        "stop" : 1609909287256,
+        "duration" : 7145
+      }
+    }, {
+      "uid" : "921b8feee737f975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609841542733,
+        "stop" : 1609841547178,
+        "duration" : 4445
+      }
+    }, {
+      "uid" : "375cd79d007ae1e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609841202885,
+        "stop" : 1609841207277,
+        "duration" : 4392
+      }
+    }, {
+      "uid" : "6a8cc8ba442f6955",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608097808068,
+        "stop" : 1608097812792,
+        "duration" : 4724
+      }
+    }, {
+      "uid" : "ba835f4c19dba523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608097343036,
+        "stop" : 1608097347566,
+        "duration" : 4530
+      }
+    }, {
+      "uid" : "b45f43454f5daf93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608097143147,
+        "stop" : 1608097147530,
+        "duration" : 4383
+      }
+    }, {
+      "uid" : "855d1de2ebec69ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608096924868,
+        "stop" : 1608096929043,
+        "duration" : 4175
+      }
+    }, {
+      "uid" : "c30a06e8fc1eaaa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608096760135,
+        "stop" : 1608096765350,
+        "duration" : 5215
+      }
+    }, {
+      "uid" : "5867362bc2efb701",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608035796925,
+        "stop" : 1608035801981,
+        "duration" : 5056
+      }
+    }, {
+      "uid" : "d62140d5acae105",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608034505182,
+        "stop" : 1608034509152,
+        "duration" : 3970
+      }
+    }, {
+      "uid" : "cc7da44f9690917c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608034086667,
+        "stop" : 1608034091987,
+        "duration" : 5320
+      }
+    }, {
+      "uid" : "dadd01776225bbd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608033270343,
+        "stop" : 1608033274377,
+        "duration" : 4034
+      }
+    }, {
+      "uid" : "3e9b23f77b0eed5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608032869236,
+        "stop" : 1608032874751,
+        "duration" : 5515
+      }
+    }, {
+      "uid" : "2361da989220e06e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608032505757,
+        "stop" : 1608032511428,
+        "duration" : 5671
+      }
+    }, {
+      "uid" : "98a4153c630db971",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608032314209,
+        "stop" : 1608032318819,
+        "duration" : 4610
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d25766f27fb9fd56",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/d25766f27fb9fd56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609910427177,
+          "stop" : 1609910432566,
+          "duration" : 5389
+        }
+      }, {
+        "uid" : "f52e0edd7e24b613",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/f52e0edd7e24b613",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609910427177,
+          "stop" : 1609910432566,
+          "duration" : 5389
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8799aece53a83638.json",
+  "parameterValues" : [ ]
+}

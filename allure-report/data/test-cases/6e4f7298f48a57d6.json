@@ -1,0 +1,224 @@
+{
+  "uid" : "6e4f7298f48a57d6",
+  "name" : "TC02_Check_For_VerifiedDoctor",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.CheckForVerifiedDoctorTest.TC02_Check_For_VerifiedDoctor",
+  "historyId" : "b4e97402744c04a77b91d7e7e927fd23",
+  "time" : {
+    "start" : 1609833801904,
+    "stop" : 1609833850639,
+    "duration" : 48735
+  },
+  "description" : "Check for the Verified Doctor in the Queue",
+  "descriptionHtml" : "<p>Check for the Verified Doctor in the Queue</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Check for the Verified Doctor in the Queue",
+      "time" : {
+        "start" : 1609833801915,
+        "stop" : 1609833850602,
+        "duration" : 48687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.CheckForVerifiedDoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_Check_For_VerifiedDoctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "23300@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.CheckForVerifiedDoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.CheckForVerifiedDoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d7d8c1630cb1d2b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609833222596,
+        "stop" : 1609833233443,
+        "duration" : 10847
+      }
+    }, {
+      "uid" : "5c147c0771105c7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609832928728,
+        "stop" : 1609832939858,
+        "duration" : 11130
+      }
+    }, {
+      "uid" : "85e70537c72fec60",
+      "status" : "broken",
+      "statusDetails" : "StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: c5b0970b69e6fae7e68c44174ab70f3e\n*** Element info: {Using=tag name, value=td}",
+      "time" : {
+        "start" : 1609832785845,
+        "stop" : 1609832796311,
+        "duration" : 10466
+      }
+    }, {
+      "uid" : "a88cb6d6a53718ca",
+      "status" : "broken",
+      "statusDetails" : "StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: c222c346342a79a1499f900acceaaf5b\n*** Element info: {Using=tag name, value=td}",
+      "time" : {
+        "start" : 1609829537813,
+        "stop" : 1609829545978,
+        "duration" : 8165
+      }
+    }, {
+      "uid" : "39829cd9d857a8e8",
+      "status" : "broken",
+      "statusDetails" : "StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: f91592547c18133eb7a3b7b437754910",
+      "time" : {
+        "start" : 1609829046805,
+        "stop" : 1609829054503,
+        "duration" : 7698
+      }
+    }, {
+      "uid" : "7cf7ab1089dd002c",
+      "status" : "broken",
+      "statusDetails" : "StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 9e026a7a0cf9e1f5c114b0c6fa85646d\n*** Element info: {Using=tag name, value=td}",
+      "time" : {
+        "start" : 1609827857635,
+        "stop" : 1609827865866,
+        "duration" : 8231
+      }
+    }, {
+      "uid" : "f6be60714270ecd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609827588566,
+        "stop" : 1609827591365,
+        "duration" : 2799
+      }
+    }, {
+      "uid" : "aa7bdf507e79a418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609827390399,
+        "stop" : 1609827393427,
+        "duration" : 3028
+      }
+    }, {
+      "uid" : "2b8c94ff02b99703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609826807053,
+        "stop" : 1609826809992,
+        "duration" : 2939
+      }
+    }, {
+      "uid" : "3aceacc94ff3a867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609826206678,
+        "stop" : 1609826209711,
+        "duration" : 3033
+      }
+    }, {
+      "uid" : "a0270b8a56046386",
+      "status" : "broken",
+      "statusDetails" : "InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///div[1]/div/div/table/tfoot/tr/td/div/div[2]/div[@class ='MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '///div[1]/div/div/table/tfoot/tr/td/div/div[2]/div[@class ='MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input']' is not a valid XPath expression.\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 5e4ac507ec1d2f15a7f7a881507ca284\n*** Element info: {Using=xpath, value=///div[1]/div/div/table/tfoot/tr/td/div/div[2]/div[@class ='MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input']}",
+      "time" : {
+        "start" : 1609826054860,
+        "stop" : 1609826055192,
+        "duration" : 332
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e6864b9782763ab6",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/e6864b9782763ab6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609833801904,
+          "stop" : 1609833850639,
+          "duration" : 48735
+        }
+      }, {
+        "uid" : "b20e0ae57b8f69cb",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/b20e0ae57b8f69cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609833801904,
+          "stop" : 1609833850639,
+          "duration" : 48735
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6e4f7298f48a57d6.json",
+  "parameterValues" : [ ]
+}

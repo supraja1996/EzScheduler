@@ -1,0 +1,58 @@
+{
+  "uid" : "2fc13b7decdf379c",
+  "name" : "afterClass on [AdminLoginTest passed=0 failed=0 skipped=0]",
+  "fullName" : "Default suite : Default test.afterClass on [AdminLoginTest passed=0 failed=0 skipped=0]",
+  "historyId" : "2350c1769b3a4df724631addb008c205",
+  "time" : {
+    "start" : 1612166205357,
+    "stop" : 1612166205357,
+    "duration" : 0
+  },
+  "description" : "@AfterClass",
+  "descriptionHtml" : "<p>@AfterClass</p>\n",
+  "status" : "skipped",
+  "statusMessage" : ": Skipped due to dependency on other skipped or failed test methods",
+  "statusTrace" : "ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods\r\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)\r\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.onConfigurationSkip(AllureTestListener.java:120)\r\n\tat org.testng.internal.TestListenerHelper.runPostConfigurationListeners(TestListenerHelper.java:37)\r\n\tat org.testng.internal.Invoker.runConfigurationListeners(Invoker.java:1384)\r\n\tat org.testng.internal.Invoker.handleConfigurationSkip(Invoker.java:250)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:200)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "13148@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testClass",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "afterClass on [AdminLoginTest passed=0 failed=0 skipped=0]"
+  }, {
+    "name" : "package",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fc13b7decdf379c.json",
+  "parameterValues" : [ ]
+}

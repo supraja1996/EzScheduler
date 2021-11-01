@@ -1,0 +1,113 @@
+{
+  "uid" : "d84c131f60088c14",
+  "name" : "startRecording on [VerifyDoctorsTest passed=0 failed=0 skipped=0]",
+  "fullName" : "Default suite : Default test.startRecording on [VerifyDoctorsTest passed=0 failed=0 skipped=0]",
+  "historyId" : "162da8363afd0dc67aefb9960b8d4bd2",
+  "time" : {
+    "start" : 1611922121780,
+    "stop" : 1611922121794,
+    "duration" : 14
+  },
+  "description" : "@BeforeClass",
+  "descriptionHtml" : "<p>@BeforeClass</p>\n",
+  "status" : "broken",
+  "statusMessage" : "NullPointerException: null",
+  "statusTrace" : "java.lang.NullPointerException\r\n\tat java.base/java.util.Objects.requireNonNull(Objects.java:221)\r\n\tat org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)\r\n\tat sailotech.com.EzScheduler.adminPages.DoctorVerification.<init>(DoctorVerification.java:58)\r\n\tat sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest.startRecording(VerifyDoctorsTest.java:32)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "21304@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testClass",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "startRecording on [VerifyDoctorsTest passed=0 failed=0 skipped=0]"
+  }, {
+    "name" : "package",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a74b6ad00f1bc8eb",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1611921888250,
+        "stop" : 1611921888264,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "d2f0f471fe2188b9",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1611921108700,
+        "stop" : 1611921108714,
+        "duration" : 14
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6be0aac9ac15a36f",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/6be0aac9ac15a36f",
+        "status" : "broken",
+        "statusDetails" : "NullPointerException: null",
+        "time" : {
+          "start" : 1611922121780,
+          "stop" : 1611922121794,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "1417a0822f6de4b7",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/1417a0822f6de4b7",
+        "status" : "broken",
+        "statusDetails" : "NullPointerException: null",
+        "time" : {
+          "start" : 1611922121780,
+          "stop" : 1611922121794,
+          "duration" : 14
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d84c131f60088c14.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,250 @@
+{
+  "uid" : "b500d1681692c65c",
+  "name" : "TC04_Generate_slots_on_GenerateSlots_Page",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.DoctorTest.TC04_Generate_slots_on_GenerateSlots_Page",
+  "historyId" : "e30131c041a190b6a7899ba71fbc6bc",
+  "time" : {
+    "start" : 1608009107787,
+    "stop" : 1608009161419,
+    "duration" : 53632
+  },
+  "description" : "Navigates to the slot generation screen",
+  "descriptionHtml" : "<p>Navigates to the slot generation screen</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC04_Generate_slots_on_GenerateSlots_Page"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "1272@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d3240d9bb9e23e13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607957133562,
+        "stop" : 1607957187565,
+        "duration" : 54003
+      }
+    }, {
+      "uid" : "85a2a8a98f7e9ed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605693186530,
+        "stop" : 1605693240191,
+        "duration" : 53661
+      }
+    }, {
+      "uid" : "bdfbb664461ca0ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690378736,
+        "stop" : 1605690429409,
+        "duration" : 50673
+      }
+    }, {
+      "uid" : "da0cd4a7d11f2409",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'Month')]\"}\n  (Session info: chrome=86.0.4240.198)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.198, webStorageEnabled: true}\nSession ID: 5b18f220c64c5c85f36f94d298f4ff56\n*** Element info: {Using=xpath, value=//button[contains(text(),'Month')]}",
+      "time" : {
+        "start" : 1605689891568,
+        "stop" : 1605689897974,
+        "duration" : 6406
+      }
+    }, {
+      "uid" : "fc0a1a0bd8a5ad6a",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'Month')]\"}\n  (Session info: chrome=86.0.4240.198)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.198, webStorageEnabled: true}\nSession ID: 57d7bc6a0eac0e11e99abd2307896c2c\n*** Element info: {Using=xpath, value=//button[contains(text(),'Month')]}",
+      "time" : {
+        "start" : 1605689788121,
+        "stop" : 1605689794364,
+        "duration" : 6243
+      }
+    }, {
+      "uid" : "800fe15421a7b8c9",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'Month')]\"}\n  (Session info: chrome=86.0.4240.198)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.198, webStorageEnabled: true}\nSession ID: 9a555d2a2d12c705fccf618bcad7f08a\n*** Element info: {Using=xpath, value=//button[contains(text(),'Month')]}",
+      "time" : {
+        "start" : 1605688006531,
+        "stop" : 1605688012799,
+        "duration" : 6268
+      }
+    }, {
+      "uid" : "87f535079e0459cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604329515426,
+        "stop" : 1604329569627,
+        "duration" : 54201
+      }
+    }, {
+      "uid" : "32e6a7c24a3b6da2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604297444034,
+        "stop" : 1604297495866,
+        "duration" : 51832
+      }
+    }, {
+      "uid" : "48052ceaf4e92a35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604064907736,
+        "stop" : 1604064963992,
+        "duration" : 56256
+      }
+    }, {
+      "uid" : "70a6a747b35caa56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604048846362,
+        "stop" : 1604048898309,
+        "duration" : 51947
+      }
+    }, {
+      "uid" : "2fec6e29b06035e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604048457871,
+        "stop" : 1604048511247,
+        "duration" : 53376
+      }
+    }, {
+      "uid" : "52f8bde24807e060",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604040589792,
+        "stop" : 1604040641798,
+        "duration" : 52006
+      }
+    }, {
+      "uid" : "7c7832a0f4698563",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1604040257838,
+        "stop" : 1604040257846,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "d2ebb36b24a21311",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1604040075421,
+        "stop" : 1604040075425,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "762b330e9a2077cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604036646824,
+        "stop" : 1604036699781,
+        "duration" : 52957
+      }
+    }, {
+      "uid" : "47b8f51fbc275253",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603984183128,
+        "stop" : 1603984235042,
+        "duration" : 51914
+      }
+    }, {
+      "uid" : "35d8c2acb76a9f6c",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//form/div[2]/div[1]\"}\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: 0b21dd70368e970894e4070612483875\n*** Element info: {Using=xpath, value=//form/div[2]/div[1]}",
+      "time" : {
+        "start" : 1603983735662,
+        "stop" : 1603983781063,
+        "duration" : 45401
+      }
+    }, {
+      "uid" : "e6710537f91ed39d",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1603881733420,
+        "stop" : 1603881733421,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d309dc288af5a17e",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/d309dc288af5a17e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608009107787,
+          "stop" : 1608009161419,
+          "duration" : 53632
+        }
+      }, {
+        "uid" : "cea528bcc390b2fb",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/cea528bcc390b2fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608009107787,
+          "stop" : 1608009161419,
+          "duration" : 53632
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b500d1681692c65c.json",
+  "parameterValues" : [ ]
+}

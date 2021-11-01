@@ -1,0 +1,100 @@
+{
+  "uid" : "db3c4456bc94b624",
+  "name" : "TC02_ApplyFilters",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.AppointmentBookingUsingFilters.TC02_ApplyFilters",
+  "historyId" : "36c8cbdbb697819f6fddcb7998382d89",
+  "time" : {
+    "start" : 1610361910189,
+    "stop" : 1610361930047,
+    "duration" : 19858
+  },
+  "description" : "Apply Filters to serach for Dotor",
+  "descriptionHtml" : "<p>Apply Filters to serach for Dotor</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Apply Filters to serach for Dotor",
+      "time" : {
+        "start" : 1610361910193,
+        "stop" : 1610361929970,
+        "duration" : 19777
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.AppointmentBookingUsingFilters"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_ApplyFilters"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "18960@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.AppointmentBookingUsingFilters"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.AppointmentBookingUsingFilters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db3c4456bc94b624.json",
+  "parameterValues" : [ ]
+}

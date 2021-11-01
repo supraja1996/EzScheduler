@@ -1,0 +1,244 @@
+{
+  "uid" : "8ffa9058dd6384b3",
+  "name" : "TC02_DoctorLogin",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.DoctorTest.TC02_DoctorLogin",
+  "historyId" : "8fcb75563e95d5e8d17d29feea63e870",
+  "time" : {
+    "start" : 1608009064379,
+    "stop" : 1608009086436,
+    "duration" : 22057
+  },
+  "description" : "Doctor Login",
+  "descriptionHtml" : "<p>Doctor Login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_DoctorLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "1272@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.DoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d6dbce4a3d3cf00a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607957091650,
+        "stop" : 1607957111947,
+        "duration" : 20297
+      }
+    }, {
+      "uid" : "99e10273ec9d1696",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605693145870,
+        "stop" : 1605693162704,
+        "duration" : 16834
+      }
+    }, {
+      "uid" : "750e21a7bbb144b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690339967,
+        "stop" : 1605690356143,
+        "duration" : 16176
+      }
+    }, {
+      "uid" : "b1bea4f5a95a1397",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605689862140,
+        "stop" : 1605689882109,
+        "duration" : 19969
+      }
+    }, {
+      "uid" : "24159045f1beacca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605689761605,
+        "stop" : 1605689778952,
+        "duration" : 17347
+      }
+    }, {
+      "uid" : "d031ec14f1287a1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605687980661,
+        "stop" : 1605687997313,
+        "duration" : 16652
+      }
+    }, {
+      "uid" : "595fb47f0f3e543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604329481917,
+        "stop" : 1604329505915,
+        "duration" : 23998
+      }
+    }, {
+      "uid" : "359b9545f3bd2ae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604297418152,
+        "stop" : 1604297434352,
+        "duration" : 16200
+      }
+    }, {
+      "uid" : "dbf4c4bedce97167",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604064878677,
+        "stop" : 1604064897606,
+        "duration" : 18929
+      }
+    }, {
+      "uid" : "bcc0ae3e081c65fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604048818551,
+        "stop" : 1604048836919,
+        "duration" : 18368
+      }
+    }, {
+      "uid" : "c7f6b9a1d43dae63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604048430429,
+        "stop" : 1604048447862,
+        "duration" : 17433
+      }
+    }, {
+      "uid" : "df2ddbb423b8100",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604040562254,
+        "stop" : 1604040580195,
+        "duration" : 17941
+      }
+    }, {
+      "uid" : "bea6e83b235da008",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604040225809,
+        "stop" : 1604040243628,
+        "duration" : 17819
+      }
+    }, {
+      "uid" : "b5fa6adfc72aace2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604040043890,
+        "stop" : 1604040060348,
+        "duration" : 16458
+      }
+    }, {
+      "uid" : "68c5645a51062d4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604036620102,
+        "stop" : 1604036637220,
+        "duration" : 17118
+      }
+    }, {
+      "uid" : "e2dcc2a8c1fcecde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603984156123,
+        "stop" : 1603984173706,
+        "duration" : 17583
+      }
+    }, {
+      "uid" : "2265ccb1f89fb12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603983709806,
+        "stop" : 1603983726534,
+        "duration" : 16728
+      }
+    }, {
+      "uid" : "475bf11bdc1988eb",
+      "status" : "broken",
+      "statusDetails" : "NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook",
+      "time" : {
+        "start" : 1603881724900,
+        "stop" : 1603881725278,
+        "duration" : 378
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5b3c294f48544317",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/5b3c294f48544317",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608009064379,
+          "stop" : 1608009086436,
+          "duration" : 22057
+        }
+      }, {
+        "uid" : "1cd0df9655106f4b",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/1cd0df9655106f4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608009064379,
+          "stop" : 1608009086436,
+          "duration" : 22057
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8ffa9058dd6384b3.json",
+  "parameterValues" : [ ]
+}

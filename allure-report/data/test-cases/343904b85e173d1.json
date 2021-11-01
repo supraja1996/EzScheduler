@@ -1,0 +1,99 @@
+{
+  "uid" : "343904b85e173d1",
+  "name" : "TC01_ReadMail",
+  "fullName" : "readMailsTest.DoctorRegistrationMailTest.TC01_ReadMail",
+  "historyId" : "de093543dc13ec114ce0963326c7774c",
+  "time" : {
+    "start" : 1607513385078,
+    "stop" : 1607513413726,
+    "duration" : 28648
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "readMailsTest.DoctorRegistrationMailTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_ReadMail"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "5144@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "readMailsTest.DoctorRegistrationMailTest"
+  }, {
+    "name" : "package",
+    "value" : "readMailsTest.DoctorRegistrationMailTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9549dce9a75b1135",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/9549dce9a75b1135",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607513385078,
+          "stop" : 1607513413726,
+          "duration" : 28648
+        }
+      }, {
+        "uid" : "23927ce889a80e99",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/23927ce889a80e99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607513385078,
+          "stop" : 1607513413726,
+          "duration" : 28648
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "343904b85e173d1.json",
+  "parameterValues" : [ ]
+}

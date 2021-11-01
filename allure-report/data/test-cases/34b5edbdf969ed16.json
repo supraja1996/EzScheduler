@@ -1,0 +1,211 @@
+{
+  "uid" : "34b5edbdf969ed16",
+  "name" : "TC03_ReadMailforOtp",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest.TC03_ReadMailforOtp",
+  "historyId" : "c4a8dded33abd968081b666b2d3fd8a7",
+  "time" : {
+    "start" : 1608207169713,
+    "stop" : 1608207198980,
+    "duration" : 29267
+  },
+  "description" : "Patient Registration Page",
+  "descriptionHtml" : "<p>Patient Registration Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_ReadMailforOtp"
+  }, {
+    "name" : "testSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "thread",
+    "value" : "16188@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientRegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "484e36956ca1fffc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608206062675,
+        "stop" : 1608206091223,
+        "duration" : 28548
+      }
+    }, {
+      "uid" : "4ef1d07e93990249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608193718352,
+        "stop" : 1608193748250,
+        "duration" : 29898
+      }
+    }, {
+      "uid" : "d42551761a8546cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608192480589,
+        "stop" : 1608192509413,
+        "duration" : 28824
+      }
+    }, {
+      "uid" : "39e0f759002ba9d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608191464205,
+        "stop" : 1608191494118,
+        "duration" : 29913
+      }
+    }, {
+      "uid" : "8ec7a0825d062515",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605614121574,
+        "stop" : 1605614154714,
+        "duration" : 33140
+      }
+    }, {
+      "uid" : "7f5dd89ab9491096",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613901777,
+        "stop" : 1605613933783,
+        "duration" : 32006
+      }
+    }, {
+      "uid" : "911126b351c333e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613597175,
+        "stop" : 1605613630393,
+        "duration" : 33218
+      }
+    }, {
+      "uid" : "1f56b0664b1fe83b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613431151,
+        "stop" : 1605613466268,
+        "duration" : 35117
+      }
+    }, {
+      "uid" : "9aaad492c5a06e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613139205,
+        "stop" : 1605613171065,
+        "duration" : 31860
+      }
+    }, {
+      "uid" : "27d69d88a4e5ceaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605612956926,
+        "stop" : 1605612989169,
+        "duration" : 32243
+      }
+    }, {
+      "uid" : "1f1d3b7a8b75ae50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605612707253,
+        "stop" : 1605612738798,
+        "duration" : 31545
+      }
+    }, {
+      "uid" : "4bfaf053f1d4603c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605612435942,
+        "stop" : 1605612449053,
+        "duration" : 13111
+      }
+    }, {
+      "uid" : "f1a0ee769111616c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605612154429,
+        "stop" : 1605612164441,
+        "duration" : 10012
+      }
+    }, {
+      "uid" : "4797aa349a3077fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605611875157,
+        "stop" : 1605611881204,
+        "duration" : 6047
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fb000ffefc089831",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/fb000ffefc089831",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608207169713,
+          "stop" : 1608207198980,
+          "duration" : 29267
+        }
+      }, {
+        "uid" : "d8bd67f2cc460e67",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/d8bd67f2cc460e67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608207169713,
+          "stop" : 1608207198980,
+          "duration" : 29267
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "34b5edbdf969ed16.json",
+  "parameterValues" : [ ]
+}

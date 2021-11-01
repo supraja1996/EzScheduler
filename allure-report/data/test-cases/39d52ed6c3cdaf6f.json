@@ -1,0 +1,280 @@
+{
+  "uid" : "39d52ed6c3cdaf6f",
+  "name" : "TC02_PatientLogin on [PatientAppointmentBookingTest passed=0 failed=0 skipped=0]",
+  "fullName" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest.TC02_PatientLogin",
+  "historyId" : "18163e27b17f05b6deb1b19d09dfb529",
+  "time" : {
+    "start" : 1614947443194,
+    "stop" : 1614947469026,
+    "duration" : 25832
+  },
+  "description" : "Patient Login with credentials",
+  "descriptionHtml" : "<p>Patient Login with credentials</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Patient Login with credentials",
+      "time" : {
+        "start" : 1614947443234,
+        "stop" : 1614947469025,
+        "duration" : 25791
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_02"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_PatientLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "21808@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.consumerTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_02",
+    "url" : "TC_02",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "58cd08635384e036",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614930847897,
+        "stop" : 1614930870347,
+        "duration" : 22450
+      }
+    }, {
+      "uid" : "b60e91cfe4b52e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614924209733,
+        "stop" : 1614924225970,
+        "duration" : 16237
+      }
+    }, {
+      "uid" : "6a35eeda9653fde0",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundException: C:\\Users\\HP\\eclipse-workspace\\EzScheduler\\inputFiles\\Ptient_Login.xlsx (The system cannot find the file specified)",
+      "time" : {
+        "start" : 1614844031145,
+        "stop" : 1614844031302,
+        "duration" : 157
+      }
+    }, {
+      "uid" : "b51d76973d3be5",
+      "status" : "broken",
+      "statusDetails" : "EmptyFileException: The supplied file was empty (zero bytes long)",
+      "time" : {
+        "start" : 1614843832394,
+        "stop" : 1614843833592,
+        "duration" : 1198
+      }
+    }, {
+      "uid" : "7d87f0712c3868bd",
+      "status" : "broken",
+      "statusDetails" : "EmptyFileException: The supplied file was empty (zero bytes long)",
+      "time" : {
+        "start" : 1614842505398,
+        "stop" : 1614842506310,
+        "duration" : 912
+      }
+    }, {
+      "uid" : "96e0b2e241919848",
+      "status" : "broken",
+      "statusDetails" : "EmptyFileException: The supplied file was empty (zero bytes long)",
+      "time" : {
+        "start" : 1614842285219,
+        "stop" : 1614842286553,
+        "duration" : 1334
+      }
+    }, {
+      "uid" : "fdf07310bce7e960",
+      "status" : "broken",
+      "statusDetails" : "EmptyFileException: The supplied file was empty (zero bytes long)",
+      "time" : {
+        "start" : 1614842144500,
+        "stop" : 1614842145427,
+        "duration" : 927
+      }
+    }, {
+      "uid" : "96b78cff0f58caa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614841874456,
+        "stop" : 1614841890821,
+        "duration" : 16365
+      }
+    }, {
+      "uid" : "d1ca5b64a759baff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614838373788,
+        "stop" : 1614838391177,
+        "duration" : 17389
+      }
+    }, {
+      "uid" : "f352cf7a94deb6c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614837097453,
+        "stop" : 1614837115500,
+        "duration" : 18047
+      }
+    }, {
+      "uid" : "a6988a72d381c1f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614686520009,
+        "stop" : 1614686534945,
+        "duration" : 14936
+      }
+    }, {
+      "uid" : "1c9db5ddabae901a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613999392016,
+        "stop" : 1613999412962,
+        "duration" : 20946
+      }
+    }, {
+      "uid" : "3b053cc0c2414751",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613998840139,
+        "stop" : 1613998859048,
+        "duration" : 18909
+      }
+    }, {
+      "uid" : "b81ea783e2e03a04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613997189773,
+        "stop" : 1613997210603,
+        "duration" : 20830
+      }
+    }, {
+      "uid" : "34152647b518240",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613729975513,
+        "stop" : 1613730001992,
+        "duration" : 26479
+      }
+    }, {
+      "uid" : "a754249a57b5433e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613729522225,
+        "stop" : 1613729542831,
+        "duration" : 20606
+      }
+    }, {
+      "uid" : "f1bce07606ce2bfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613727484445,
+        "stop" : 1613727504788,
+        "duration" : 20343
+      }
+    }, {
+      "uid" : "ccc72dbe7b34489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613726225320,
+        "stop" : 1613726244820,
+        "duration" : 19500
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "376abf7dd8cc301c",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/376abf7dd8cc301c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614947443194,
+          "stop" : 1614947469026,
+          "duration" : 25832
+        }
+      }, {
+        "uid" : "cc4007d3e551b383",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/cc4007d3e551b383",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614947443194,
+          "stop" : 1614947469026,
+          "duration" : 25832
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "39d52ed6c3cdaf6f.json",
+  "parameterValues" : [ ]
+}

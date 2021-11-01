@@ -1,0 +1,78 @@
+{
+  "uid" : "447133e2d325682e",
+  "name" : "TC03_Navigation_to_the_GenerateSLots_Page",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest.TC03_Navigation_to_the_GenerateSLots_Page",
+  "historyId" : "4f9dcea4b0b5c3fe3376a0c2493989f5",
+  "time" : {
+    "start" : 1609145086225,
+    "stop" : 1609145098034,
+    "duration" : 11809
+  },
+  "description" : "Navigate to Slot Generation Page after Login",
+  "descriptionHtml" : "<p>Navigate to Slot Generation Page after Login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TCD_03"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Navigation_to_the_GenerateSLots_Page"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "5904@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.SlotGenerationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TCD_03",
+    "url" : "TCD_03",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "447133e2d325682e.json",
+  "parameterValues" : [ ]
+}

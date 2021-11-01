@@ -1,0 +1,206 @@
+{
+  "uid" : "655ca56f35eba83a",
+  "name" : "TC03_Navigation_to_the_GenerateSLots_Page on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+  "fullName" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest.TC03_Navigation_to_the_GenerateSLots_Page",
+  "historyId" : "1ab6b1803865d3462b3b89466b902018",
+  "time" : {
+    "start" : 1613134490902,
+    "stop" : 1613135369510,
+    "duration" : 878608
+  },
+  "description" : "Navigate to Slot Generation Page",
+  "descriptionHtml" : "<p>Navigate to Slot Generation Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Slot Generation Page",
+      "time" : {
+        "start" : 1613134490905,
+        "stop" : 1613135369502,
+        "duration" : 878597
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_03"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Navigation_to_the_GenerateSLots_Page"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "7764@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.providerTests.SlotGenerationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_03",
+    "url" : "TC_03",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8392e8159cbdc74e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613131889192,
+        "stop" : 1613132774582,
+        "duration" : 885390
+      }
+    }, {
+      "uid" : "7958fba07c904026",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613128968534,
+        "stop" : 1613129852970,
+        "duration" : 884436
+      }
+    }, {
+      "uid" : "777d25823ea24c23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613115301190,
+        "stop" : 1613116181968,
+        "duration" : 880778
+      }
+    }, {
+      "uid" : "6ca2a3afdb7eb6d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613113263449,
+        "stop" : 1613114160368,
+        "duration" : 896919
+      }
+    }, {
+      "uid" : "9d64ec2e1511e50b",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: facility' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1613112470835,
+        "stop" : 1613112799416,
+        "duration" : 328581
+      }
+    }, {
+      "uid" : "b84ef2d29679c84a",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //form/div/div[3]/div[2]/div[1]/p[1]' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1613111316423,
+        "stop" : 1613111687479,
+        "duration" : 371056
+      }
+    }, {
+      "uid" : "8986a8d6e7ee1157",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613109084369,
+        "stop" : 1613109965111,
+        "duration" : 880742
+      }
+    }, {
+      "uid" : "71dd6e58bb2b7053",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613107639883,
+        "stop" : 1613108519538,
+        "duration" : 879655
+      }
+    }, {
+      "uid" : "449deeb1af31d352",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //form/div/div[3]/div[2]/div[1]/p[1]' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1613054096618,
+        "stop" : 1613054466391,
+        "duration" : 369773
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "49c4145309cfcbda",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/49c4145309cfcbda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613134490902,
+          "stop" : 1613135369510,
+          "duration" : 878608
+        }
+      }, {
+        "uid" : "750baf5edd30dc8a",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/750baf5edd30dc8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613134490902,
+          "stop" : 1613135369510,
+          "duration" : 878608
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "655ca56f35eba83a.json",
+  "parameterValues" : [ ]
+}

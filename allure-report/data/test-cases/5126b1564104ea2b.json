@@ -1,0 +1,99 @@
+{
+  "uid" : "5126b1564104ea2b",
+  "name" : "TC01_Navigate_to_Patient_Registration",
+  "fullName" : "sailotech.com.EzScheduler.readMailsTest.PatientLoginCredentialsTest.TC01_Navigate_to_Patient_Registration",
+  "historyId" : "7f77294324f456ed72271d55af72dc2b",
+  "time" : {
+    "start" : 1607594625459,
+    "stop" : 1607594649536,
+    "duration" : 24077
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.readMailsTest.PatientLoginCredentialsTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_Navigate_to_Patient_Registration"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "2700@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.readMailsTest.PatientLoginCredentialsTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.readMailsTest.PatientLoginCredentialsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "14e5880e752eca5",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/14e5880e752eca5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607594625459,
+          "stop" : 1607594649536,
+          "duration" : 24077
+        }
+      }, {
+        "uid" : "5075771b9d985b3f",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/5075771b9d985b3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607594625459,
+          "stop" : 1607594649536,
+          "duration" : 24077
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5126b1564104ea2b.json",
+  "parameterValues" : [ ]
+}

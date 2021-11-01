@@ -1,0 +1,295 @@
+{
+  "uid" : "27270d5ad8a57bcc",
+  "name" : "TC03_CreateDoctorWithExistingDetaiils",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.CreateExistingDoctorTest.TC03_CreateDoctorWithExistingDetaiils",
+  "historyId" : "3abe530cb5201b24dd4767f0b0b4695b",
+  "time" : {
+    "start" : 1609927207113,
+    "stop" : 1609927298387,
+    "duration" : 91274
+  },
+  "description" : "Create Doctor with the exsisting doctor Details",
+  "descriptionHtml" : "<p>Create Doctor with the exsisting doctor Details</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create Doctor with the exsisting doctor Details",
+      "time" : {
+        "start" : 1609927207122,
+        "stop" : 1609927298385,
+        "duration" : 91263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateExistingDoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_03"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_CreateDoctorWithExistingDetaiils"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "15308@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateExistingDoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateExistingDoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_03",
+    "url" : "TC_03",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d8b9274f483bce58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609926676837,
+        "stop" : 1609926768518,
+        "duration" : 91681
+      }
+    }, {
+      "uid" : "2b244a448a2d7bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609926226901,
+        "stop" : 1609926318972,
+        "duration" : 92071
+      }
+    }, {
+      "uid" : "2163f826ade83958",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609925904531,
+        "stop" : 1609925997428,
+        "duration" : 92897
+      }
+    }, {
+      "uid" : "45ee615735b65256",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609925593105,
+        "stop" : 1609925684813,
+        "duration" : 91708
+      }
+    }, {
+      "uid" : "29cc6d29df23fccc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609925230467,
+        "stop" : 1609925322618,
+        "duration" : 92151
+      }
+    }, {
+      "uid" : "ebac291478067822",
+      "status" : "broken",
+      "statusDetails" : "ParseException: Unparseable date: \"January 2007\"",
+      "time" : {
+        "start" : 1609924973807,
+        "stop" : 1609925051080,
+        "duration" : 77273
+      }
+    }, {
+      "uid" : "a0dc3bfdca5eabf7",
+      "status" : "broken",
+      "statusDetails" : "NumberFormatException: null",
+      "time" : {
+        "start" : 1609924586932,
+        "stop" : 1609924664314,
+        "duration" : 77382
+      }
+    }, {
+      "uid" : "480b94dcac4fb359",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609923852269,
+        "stop" : 1609923944523,
+        "duration" : 92254
+      }
+    }, {
+      "uid" : "96e5a0c42021afa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609923323537,
+        "stop" : 1609923414746,
+        "duration" : 91209
+      }
+    }, {
+      "uid" : "a6aeda57d37a591d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609919587139,
+        "stop" : 1609919678592,
+        "duration" : 91453
+      }
+    }, {
+      "uid" : "f0112f1cab5aae5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609918619295,
+        "stop" : 1609918721887,
+        "duration" : 102592
+      }
+    }, {
+      "uid" : "906a8b0b9f814b64",
+      "status" : "broken",
+      "statusDetails" : "Error: Unresolved compilation problems: \n\tformatter3 cannot be resolved\n\tformatter5 cannot be resolved\n\tformatter4 cannot be resolved\n\tformatter3 cannot be resolved\n\tformatter5 cannot be resolved\n\tformatter4 cannot be resolved\n",
+      "time" : {
+        "start" : 1609918401427,
+        "stop" : 1609918402174,
+        "duration" : 747
+      }
+    }, {
+      "uid" : "38f5d9ec6a14a48a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609913010756,
+        "stop" : 1609913102203,
+        "duration" : 91447
+      }
+    }, {
+      "uid" : "d228237e5614b197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609912503998,
+        "stop" : 1609912595485,
+        "duration" : 91487
+      }
+    }, {
+      "uid" : "5341f087c37b02c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609912129839,
+        "stop" : 1609912221721,
+        "duration" : 91882
+      }
+    }, {
+      "uid" : "e4bf6bd7e389a219",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609911330929,
+        "stop" : 1609911422535,
+        "duration" : 91606
+      }
+    }, {
+      "uid" : "2c5a700b158f6f50",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1609911171013,
+        "stop" : 1609911171017,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "51b269e053934ac4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609835438926,
+        "stop" : 1609835529465,
+        "duration" : 90539
+      }
+    }, {
+      "uid" : "20280374207d98ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608037723137,
+        "stop" : 1608037782802,
+        "duration" : 59665
+      }
+    }, {
+      "uid" : "f420e28ac908128c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608036432292,
+        "stop" : 1608036477492,
+        "duration" : 45200
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c2cbefd846621efc",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/c2cbefd846621efc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609927207113,
+          "stop" : 1609927298387,
+          "duration" : 91274
+        }
+      }, {
+        "uid" : "6742194daaaa1d0f",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/6742194daaaa1d0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609927207113,
+          "stop" : 1609927298387,
+          "duration" : 91274
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "27270d5ad8a57bcc.json",
+  "parameterValues" : [ ]
+}

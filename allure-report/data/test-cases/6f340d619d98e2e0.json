@@ -1,0 +1,488 @@
+{
+  "uid" : "6f340d619d98e2e0",
+  "name" : "TC03_serach_for_doctor",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.PatientAppointmentBookingTest.TC03_serach_for_doctor",
+  "historyId" : "feb4acfbb3ca0f256036043b5547b812",
+  "time" : {
+    "start" : 1610084293319,
+    "stop" : 1610084301931,
+    "duration" : 8612
+  },
+  "description" : "Search For Doctor",
+  "descriptionHtml" : "<p>Search For Doctor</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Search For Doctor",
+      "time" : {
+        "start" : 1610084293328,
+        "stop" : 1610084301930,
+        "duration" : 8602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_03"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_serach_for_doctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "11756@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientAppointmentBookingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_03",
+    "url" : "TC_03",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "303b6a26f6d3bde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610084189460,
+        "stop" : 1610084199924,
+        "duration" : 10464
+      }
+    }, {
+      "uid" : "4c6ae14b09bead20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610024999270,
+        "stop" : 1610025009405,
+        "duration" : 10135
+      }
+    }, {
+      "uid" : "b85f1e6ab59bc31c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610023422276,
+        "stop" : 1610023432952,
+        "duration" : 10676
+      }
+    }, {
+      "uid" : "5d28d54e71dd186e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610023223873,
+        "stop" : 1610023233824,
+        "duration" : 9951
+      }
+    }, {
+      "uid" : "7f67005b71e4669f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610022731413,
+        "stop" : 1610022741487,
+        "duration" : 10074
+      }
+    }, {
+      "uid" : "4ba73244845aaec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610022568965,
+        "stop" : 1610022579587,
+        "duration" : 10622
+      }
+    }, {
+      "uid" : "6d8ef81e701c8054",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610014235033,
+        "stop" : 1610014245279,
+        "duration" : 10246
+      }
+    }, {
+      "uid" : "52bfbaa11036edd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610012804498,
+        "stop" : 1610012815166,
+        "duration" : 10668
+      }
+    }, {
+      "uid" : "da58abef3fcf78d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610012504478,
+        "stop" : 1610012515061,
+        "duration" : 10583
+      }
+    }, {
+      "uid" : "87696bff7b5eb909",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610012190962,
+        "stop" : 1610012200924,
+        "duration" : 9962
+      }
+    }, {
+      "uid" : "3e398fcc907e06ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610008694137,
+        "stop" : 1610008705004,
+        "duration" : 10867
+      }
+    }, {
+      "uid" : "7b29ccce67c5e9c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610007812132,
+        "stop" : 1610007822343,
+        "duration" : 10211
+      }
+    }, {
+      "uid" : "d0b24e5f947bad5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610007380553,
+        "stop" : 1610007391276,
+        "duration" : 10723
+      }
+    }, {
+      "uid" : "2c33967424651654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610006851433,
+        "stop" : 1610006862579,
+        "duration" : 11146
+      }
+    }, {
+      "uid" : "314c787272fd6054",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: cannot focus element\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: ae2e5e11b820d3ba7bcf313865ffa9bb",
+      "time" : {
+        "start" : 1610001169832,
+        "stop" : 1610001178117,
+        "duration" : 8285
+      }
+    }, {
+      "uid" : "98de68de383fdb49",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for url to be \"https://demo.ezscheduler.io/?searchTerm=Anthony\". Current url: \"https://demo.ezscheduler.io/\" (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 454961939daff7ab5bae462e77102f22",
+      "time" : {
+        "start" : 1609999267047,
+        "stop" : 1609999395100,
+        "duration" : 128053
+      }
+    }, {
+      "uid" : "79c30155b182e9ce",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for url to be \"https://demo.ezscheduler.io/?searchTerm=Anthony\". Current url: \"https://demo.ezscheduler.io/\" (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 5d075b975e5fa52ed0cb8011c429eec9",
+      "time" : {
+        "start" : 1609998525838,
+        "stop" : 1609998593477,
+        "duration" : 67639
+      }
+    }, {
+      "uid" : "c5643c8a541de816",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609997409621,
+        "stop" : 1609997453375,
+        "duration" : 43754
+      }
+    }, {
+      "uid" : "3d247d77e9a7478a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609996531751,
+        "stop" : 1609996548610,
+        "duration" : 16859
+      }
+    }, {
+      "uid" : "c35e22a34b74bcbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609995707651,
+        "stop" : 1609995724873,
+        "duration" : 17222
+      }
+    }, {
+      "uid" : "799f11b636ad285f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609943931233,
+        "stop" : 1609943948721,
+        "duration" : 17488
+      }
+    }, {
+      "uid" : "a2d7a30113327267",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609942602166,
+        "stop" : 1609942619195,
+        "duration" : 17029
+      }
+    }, {
+      "uid" : "41df7c6dfb17e9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609942274015,
+        "stop" : 1609942290867,
+        "duration" : 16852
+      }
+    }, {
+      "uid" : "924b99e31dc9f059",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609942053131,
+        "stop" : 1609942069947,
+        "duration" : 16816
+      }
+    }, {
+      "uid" : "2c4bc117cb10660b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609941861379,
+        "stop" : 1609941878411,
+        "duration" : 17032
+      }
+    }, {
+      "uid" : "430328a9a36f8fe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608727453720,
+        "stop" : 1608727470783,
+        "duration" : 17063
+      }
+    }, {
+      "uid" : "3354505b093699f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608727048145,
+        "stop" : 1608727065034,
+        "duration" : 16889
+      }
+    }, {
+      "uid" : "d477303220c23389",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608726904189,
+        "stop" : 1608726921155,
+        "duration" : 16966
+      }
+    }, {
+      "uid" : "17ed2d97b8e60f37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608726377115,
+        "stop" : 1608726393892,
+        "duration" : 16777
+      }
+    }, {
+      "uid" : "e501108feef97e2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608723199373,
+        "stop" : 1608723216320,
+        "duration" : 16947
+      }
+    }, {
+      "uid" : "7acf6ca59fac7b2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608722538049,
+        "stop" : 1608722554956,
+        "duration" : 16907
+      }
+    }, {
+      "uid" : "4a765458d0563ad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608717440841,
+        "stop" : 1608717457613,
+        "duration" : 16772
+      }
+    }, {
+      "uid" : "e880a7d0a70e5401",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716827546,
+        "stop" : 1608716844590,
+        "duration" : 17044
+      }
+    }, {
+      "uid" : "d8013b348fd0357d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608715685267,
+        "stop" : 1608715702079,
+        "duration" : 16812
+      }
+    }, {
+      "uid" : "f21a4d6674df4e22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608715454564,
+        "stop" : 1608715471530,
+        "duration" : 16966
+      }
+    }, {
+      "uid" : "2d6b4ae99003c2c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608711463268,
+        "stop" : 1608711480231,
+        "duration" : 16963
+      }
+    }, {
+      "uid" : "7debc29f598caab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608707251989,
+        "stop" : 1608707269132,
+        "duration" : 17143
+      }
+    }, {
+      "uid" : "c818048ee337d542",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608707135669,
+        "stop" : 1608707152568,
+        "duration" : 16899
+      }
+    }, {
+      "uid" : "737531bf5fe8cf13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608705210984,
+        "stop" : 1608705228038,
+        "duration" : 17054
+      }
+    }, {
+      "uid" : "765606af5b78a731",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608207395872,
+        "stop" : 1608207428150,
+        "duration" : 32278
+      }
+    }, {
+      "uid" : "9ee3db8f2f8b23c1",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundException: C:\\Users\\HP\\eclipse-workspace\\EzScheduler\\EzScheduler\\inputFiles\\Patient_Login.xlsx (The system cannot find the path specified)",
+      "time" : {
+        "start" : 1608206218369,
+        "stop" : 1608206218396,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "a8a3bcd279a0aba0",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundException: C:\\Users\\HP\\eclipse-workspace\\EzScheduler\\EzScheduler\\inputFiles\\Patient_Login.xlsx (The system cannot find the path specified)",
+      "time" : {
+        "start" : 1608193829452,
+        "stop" : 1608193829512,
+        "duration" : 60
+      }
+    }, {
+      "uid" : "a1630f47460cd437",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608192643651,
+        "stop" : 1608192669529,
+        "duration" : 25878
+      }
+    }, {
+      "uid" : "a710b9f4090667d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608191640986,
+        "stop" : 1608191662591,
+        "duration" : 21605
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "110e2a7315c6b0c3",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/110e2a7315c6b0c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610084293319,
+          "stop" : 1610084301931,
+          "duration" : 8612
+        }
+      }, {
+        "uid" : "329576c84aaa9094",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/329576c84aaa9094",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610084293319,
+          "stop" : 1610084301931,
+          "duration" : 8612
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6f340d619d98e2e0.json",
+  "parameterValues" : [ ]
+}

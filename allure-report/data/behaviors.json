@@ -1,0 +1,1708 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "TC01_Naviagtion_to_Login",
+    "uid" : "67cd3603c8d53be4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1603983828830,
+      "stop" : 1603983831918,
+      "duration" : 3088
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorLogin",
+    "uid" : "c82dbc95da5e22b3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1603983831921,
+      "stop" : 1603983844840,
+      "duration" : 12919
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_DoctorCancelsOpenSlots",
+    "uid" : "4af8eb1c9dbde003",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1603983844845,
+      "stop" : 1603983849282,
+      "duration" : 4437
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_LoginRegister",
+    "uid" : "5082a46c71a7a9b6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604047052589,
+      "stop" : 1604047055814,
+      "duration" : 3225
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_PatientLogin",
+    "uid" : "28df406dd6bdb0e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604047056570,
+      "stop" : 1604047070870,
+      "duration" : 14300
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_serach_for_doctor",
+    "uid" : "8ae1cddf96d70ade",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604047070879,
+      "stop" : 1604047087453,
+      "duration" : 16574
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_slot_booking",
+    "uid" : "fafbab433667346e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604047087464,
+      "stop" : 1604047137681,
+      "duration" : 50217
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "beforeClass",
+    "uid" : "f7e19bbdd9b7f413",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1605004713630,
+      "stop" : 1605004713648,
+      "duration" : 18
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "startRecording",
+    "uid" : "c29e3d14cff4708d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1605004714230,
+      "stop" : 1605004714238,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "screenShot",
+    "uid" : "ca3cd77da49cefc0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1605004714524,
+      "stop" : 1605004714524,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "afterClass",
+    "uid" : "c4646f3625c54012",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1605004714552,
+      "stop" : 1605004714553,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_Patient_Registration",
+    "uid" : "30a1e4fcf2c1118e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605609608184,
+      "stop" : 1605609611031,
+      "duration" : 2847
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorLogin",
+    "uid" : "b28fac9735399114",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1605609611321,
+      "stop" : 1605609626006,
+      "duration" : 14685
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_Navigation_to_Doctor_Queue",
+    "uid" : "9148b72117b53836",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607490911226,
+      "stop" : 1607490914378,
+      "duration" : 3152
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_ReadMail",
+    "uid" : "343904b85e173d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607513385078,
+      "stop" : 1607513413726,
+      "duration" : 28648
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_Patient_Registration",
+    "uid" : "78fd79393af490ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607593930028,
+      "stop" : 1607593954219,
+      "duration" : 24191
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_Patient_Registration",
+    "uid" : "5126b1564104ea2b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607594625459,
+      "stop" : 1607594649536,
+      "duration" : 24077
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_Patient_Registration",
+    "uid" : "654796bd820351ad",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607602225868,
+      "stop" : 1607602244638,
+      "duration" : 18770
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC05_Check_for_the_verifiedDoctor_from_unverified",
+    "uid" : "c67981c31b739fe1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607955940489,
+      "stop" : 1607955940493,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_Navigation_to_Unverified_Queue",
+    "uid" : "a1598bbcdb3a19e4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607956361594,
+      "stop" : 1607956361925,
+      "duration" : 331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_Verify_Unverified_Doctor",
+    "uid" : "8e6ef6de16c77cce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607956361957,
+      "stop" : 1607956374499,
+      "duration" : 12542
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC05_Naviagtion_To_VerifiedQueue",
+    "uid" : "e1006845237788c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607956374523,
+      "stop" : 1607956374989,
+      "duration" : 466
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC06_Check_verified_Doctor",
+    "uid" : "133958206c29267f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607956375001,
+      "stop" : 1607956479302,
+      "duration" : 104301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Naviagtion_to_Login",
+    "uid" : "a07425f31bca4d74",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608009058668,
+      "stop" : 1608009063215,
+      "duration" : 4547
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorLogin",
+    "uid" : "8ffa9058dd6384b3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608009064379,
+      "stop" : 1608009086436,
+      "duration" : 22057
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_Navigation_to_the_GenerateSLots_Page",
+    "uid" : "76efb997edbdd21",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608009086532,
+      "stop" : 1608009107756,
+      "duration" : 21224
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_Generate_slots_on_GenerateSlots_Page",
+    "uid" : "b500d1681692c65c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608009107787,
+      "stop" : 1608009161419,
+      "duration" : 53632
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC05_Check_the_slots_generated",
+    "uid" : "a713b3dee05ecf32",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608009161445,
+      "stop" : 1608009173458,
+      "duration" : 12013
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC06_Doctor_Logout",
+    "uid" : "968e6d0ee384af8e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608009173476,
+      "stop" : 1608009179175,
+      "duration" : 5699
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin",
+    "uid" : "a8e584a77a9df971",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608021594588,
+      "stop" : 1608021602211,
+      "duration" : 7623
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_CreateDoctor",
+    "uid" : "f3ed0ecdbe710d2f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608036172522,
+      "stop" : 1608036218231,
+      "duration" : 45709
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_VerifyHomepage",
+    "uid" : "f41614de42585581",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608096352771,
+      "stop" : 1608096354251,
+      "duration" : 1480
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_ReadMailToGetCredentials",
+    "uid" : "b72bcfbff715801d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608206621749,
+      "stop" : 1608206631915,
+      "duration" : 10166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_ReadMailforOtp",
+    "uid" : "34b5edbdf969ed16",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608207169713,
+      "stop" : 1608207198980,
+      "duration" : 29267
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_otpPage",
+    "uid" : "2d26514b3b4852cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1608207199826,
+      "stop" : 1608207214833,
+      "duration" : 15007
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_Naviagtion_To_VerifiedQueue",
+    "uid" : "66773ac6b50d6de0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608617102926,
+      "stop" : 1608617103161,
+      "duration" : 235
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC06_Check_verified_Doctor",
+    "uid" : "66ec3791a052795b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608617103180,
+      "stop" : 1608617107739,
+      "duration" : 4559
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC05_Check_the_slots_generated",
+    "uid" : "6f6b08e9c2fd885f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608638174679,
+      "stop" : 1608638186643,
+      "duration" : 11964
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC06_Doctor_Logout",
+    "uid" : "bcc937a72e1ecc8c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608638186660,
+      "stop" : 1608638191987,
+      "duration" : 5327
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin",
+    "uid" : "f9fd12c1e63eb244",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608640817397,
+      "stop" : 1608640876742,
+      "duration" : 59345
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_DoctorLogin",
+    "uid" : "db6a12cd1e9b468",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608704212686,
+      "stop" : 1608704229296,
+      "duration" : 16610
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_GenerateSlots",
+    "uid" : "830601a770fadb4a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608704229391,
+      "stop" : 1608704283697,
+      "duration" : 54306
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_DoctorLogin",
+    "uid" : "35037c547c962aa6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608704430426,
+      "stop" : 1608704448538,
+      "duration" : 18112
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_GenerateSlots",
+    "uid" : "6ee138dfc34b1a86",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608704449193,
+      "stop" : 1608704503777,
+      "duration" : 54584
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_NavigatetoDoctorLogin",
+    "uid" : "a499904fc7644527",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609136545412,
+      "stop" : 1609136549422,
+      "duration" : 4010
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorLogin",
+    "uid" : "ecb5ad4f094a8f70",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609136550609,
+      "stop" : 1609136566598,
+      "duration" : 15989
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_AdminLogin",
+    "uid" : "eced625815ac0c1a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609392675379,
+      "stop" : 1609392679529,
+      "duration" : 4150
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_AdminLogin",
+    "uid" : "efc2e74cc71d72d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609392679666,
+      "stop" : 1609392691400,
+      "duration" : 11734
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_AdminLogin",
+    "uid" : "f506e10edb3c6cd9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609833785928,
+      "stop" : 1609833801806,
+      "duration" : 15878
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_Check_For_VerifiedDoctor",
+    "uid" : "6e4f7298f48a57d6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609833801904,
+      "stop" : 1609833850639,
+      "duration" : 48735
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_AdminLogin",
+    "uid" : "b5e56bb9807497f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609834942698,
+      "stop" : 1609834957566,
+      "duration" : 14868
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_ViewProfile_OF_VerifiedDoctor",
+    "uid" : "622ba468d60001cb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609834957693,
+      "stop" : 1609835002322,
+      "duration" : 44629
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_AdminLogin",
+    "uid" : "727dca8739a86405",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609853278939,
+      "stop" : 1609853283632,
+      "duration" : 4693
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_AdminLogin",
+    "uid" : "8799aece53a83638",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609910427177,
+      "stop" : 1609910432566,
+      "duration" : 5389
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin",
+    "uid" : "97a9d6259bf36506",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1609910432804,
+      "stop" : 1609910444570,
+      "duration" : 11766
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_CreateDoctor",
+    "uid" : "4510556f13241b14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1609910451336,
+      "stop" : 1609910451340,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_AdminLogin",
+    "uid" : "32130d5c321fa756",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609927190725,
+      "stop" : 1609927194843,
+      "duration" : 4118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin",
+    "uid" : "9fa2220017c86dba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609927195823,
+      "stop" : 1609927207045,
+      "duration" : 11222
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_CreateDoctorWithExistingDetaiils",
+    "uid" : "27270d5ad8a57bcc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609927207113,
+      "stop" : 1609927298387,
+      "duration" : 91274
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Naviagtion_to_Register",
+    "uid" : "6a4fc43c97a5b7e8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609931412713,
+      "stop" : 1609931417614,
+      "duration" : 4901
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorRegisterPage",
+    "uid" : "a06594f4a3a93ccd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609931418734,
+      "stop" : 1609931496203,
+      "duration" : 77469
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Naviagtion_to_Login",
+    "uid" : "eaa3f4f0dce65a36",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609938101392,
+      "stop" : 1609938106887,
+      "duration" : 5495
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorLogin",
+    "uid" : "af89acdc675d651b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609938107153,
+      "stop" : 1609938120987,
+      "duration" : 13834
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_Navigation_to_the_GenerateSLots_Page",
+    "uid" : "b27719f6a3b2c636",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609938121008,
+      "stop" : 1609938175859,
+      "duration" : 54851
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_Generate_slots_on_GenerateSlots_Page",
+    "uid" : "e79435eda3e78223",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609938175935,
+      "stop" : 1609938189266,
+      "duration" : 13331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC05_Doctor_Logout",
+    "uid" : "e28bab6765115c23",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1609938189288,
+      "stop" : 1609938194297,
+      "duration" : 5009
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_LoginRegister",
+    "uid" : "caec0e274b341fd5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610084272337,
+      "stop" : 1610084276011,
+      "duration" : 3674
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_PatientLogin",
+    "uid" : "eae576b643e14a92",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610084276760,
+      "stop" : 1610084293124,
+      "duration" : 16364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_serach_for_doctor",
+    "uid" : "6f340d619d98e2e0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610084293319,
+      "stop" : 1610084301931,
+      "duration" : 8612
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_slot_booking",
+    "uid" : "ec493c550708e769",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610084301940,
+      "stop" : 1610084331417,
+      "duration" : 29477
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_Patient_Registration",
+    "uid" : "31a543c97807daa9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610343544992,
+      "stop" : 1610343548719,
+      "duration" : 3727
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_Patient_Registration",
+    "uid" : "5934af36940a2c7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610343548943,
+      "stop" : 1610343571378,
+      "duration" : 22435
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Patient_Login",
+    "uid" : "5b17a1ec28a0a004",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610363791680,
+      "stop" : 1610363811043,
+      "duration" : 19363
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_ApplyFilters",
+    "uid" : "4206eff5f3657d34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610363811231,
+      "stop" : 1610363831032,
+      "duration" : 19801
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_AdminLogin",
+    "uid" : "5a24d840c73375c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611736420721,
+      "stop" : 1611736436056,
+      "duration" : 15335
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "startRecording on [VerifyDoctorsTest passed=0 failed=0 skipped=0]",
+    "uid" : "d84c131f60088c14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1611922121780,
+      "stop" : 1611922121794,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "screenShot on [VerifyDoctorsTest passed=0 failed=0 skipped=0]",
+    "uid" : "4d924c2188503e6f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1611922122079,
+      "stop" : 1611922122080,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "afterClass on [VerifyDoctorsTest passed=0 failed=0 skipped=0]",
+    "uid" : "6bf3bf35c8512f04",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1611922122144,
+      "stop" : 1611922122145,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "stopRecording on [VerifyDoctorsTest passed=0 failed=0 skipped=0]",
+    "uid" : "420d2b7bf6824f2f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1611922122155,
+      "stop" : 1611922122155,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_AdminLogin on [VerifyDoctorsTest passed=0 failed=0 skipped=0]",
+    "uid" : "f6dcd655d189628b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1611922754573,
+      "stop" : 1611922758009,
+      "duration" : 3436
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_VerifyDoctor",
+    "uid" : "485805f2b17b19cb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1611922765464,
+      "stop" : 1611922765468,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_Logout",
+    "uid" : "265a99a5b12399a7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1611922765490,
+      "stop" : 1611922765495,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "startRecording on [AdminLoginTest passed=0 failed=0 skipped=0]",
+    "uid" : "afccd5998522dc69",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612176510377,
+      "stop" : 1612176510390,
+      "duration" : 13
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "setUp on [AdminLoginTest passed=0 failed=0 skipped=0]",
+    "uid" : "3c2b3bc22cbd8246",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612176510889,
+      "stop" : 1612176510891,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "screenShot on [AdminLoginTest passed=0 failed=0 skipped=0]",
+    "uid" : "9a52eb19819e8944",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612176511018,
+      "stop" : 1612176511018,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "afterClass on [AdminLoginTest passed=0 failed=0 skipped=0]",
+    "uid" : "c16e0d89ed2d334",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612176511049,
+      "stop" : 1612176511049,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "stopRecording on [AdminLoginTest passed=0 failed=0 skipped=0]",
+    "uid" : "1f3328f6f0a8457a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612176511054,
+      "stop" : 1612176511055,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin",
+    "uid" : "784e78e9144ae314",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612243535230,
+      "stop" : 1612243535236,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_AdminLogin on [AdminLoginTest passed=0 failed=0 skipped=0]",
+    "uid" : "57cbd47394d8cf31",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612243724575,
+      "stop" : 1612243728323,
+      "duration" : 3748
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin on [AdminLoginTest passed=0 failed=0 skipped=0]",
+    "uid" : "24a4e52a99b4bf35",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612243729372,
+      "stop" : 1612243742168,
+      "duration" : 12796
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin",
+    "uid" : "ff3a5a0e1afc1d8c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612250019870,
+      "stop" : 1612250019874,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_AdminLogin on [CheckForDoctorsInVerifiedQueueTest passed=0 failed=0 skipped=0]",
+    "uid" : "9bf1270b97e40030",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612335365449,
+      "stop" : 1612335380277,
+      "duration" : 14828
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin on [CheckForDoctorsInVerifiedQueueTest passed=0 failed=0 skipped=0]",
+    "uid" : "a68a79a54a86985e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612335380465,
+      "stop" : 1612335837269,
+      "duration" : 456804
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_AdminLogin on [CreateDoctorTest passed=0 failed=0 skipped=0]",
+    "uid" : "aebe40723faa5f87",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612520610745,
+      "stop" : 1612520631748,
+      "duration" : 21003
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_CreateDoctor on [CreateDoctorTest passed=0 failed=0 skipped=0]",
+    "uid" : "ccf00fd373edd68f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612520631929,
+      "stop" : 1612522641151,
+      "duration" : 2009222
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "startRecording on [AdminTest passed=0 failed=0 skipped=0]",
+    "uid" : "de322915082ea8b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612525528589,
+      "stop" : 1612525528602,
+      "duration" : 13
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "screenShot on [AdminTest passed=0 failed=0 skipped=0]",
+    "uid" : "c6f1a4e4ef24e539",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612525530489,
+      "stop" : 1612525530489,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "afterClass on [AdminTest passed=0 failed=0 skipped=0]",
+    "uid" : "855b2f9e71ed9ae0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612525530616,
+      "stop" : 1612525530623,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "stopRecording on [AdminTest passed=0 failed=0 skipped=0]",
+    "uid" : "ca7da5ed1939655e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612525530655,
+      "stop" : 1612525530656,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorRegisterPage",
+    "uid" : "a331bf0922b835e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1612959360375,
+      "stop" : 1612959360383,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin on [AdminTest passed=0 failed=0 skipped=0]",
+    "uid" : "a42a958b4dcc360d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1613023582624,
+      "stop" : 1613023582825,
+      "duration" : 201
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "stopRecording on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+    "uid" : "1c9bda0af42af3d6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1613112829788,
+      "stop" : 1613112829789,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC05_Doctor_Logout on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+    "uid" : "878f2631dedaedeb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613132847766,
+      "stop" : 1613132852544,
+      "duration" : 4778
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Naviagtion_to_Login on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+    "uid" : "f2e721cd53743d67",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613134473467,
+      "stop" : 1613134477880,
+      "duration" : 4413
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorLogin on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+    "uid" : "af2f388ceeaefcc2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613134478057,
+      "stop" : 1613134490877,
+      "duration" : 12820
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_Navigation_to_the_GenerateSLots_Page on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+    "uid" : "655ca56f35eba83a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613134490902,
+      "stop" : 1613135369510,
+      "duration" : 878608
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_Generate_slots_on_GenerateSlots_Page on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+    "uid" : "1b4af613fcdf73ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1613135369549,
+      "stop" : 1613135375178,
+      "duration" : 5629
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Naviagtion_to_Register on [DoctorRegistrationTest passed=0 failed=0 skipped=0]",
+    "uid" : "ed18474d298969a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613370735582,
+      "stop" : 1613370740739,
+      "duration" : 5157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorRegisterPage on [DoctorRegistrationTest passed=0 failed=0 skipped=0]",
+    "uid" : "bf02907bc855e1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1613370740939,
+      "stop" : 1613370933980,
+      "duration" : 193041
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_Patient_Registration on [PatientRegistrationTest passed=0 failed=0 skipped=0]",
+    "uid" : "6f5d2024e0bf7d6f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613637438475,
+      "stop" : 1613637442001,
+      "duration" : 3526
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_Patient_Registration on [PatientRegistrationTest passed=0 failed=0 skipped=0]",
+    "uid" : "b6e424595c7d6c4d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613637442323,
+      "stop" : 1613642665724,
+      "duration" : 5223401
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_slot_booking",
+    "uid" : "12fa95422c5dea91",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1613713554595,
+      "stop" : 1613713554603,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "stopRecording on [PatientAppointmentBookingTest passed=0 failed=0 skipped=0]",
+    "uid" : "9bc5aa653d7b1b1c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1614924326350,
+      "stop" : 1614924326350,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_LoginRegister on [PatientAppointmentBookingTest passed=0 failed=0 skipped=0]",
+    "uid" : "4d3f71e2ee867264",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614947432923,
+      "stop" : 1614947441869,
+      "duration" : 8946
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_PatientLogin on [PatientAppointmentBookingTest passed=0 failed=0 skipped=0]",
+    "uid" : "39d52ed6c3cdaf6f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614947443194,
+      "stop" : 1614947469026,
+      "duration" : 25832
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_serach_for_doctor on [PatientAppointmentBookingTest passed=0 failed=0 skipped=0]",
+    "uid" : "78f3336e91efdce3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614947469159,
+      "stop" : 1614948265505,
+      "duration" : 796346
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TCA_01_LoginNavigation on [AdminTest passed=0 failed=0 skipped=0]",
+    "uid" : "f60a09185e49c579",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1614961261131,
+      "stop" : 1614961324715,
+      "duration" : 63584
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TCA_01_LoginNavigation",
+    "uid" : "a23fb3c9487aa1a9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1615557170020,
+      "stop" : 1615557172820,
+      "duration" : 2800
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_AdminLogin",
+    "uid" : "1a4ca7d6c83c9166",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1615557173009,
+      "stop" : 1615557185422,
+      "duration" : 12413
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_VerifyDoctor",
+    "uid" : "e4996aaebadba073",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1615557185440,
+      "stop" : 1615557360409,
+      "duration" : 174969
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Naviagtion_to_Login",
+    "uid" : "db7ad7a87c9aa63f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616593393042,
+      "stop" : 1616593398297,
+      "duration" : 5255
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_DoctorLogin",
+    "uid" : "ec146acb121a283a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616593399144,
+      "stop" : 1616593414583,
+      "duration" : 15439
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_Navigation_to_the_GenerateSLots_Page",
+    "uid" : "94aebcf5ab0b38d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1616593414687,
+      "stop" : 1616594210686,
+      "duration" : 795999
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC04_Generate_slots_on_GenerateSlots_Page",
+    "uid" : "1a018c72b73f847c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1616594498186,
+      "stop" : 1616594498190,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC05_Doctor_Logout",
+    "uid" : "5aaed6fb672a4be6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1616594498225,
+      "stop" : 1616594498226,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "stopRecording",
+    "uid" : "a0abe868ecff702d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1616672342781,
+      "stop" : 1616672342782,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Navigate_to_LoginRegister",
+    "uid" : "f49f93d062d33771",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616675693549,
+      "stop" : 1616675698430,
+      "duration" : 4881
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_PatientLogin",
+    "uid" : "cd804e4fe1e9c694",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616675699787,
+      "stop" : 1616675718342,
+      "duration" : 18555
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC03_serach_for_doctor",
+    "uid" : "785229d3e7703165",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616675718456,
+      "stop" : 1616676512481,
+      "duration" : 794025
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC01_Patient_Login",
+    "uid" : "9866d9245609c3c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1617013373032,
+      "stop" : 1617013393636,
+      "duration" : 20604
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC02_ApplyFilters",
+    "uid" : "84654e70514fb2e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1617013394095,
+      "stop" : 1617013435059,
+      "duration" : 40964
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

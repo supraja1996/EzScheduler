@@ -1,0 +1,68 @@
+{
+  "uid" : "98e1ac3eecaa7f9e",
+  "name" : "TC04_Verify_Unverified_Doctor",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest.TC04_Verify_Unverified_Doctor",
+  "historyId" : "80b8d36f15e9f1b1357c258295c2d02c",
+  "time" : {
+    "start" : 1607498897403,
+    "stop" : 1607498911845,
+    "duration" : 14442
+  },
+  "description" : "Adimin verified the Doctor Sucessfully",
+  "descriptionHtml" : "<p>Adimin verified the Doctor Sucessfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC04_Verify_Unverified_Doctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "21832@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98e1ac3eecaa7f9e.json",
+  "parameterValues" : [ ]
+}

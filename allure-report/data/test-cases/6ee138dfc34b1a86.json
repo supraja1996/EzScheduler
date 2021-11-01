@@ -1,0 +1,99 @@
+{
+  "uid" : "6ee138dfc34b1a86",
+  "name" : "TC02_GenerateSlots",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.MisMatchDayOfWeekTest.TC02_GenerateSlots",
+  "historyId" : "28c2e300c39cfc13f3038ab083ad7d3b",
+  "time" : {
+    "start" : 1608704449193,
+    "stop" : 1608704503777,
+    "duration" : 54584
+  },
+  "description" : "Generate Slots for Mismatch of Days of the Week",
+  "descriptionHtml" : "<p>Generate Slots for Mismatch of Days of the Week</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.MisMatchDayOfWeekTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_GenerateSlots"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "10512@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.MisMatchDayOfWeekTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.MisMatchDayOfWeekTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3d743040774354d3",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/3d743040774354d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608704449193,
+          "stop" : 1608704503777,
+          "duration" : 54584
+        }
+      }, {
+        "uid" : "8ac1f8130c1e2819",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/8ac1f8130c1e2819",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608704449193,
+          "stop" : 1608704503777,
+          "duration" : 54584
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6ee138dfc34b1a86.json",
+  "parameterValues" : [ ]
+}

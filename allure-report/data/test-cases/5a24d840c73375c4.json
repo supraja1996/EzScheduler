@@ -1,0 +1,836 @@
+{
+  "uid" : "5a24d840c73375c4",
+  "name" : "TC01_Navigate_to_AdminLogin",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest.TC01_Navigate_to_AdminLogin",
+  "historyId" : "32bcdeeabf33162104d8adf5638ec369",
+  "time" : {
+    "start" : 1611736420721,
+    "stop" : 1611736436056,
+    "duration" : 15335
+  },
+  "description" : "Admin Login",
+  "descriptionHtml" : "<p>Admin Login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Admin Login",
+      "time" : {
+        "start" : 1611736420920,
+        "stop" : 1611736436047,
+        "duration" : 15127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_Navigate_to_AdminLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "16496@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.VerifyDoctorsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_01",
+    "url" : "TC_01",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9229cee18276b1ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611735166812,
+        "stop" : 1611735181279,
+        "duration" : 14467
+      }
+    }, {
+      "uid" : "c0a18f73c79ef6e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611726392579,
+        "stop" : 1611726409506,
+        "duration" : 16927
+      }
+    }, {
+      "uid" : "7de7bd6f6ed9efa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611724839604,
+        "stop" : 1611724854806,
+        "duration" : 15202
+      }
+    }, {
+      "uid" : "90416a42637d7769",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611724365580,
+        "stop" : 1611724380394,
+        "duration" : 14814
+      }
+    }, {
+      "uid" : "8587f6b54ebc5e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611724185522,
+        "stop" : 1611724201472,
+        "duration" : 15950
+      }
+    }, {
+      "uid" : "bad7944040c1726c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/]",
+      "time" : {
+        "start" : 1611558228693,
+        "stop" : 1611558255087,
+        "duration" : 26394
+      }
+    }, {
+      "uid" : "d830744c7d2561a1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/]",
+      "time" : {
+        "start" : 1611558123077,
+        "stop" : 1611558147870,
+        "duration" : 24793
+      }
+    }, {
+      "uid" : "d243d5fe92c1900a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/]",
+      "time" : {
+        "start" : 1611557976677,
+        "stop" : 1611558000746,
+        "duration" : 24069
+      }
+    }, {
+      "uid" : "c3cf025bdbb844f8",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss27\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 889679a4d8033e59488a34774b69f112",
+      "time" : {
+        "start" : 1611556220304,
+        "stop" : 1611556223103,
+        "duration" : 2799
+      }
+    }, {
+      "uid" : "ff97953373ea3d51",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss27\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 811940d1074d37b981b5865a90c62eeb",
+      "time" : {
+        "start" : 1611554920725,
+        "stop" : 1611554924347,
+        "duration" : 3622
+      }
+    }, {
+      "uid" : "30949efabaf563e1",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss27\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: efaa27316c81152274dd983a7a457e26",
+      "time" : {
+        "start" : 1611554411304,
+        "stop" : 1611554414642,
+        "duration" : 3338
+      }
+    }, {
+      "uid" : "c5e93ec124620a35",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss27\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: e19472be5a007dfe13daacf0fa4da165",
+      "time" : {
+        "start" : 1611554156903,
+        "stop" : 1611554160056,
+        "duration" : 3153
+      }
+    }, {
+      "uid" : "17df5057fb144f0f",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss27\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 786c233c8b69dee072382f0119780e60",
+      "time" : {
+        "start" : 1611322026173,
+        "stop" : 1611322028982,
+        "duration" : 2809
+      }
+    }, {
+      "uid" : "8be0daef05ad7b48",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss27\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 9ff56576219055f5d36c0b5a3115bfe2",
+      "time" : {
+        "start" : 1611320094145,
+        "stop" : 1611320098075,
+        "duration" : 3930
+      }
+    }, {
+      "uid" : "a1cd7ecbda677a1e",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss34\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 549b830e9e28ac1384d444a2d9638585",
+      "time" : {
+        "start" : 1611319191536,
+        "stop" : 1611319195035,
+        "duration" : 3499
+      }
+    }, {
+      "uid" : "a6442ad429257745",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss27\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: e8b7a096ecc2cc2af9c9d7e0b5278da5",
+      "time" : {
+        "start" : 1611319055279,
+        "stop" : 1611319059328,
+        "duration" : 4049
+      }
+    }, {
+      "uid" : "2428da7e682ccb4e",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (1273, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss27\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 854e5afcc9aa530a228171d23fa80275",
+      "time" : {
+        "start" : 1611318898919,
+        "stop" : 1611318902388,
+        "duration" : 3469
+      }
+    }, {
+      "uid" : "3db92aa06f3a5648",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]",
+      "time" : {
+        "start" : 1611309747966,
+        "stop" : 1611309766127,
+        "duration" : 18161
+      }
+    }, {
+      "uid" : "8210209191124ed9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]",
+      "time" : {
+        "start" : 1611309137056,
+        "stop" : 1611309154342,
+        "duration" : 17286
+      }
+    }, {
+      "uid" : "4ca5731dc8375fc0",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[starts-with(text(),'Login/Register')]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1611292888774,
+        "stop" : 1611292900474,
+        "duration" : 11700
+      }
+    }, {
+      "uid" : "ee9102b0a9fc5311",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[starts-with(text(),'Login/Register')]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1611291533635,
+        "stop" : 1611291545376,
+        "duration" : 11741
+      }
+    }, {
+      "uid" : "afc3797e79642b7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611241866290,
+        "stop" : 1611241881359,
+        "duration" : 15069
+      }
+    }, {
+      "uid" : "e5dcfd17c1607249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611238668125,
+        "stop" : 1611238683349,
+        "duration" : 15224
+      }
+    }, {
+      "uid" : "372c9e01dd328b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611232473206,
+        "stop" : 1611232487951,
+        "duration" : 14745
+      }
+    }, {
+      "uid" : "e5cba86792236eb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611231544724,
+        "stop" : 1611231560036,
+        "duration" : 15312
+      }
+    }, {
+      "uid" : "b31fe3ac36b9bcb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611231311046,
+        "stop" : 1611231326663,
+        "duration" : 15617
+      }
+    }, {
+      "uid" : "47339034890a0ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611231098453,
+        "stop" : 1611231113569,
+        "duration" : 15116
+      }
+    }, {
+      "uid" : "2f5c07e7b730a98c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611221977094,
+        "stop" : 1611221992884,
+        "duration" : 15790
+      }
+    }, {
+      "uid" : "1ce47701eb063e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611221768606,
+        "stop" : 1611221784346,
+        "duration" : 15740
+      }
+    }, {
+      "uid" : "ae671c12979e93e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611221569573,
+        "stop" : 1611221584252,
+        "duration" : 14679
+      }
+    }, {
+      "uid" : "c493eb814e28f97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611221400674,
+        "stop" : 1611221415202,
+        "duration" : 14528
+      }
+    }, {
+      "uid" : "680be662d1dd0d6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611220866190,
+        "stop" : 1611220881317,
+        "duration" : 15127
+      }
+    }, {
+      "uid" : "11e8660a8ff4a70f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611220615686,
+        "stop" : 1611220632433,
+        "duration" : 16747
+      }
+    }, {
+      "uid" : "5f53283a81cfc1a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611219141831,
+        "stop" : 1611219156793,
+        "duration" : 14962
+      }
+    }, {
+      "uid" : "eb3a8a0e1ad9219c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611218600457,
+        "stop" : 1611218615422,
+        "duration" : 14965
+      }
+    }, {
+      "uid" : "a95472409baedc04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611216337505,
+        "stop" : 1611216352713,
+        "duration" : 15208
+      }
+    }, {
+      "uid" : "44d4870149b7c720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611216191973,
+        "stop" : 1611216207622,
+        "duration" : 15649
+      }
+    }, {
+      "uid" : "7b95cfd3425c9ba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611215889475,
+        "stop" : 1611215905238,
+        "duration" : 15763
+      }
+    }, {
+      "uid" : "82552fa6a8d7ad58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611215502021,
+        "stop" : 1611215517567,
+        "duration" : 15546
+      }
+    }, {
+      "uid" : "f0106a57c5f0b394",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611215373597,
+        "stop" : 1611215387394,
+        "duration" : 13797
+      }
+    }, {
+      "uid" : "129dbb4ac2572890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611214919300,
+        "stop" : 1611214935434,
+        "duration" : 16134
+      }
+    }, {
+      "uid" : "588f3152b336bcf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611214624372,
+        "stop" : 1611214638601,
+        "duration" : 14229
+      }
+    }, {
+      "uid" : "5d1d8a0bdee1d2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611213278924,
+        "stop" : 1611213293179,
+        "duration" : 14255
+      }
+    }, {
+      "uid" : "eb5a6154264af8bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611211983698,
+        "stop" : 1611211998203,
+        "duration" : 14505
+      }
+    }, {
+      "uid" : "8142b56ca29228fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611211838476,
+        "stop" : 1611211853150,
+        "duration" : 14674
+      }
+    }, {
+      "uid" : "69e8b8d1d04cacd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611211706777,
+        "stop" : 1611211720655,
+        "duration" : 13878
+      }
+    }, {
+      "uid" : "1174f6cac8b25419",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611211333742,
+        "stop" : 1611211347777,
+        "duration" : 14035
+      }
+    }, {
+      "uid" : "41037f662b2c0810",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611211197013,
+        "stop" : 1611211211884,
+        "duration" : 14871
+      }
+    }, {
+      "uid" : "fa12b19982be4f40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611210969739,
+        "stop" : 1611210983800,
+        "duration" : 14061
+      }
+    }, {
+      "uid" : "ff2e1887234d6fc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611210789820,
+        "stop" : 1611210804072,
+        "duration" : 14252
+      }
+    }, {
+      "uid" : "d20d2003f2ec84e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611210359934,
+        "stop" : 1611210374929,
+        "duration" : 14995
+      }
+    }, {
+      "uid" : "a21976c06adf26b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611208595550,
+        "stop" : 1611208612247,
+        "duration" : 16697
+      }
+    }, {
+      "uid" : "9aaf2f3c827ea37b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611208134950,
+        "stop" : 1611208149786,
+        "duration" : 14836
+      }
+    }, {
+      "uid" : "fcf7c437362db380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611207845672,
+        "stop" : 1611207860184,
+        "duration" : 14512
+      }
+    }, {
+      "uid" : "c97ada908280799b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611207571533,
+        "stop" : 1611207587639,
+        "duration" : 16106
+      }
+    }, {
+      "uid" : "5823cbf6147483db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609929033210,
+        "stop" : 1609929048501,
+        "duration" : 15291
+      }
+    }, {
+      "uid" : "12e37b8b27b8fd57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609928853947,
+        "stop" : 1609928869466,
+        "duration" : 15519
+      }
+    }, {
+      "uid" : "43fc3273e8dbaf3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609758955463,
+        "stop" : 1609758969235,
+        "duration" : 13772
+      }
+    }, {
+      "uid" : "8909c3a5b95b045a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609757932209,
+        "stop" : 1609757946123,
+        "duration" : 13914
+      }
+    }, {
+      "uid" : "84ab9a893e295b32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609757706879,
+        "stop" : 1609757721195,
+        "duration" : 14316
+      }
+    }, {
+      "uid" : "509a0a4f6052943f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609757540455,
+        "stop" : 1609757554898,
+        "duration" : 14443
+      }
+    }, {
+      "uid" : "4da238ad948da5cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609756477042,
+        "stop" : 1609756491263,
+        "duration" : 14221
+      }
+    }, {
+      "uid" : "100df0fa72bd2a77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609756252608,
+        "stop" : 1609756267103,
+        "duration" : 14495
+      }
+    }, {
+      "uid" : "516afd2360578ca0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609755946651,
+        "stop" : 1609755961579,
+        "duration" : 14928
+      }
+    }, {
+      "uid" : "79932e2405cbc959",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609755428258,
+        "stop" : 1609755444177,
+        "duration" : 15919
+      }
+    }, {
+      "uid" : "b26d35a33262b9f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609755287092,
+        "stop" : 1609755302291,
+        "duration" : 15199
+      }
+    }, {
+      "uid" : "319a6e898e6b380b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609753646961,
+        "stop" : 1609753662099,
+        "duration" : 15138
+      }
+    }, {
+      "uid" : "d1226f09e16fa328",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609741807520,
+        "stop" : 1609741821099,
+        "duration" : 13579
+      }
+    }, {
+      "uid" : "f1db669669162aaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609741318684,
+        "stop" : 1609741334345,
+        "duration" : 15661
+      }
+    }, {
+      "uid" : "f138e35b871d36ba",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (b4ad494110828fa04c825a7a50779d52)] -> xpath: //li[3]//h5[1]//a[1]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: b4ad494110828fa04c825a7a50779d52",
+      "time" : {
+        "start" : 1609741230271,
+        "stop" : 1609741250212,
+        "duration" : 19941
+      }
+    }, {
+      "uid" : "f9d2f9bdc671debd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609741100398,
+        "stop" : 1609741114666,
+        "duration" : 14268
+      }
+    }, {
+      "uid" : "415d41d955970f3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740211104,
+        "stop" : 1609740224967,
+        "duration" : 13863
+      }
+    }, {
+      "uid" : "27d0bcda659be0cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609739762314,
+        "stop" : 1609739778149,
+        "duration" : 15835
+      }
+    }, {
+      "uid" : "82627861b74898f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609739619805,
+        "stop" : 1609739634262,
+        "duration" : 14457
+      }
+    }, {
+      "uid" : "beeb10e84696df35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608647365148,
+        "stop" : 1608647385551,
+        "duration" : 20403
+      }
+    }, {
+      "uid" : "2a92d844cfa56fe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608646856802,
+        "stop" : 1608646878677,
+        "duration" : 21875
+      }
+    }, {
+      "uid" : "c4c69d567d2a1383",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608617082373,
+        "stop" : 1608617097664,
+        "duration" : 15291
+      }
+    }, {
+      "uid" : "94c4c23d055ba986",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608206652901,
+        "stop" : 1608206665292,
+        "duration" : 12391
+      }
+    }, {
+      "uid" : "3dbd8a7011a650f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608205613023,
+        "stop" : 1608205625726,
+        "duration" : 12703
+      }
+    }, {
+      "uid" : "7d0770bd1c01926a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608193254856,
+        "stop" : 1608193276949,
+        "duration" : 22093
+      }
+    }, {
+      "uid" : "f2447eccd414cb9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608192005949,
+        "stop" : 1608192018074,
+        "duration" : 12125
+      }
+    }, {
+      "uid" : "21a5344b2d8fbd74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608191127799,
+        "stop" : 1608191140802,
+        "duration" : 13003
+      }
+    }, {
+      "uid" : "41cdd87d353e0962",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608102413594,
+        "stop" : 1608102429113,
+        "duration" : 15519
+      }
+    }, {
+      "uid" : "86656f3e21c6c8e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608101803811,
+        "stop" : 1608101820568,
+        "duration" : 16757
+      }
+    }, {
+      "uid" : "e5e454ffe1541de8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608101339790,
+        "stop" : 1608101356421,
+        "duration" : 16631
+      }
+    }, {
+      "uid" : "d0eaa973baac464d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608101068576,
+        "stop" : 1608101086643,
+        "duration" : 18067
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5513c6910074dc4f",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/5513c6910074dc4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611736420721,
+          "stop" : 1611736436056,
+          "duration" : 15335
+        }
+      }, {
+        "uid" : "4d56769cf14d3090",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/4d56769cf14d3090",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611736420721,
+          "stop" : 1611736436056,
+          "duration" : 15335
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5a24d840c73375c4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "f3ed0ecdbe710d2f",
+  "name" : "TC03_CreateDoctor",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.CreateExistingDoctorTest.TC03_CreateDoctor",
+  "historyId" : "ea88365a94005d06627dd546d4e6fb2b",
+  "time" : {
+    "start" : 1608036172522,
+    "stop" : 1608036218231,
+    "duration" : 45709
+  },
+  "description" : "Click on Login/Register button on the HomePage of EzScheduler.",
+  "descriptionHtml" : "<p>Click on Login/Register button on the HomePage of EzScheduler.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateExistingDoctorTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_CreateDoctor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "2364@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateExistingDoctorTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.CreateExistingDoctorTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "92d94001c3308d0d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected [ Email ID Already used, please try to login with credentials or use another Email ID] but found [Email ID Already used, please try to login with credentials or use another Email ID]",
+      "time" : {
+        "start" : 1608036024741,
+        "stop" : 1608036069234,
+        "duration" : 44493
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "737c6afc640a3b8c",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/737c6afc640a3b8c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608036172522,
+          "stop" : 1608036218231,
+          "duration" : 45709
+        }
+      }, {
+        "uid" : "bb62963e9f57ac4f",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/bb62963e9f57ac4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608036172522,
+          "stop" : 1608036218231,
+          "duration" : 45709
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f3ed0ecdbe710d2f.json",
+  "parameterValues" : [ ]
+}

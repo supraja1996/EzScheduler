@@ -1,0 +1,204 @@
+{
+  "uid" : "5082a46c71a7a9b6",
+  "name" : "TC01_Navigate_to_LoginRegister",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.PatientTest.TC01_Navigate_to_LoginRegister",
+  "historyId" : "8f4e4d3cfd26806f35358d35ac9591c8",
+  "time" : {
+    "start" : 1604047052589,
+    "stop" : 1604047055814,
+    "duration" : 3225
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Patient Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_Navigate_to_LoginRegister"
+  }, {
+    "name" : "testSuite",
+    "value" : "Patient Suite"
+  }, {
+    "name" : "thread",
+    "value" : "4120@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Patient Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Patient Test Cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.PatientTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e83199a35ff44df1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604044514968,
+        "stop" : 1604044519535,
+        "duration" : 4567
+      }
+    }, {
+      "uid" : "b736c9745662e5c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604042944742,
+        "stop" : 1604042949005,
+        "duration" : 4263
+      }
+    }, {
+      "uid" : "ae4298fcc255880b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604042408102,
+        "stop" : 1604042411018,
+        "duration" : 2916
+      }
+    }, {
+      "uid" : "3d5359d91f376d33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604042199481,
+        "stop" : 1604042202867,
+        "duration" : 3386
+      }
+    }, {
+      "uid" : "c83ebde80e24bcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603983181235,
+        "stop" : 1603983184379,
+        "duration" : 3144
+      }
+    }, {
+      "uid" : "e7ba05f3b0f53d86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603981940128,
+        "stop" : 1603981943033,
+        "duration" : 2905
+      }
+    }, {
+      "uid" : "5000c8eea21f63c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603888175705,
+        "stop" : 1603888179711,
+        "duration" : 4006
+      }
+    }, {
+      "uid" : "b58ad63870a3bbb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603886667250,
+        "stop" : 1603886670249,
+        "duration" : 2999
+      }
+    }, {
+      "uid" : "d5e50897c1f42ba2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603886380882,
+        "stop" : 1603886384499,
+        "duration" : 3617
+      }
+    }, {
+      "uid" : "665baef53b4ce4c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603886080032,
+        "stop" : 1603886083969,
+        "duration" : 3937
+      }
+    }, {
+      "uid" : "278394b3beab1a55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603885201732,
+        "stop" : 1603885205496,
+        "duration" : 3764
+      }
+    }, {
+      "uid" : "8100edebe8ea79f5",
+      "status" : "broken",
+      "statusDetails" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[starts-with(text(),'Login/Register')]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1603884704554,
+        "stop" : 1603884716515,
+        "duration" : 11961
+      }
+    }, {
+      "uid" : "55e92c43491972a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603883975524,
+        "stop" : 1603883978808,
+        "duration" : 3284
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "46f66b0da434e565",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/46f66b0da434e565",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604047052589,
+          "stop" : 1604047055814,
+          "duration" : 3225
+        }
+      }, {
+        "uid" : "6331e6648faeb05f",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/6331e6648faeb05f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604047052589,
+          "stop" : 1604047055814,
+          "duration" : 3225
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5082a46c71a7a9b6.json",
+  "parameterValues" : [ ]
+}

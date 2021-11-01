@@ -1,0 +1,235 @@
+{
+  "uid" : "5b17a1ec28a0a004",
+  "name" : "TC01_Patient_Login",
+  "fullName" : "sailotech.com.EzScheduler.patientTests.AppointmentBookingUsingFilters.TC01_Patient_Login",
+  "historyId" : "77e52630f2b8eaf4a7ae92165b99c42a",
+  "time" : {
+    "start" : 1610363791680,
+    "stop" : 1610363811043,
+    "duration" : 19363
+  },
+  "description" : "Naviagtion to Patient Login Page and Login with Patient Credentials",
+  "descriptionHtml" : "<p>Naviagtion to Patient Login Page and Login with Patient Credentials</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Naviagtion to Patient Login Page and Login with Patient Credentials",
+      "time" : {
+        "start" : 1610363791756,
+        "stop" : 1610363810515,
+        "duration" : 18759
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientTests.AppointmentBookingUsingFilters"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testId",
+    "value" : "TC_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_Patient_Login"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "4588@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientTests.AppointmentBookingUsingFilters"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientTests.AppointmentBookingUsingFilters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TC_01",
+    "url" : "TC_01",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "26dd5149265753f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363658028,
+        "stop" : 1610363677060,
+        "duration" : 19032
+      }
+    }, {
+      "uid" : "bf218fc44c3273e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363431015,
+        "stop" : 1610363450238,
+        "duration" : 19223
+      }
+    }, {
+      "uid" : "a9f55cf604ebb300",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363289512,
+        "stop" : 1610363308817,
+        "duration" : 19305
+      }
+    }, {
+      "uid" : "ee0610858845596b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363158840,
+        "stop" : 1610363179300,
+        "duration" : 20460
+      }
+    }, {
+      "uid" : "485071e302928f89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610362139925,
+        "stop" : 1610362159632,
+        "duration" : 19707
+      }
+    }, {
+      "uid" : "d9cde7a7ab8486e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610361889750,
+        "stop" : 1610361909969,
+        "duration" : 20219
+      }
+    }, {
+      "uid" : "4cd88da0cbe98e88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610361771180,
+        "stop" : 1610361790160,
+        "duration" : 18980
+      }
+    }, {
+      "uid" : "29d19177157702d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610361451857,
+        "stop" : 1610361471479,
+        "duration" : 19622
+      }
+    }, {
+      "uid" : "70bcc6083eb867b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610361191312,
+        "stop" : 1610361210744,
+        "duration" : 19432
+      }
+    }, {
+      "uid" : "dfb1e3d164dee9cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610352798397,
+        "stop" : 1610352818713,
+        "duration" : 20316
+      }
+    }, {
+      "uid" : "2c8cf95512b942c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610347433044,
+        "stop" : 1610347452696,
+        "duration" : 19652
+      }
+    }, {
+      "uid" : "78d589c15ab22f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610344060217,
+        "stop" : 1610344080648,
+        "duration" : 20431
+      }
+    }, {
+      "uid" : "ceaebcf28f9d8caf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610343874505,
+        "stop" : 1610343894684,
+        "duration" : 20179
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "97a46b3ccb5a462c",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/97a46b3ccb5a462c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363791680,
+          "stop" : 1610363811043,
+          "duration" : 19363
+        }
+      }, {
+        "uid" : "22e91ca381246abd",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/22e91ca381246abd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363791680,
+          "stop" : 1610363811043,
+          "duration" : 19363
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5b17a1ec28a0a004.json",
+  "parameterValues" : [ ]
+}

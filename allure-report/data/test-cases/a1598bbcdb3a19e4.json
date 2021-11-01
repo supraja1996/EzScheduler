@@ -1,0 +1,712 @@
+{
+  "uid" : "a1598bbcdb3a19e4",
+  "name" : "TC03_Navigation_to_Unverified_Queue",
+  "fullName" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest.TC03_Navigation_to_Unverified_Queue",
+  "historyId" : "d2d6db55af9796fa345e4731bd1b37f4",
+  "time" : {
+    "start" : 1607956361594,
+    "stop" : 1607956361925,
+    "duration" : 331
+  },
+  "description" : "Click on Login/Register button on the HomePage of EzScheduler.",
+  "descriptionHtml" : "<p>Click on Login/Register button on the HomePage of EzScheduler.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_Navigation_to_Unverified_Queue"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "6812@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.adminTests.AdminLoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "66132cfd648575a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607955902772,
+        "stop" : 1607955903152,
+        "duration" : 380
+      }
+    }, {
+      "uid" : "c150b91080c883cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607955283163,
+        "stop" : 1607955283764,
+        "duration" : 601
+      }
+    }, {
+      "uid" : "67e0418d9f008379",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607954931175,
+        "stop" : 1607954931806,
+        "duration" : 631
+      }
+    }, {
+      "uid" : "67a1a668f7e145e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607954122086,
+        "stop" : 1607954122650,
+        "duration" : 564
+      }
+    }, {
+      "uid" : "f46034933a23542f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607953894140,
+        "stop" : 1607953894579,
+        "duration" : 439
+      }
+    }, {
+      "uid" : "395c1d4762c49e38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607953730535,
+        "stop" : 1607953730669,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "469496d0b3bc8211",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607953508623,
+        "stop" : 1607953509045,
+        "duration" : 422
+      }
+    }, {
+      "uid" : "616ee8e40ec4128b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607952919029,
+        "stop" : 1607952919379,
+        "duration" : 350
+      }
+    }, {
+      "uid" : "5dd856ca96a591bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607948743522,
+        "stop" : 1607948743721,
+        "duration" : 199
+      }
+    }, {
+      "uid" : "c181be2dc0b9d62e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607948198419,
+        "stop" : 1607948198935,
+        "duration" : 516
+      }
+    }, {
+      "uid" : "87ee3f6414bb4932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607948066637,
+        "stop" : 1607948066944,
+        "duration" : 307
+      }
+    }, {
+      "uid" : "483d0eed8910d04e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947929556,
+        "stop" : 1607947929803,
+        "duration" : 247
+      }
+    }, {
+      "uid" : "29e239b46f63a759",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947656520,
+        "stop" : 1607947656836,
+        "duration" : 316
+      }
+    }, {
+      "uid" : "1a3a4ac7bb48ee09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947541252,
+        "stop" : 1607947541529,
+        "duration" : 277
+      }
+    }, {
+      "uid" : "c45aef7d531707a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947448373,
+        "stop" : 1607947449019,
+        "duration" : 646
+      }
+    }, {
+      "uid" : "df81ed2d94344aec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947281962,
+        "stop" : 1607947282383,
+        "duration" : 421
+      }
+    }, {
+      "uid" : "be7c21216c822410",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1607947225717,
+        "stop" : 1607947225719,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f9c7b986726700c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607947019985,
+        "stop" : 1607947020789,
+        "duration" : 804
+      }
+    }, {
+      "uid" : "2eec27931709e08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607946444001,
+        "stop" : 1607946444396,
+        "duration" : 395
+      }
+    }, {
+      "uid" : "aec4555206c2d39a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607946229418,
+        "stop" : 1607946229765,
+        "duration" : 347
+      }
+    }, {
+      "uid" : "9967bcf0156f360b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607945325091,
+        "stop" : 1607945325428,
+        "duration" : 337
+      }
+    }, {
+      "uid" : "dddd4b21ea339656",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607945218746,
+        "stop" : 1607945219020,
+        "duration" : 274
+      }
+    }, {
+      "uid" : "bcfddf68823ddfe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607944316155,
+        "stop" : 1607944316524,
+        "duration" : 369
+      }
+    }, {
+      "uid" : "85768cde5b0bc405",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607944187811,
+        "stop" : 1607944188107,
+        "duration" : 296
+      }
+    }, {
+      "uid" : "ba5065cb72e2b5f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607944072533,
+        "stop" : 1607944073190,
+        "duration" : 657
+      }
+    }, {
+      "uid" : "6273421de94a647f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943897915,
+        "stop" : 1607943898248,
+        "duration" : 333
+      }
+    }, {
+      "uid" : "159637ca78812f29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943676765,
+        "stop" : 1607943677086,
+        "duration" : 321
+      }
+    }, {
+      "uid" : "1a5df7a22e424454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607943291510,
+        "stop" : 1607943292035,
+        "duration" : 525
+      }
+    }, {
+      "uid" : "872fcaf7b1c11847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607938747162,
+        "stop" : 1607938747617,
+        "duration" : 455
+      }
+    }, {
+      "uid" : "91f4a46a3b66360f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607498897136,
+        "stop" : 1607498897382,
+        "duration" : 246
+      }
+    }, {
+      "uid" : "c6d2e1ecde3f3516",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607495006626,
+        "stop" : 1607495006901,
+        "duration" : 275
+      }
+    }, {
+      "uid" : "933c501d996e4425",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607494573601,
+        "stop" : 1607494573827,
+        "duration" : 226
+      }
+    }, {
+      "uid" : "215c522549e4e3eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607490891307,
+        "stop" : 1607490911202,
+        "duration" : 19895
+      }
+    }, {
+      "uid" : "c24165e09640524c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607435036781,
+        "stop" : 1607435059345,
+        "duration" : 22564
+      }
+    }, {
+      "uid" : "22ebac89a74b4c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607431624894,
+        "stop" : 1607431648058,
+        "duration" : 23164
+      }
+    }, {
+      "uid" : "706e1cae9978481e",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index 25 out of bounds for length 25",
+      "time" : {
+        "start" : 1607431368082,
+        "stop" : 1607431382909,
+        "duration" : 14827
+      }
+    }, {
+      "uid" : "6b8fac7f8d245d06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607431251956,
+        "stop" : 1607431269384,
+        "duration" : 17428
+      }
+    }, {
+      "uid" : "4f3e3229b60c2cd1",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index 26 out of bounds for length 26",
+      "time" : {
+        "start" : 1607430603554,
+        "stop" : 1607430626612,
+        "duration" : 23058
+      }
+    }, {
+      "uid" : "aaeeae6b55220f59",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index 26 out of bounds for length 26",
+      "time" : {
+        "start" : 1607429525371,
+        "stop" : 1607429541706,
+        "duration" : 16335
+      }
+    }, {
+      "uid" : "d88047c3d9607165",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'UnVerified Doctors')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 02e6f42f54e71ad1ce1f04f71ec420ea\n*** Element info: {Using=xpath, value=//span[contains(text(),'UnVerified Doctors')]}",
+      "time" : {
+        "start" : 1607429406711,
+        "stop" : 1607429408958,
+        "duration" : 2247
+      }
+    }, {
+      "uid" : "56c22b9fb4bab6b8",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index 26 out of bounds for length 26",
+      "time" : {
+        "start" : 1607428842474,
+        "stop" : 1607428859243,
+        "duration" : 16769
+      }
+    }, {
+      "uid" : "7187f580ce3c45e5",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[2]/div/div/table/tbody[1]/tr[0]/td[1]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 85839a19ba0a21e47a295e12467637ee\n*** Element info: {Using=xpath, value=//div[2]/div/div/table/tbody[1]/tr[0]/td[1]}",
+      "time" : {
+        "start" : 1607428594234,
+        "stop" : 1607428596913,
+        "duration" : 2679
+      }
+    }, {
+      "uid" : "e647cb08d6e2fa77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607428499963,
+        "stop" : 1607428516309,
+        "duration" : 16346
+      }
+    }, {
+      "uid" : "86c52f73d92741c",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index 26 out of bounds for length 26",
+      "time" : {
+        "start" : 1607427166695,
+        "stop" : 1607427182609,
+        "duration" : 15914
+      }
+    }, {
+      "uid" : "e5a916d14a22f1f8",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index 26 out of bounds for length 26",
+      "time" : {
+        "start" : 1607426891547,
+        "stop" : 1607426907834,
+        "duration" : 16287
+      }
+    }, {
+      "uid" : "c9dee48770bbea35",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index 26 out of bounds for length 26",
+      "time" : {
+        "start" : 1607425118005,
+        "stop" : 1607425142758,
+        "duration" : 24753
+      }
+    }, {
+      "uid" : "f34bd0db14b8e939",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[2]/div/div/table/tbody[1]/tr[0]/td[1]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 278a561a5e09addfe65a377ecd4b8d2f\n*** Element info: {Using=xpath, value=//div[2]/div/div/table/tbody[1]/tr[0]/td[1]}",
+      "time" : {
+        "start" : 1607424710026,
+        "stop" : 1607424714331,
+        "duration" : 4305
+      }
+    }, {
+      "uid" : "17815a0e3403883d",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1607424584802,
+        "stop" : 1607424584804,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c17660eabb5a9474",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index 26 out of bounds for length 26",
+      "time" : {
+        "start" : 1607424160081,
+        "stop" : 1607424177092,
+        "duration" : 17011
+      }
+    }, {
+      "uid" : "9ec42c9ee36824d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607423999633,
+        "stop" : 1607424025337,
+        "duration" : 25704
+      }
+    }, {
+      "uid" : "afef93e644bb765b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607423756994,
+        "stop" : 1607423760320,
+        "duration" : 3326
+      }
+    }, {
+      "uid" : "92b4ba55607d8872",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607423228079,
+        "stop" : 1607423242457,
+        "duration" : 14378
+      }
+    }, {
+      "uid" : "497ede4358782ea7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607422925650,
+        "stop" : 1607422940285,
+        "duration" : 14635
+      }
+    }, {
+      "uid" : "5c17de4b1386b874",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607422758801,
+        "stop" : 1607422774018,
+        "duration" : 15217
+      }
+    }, {
+      "uid" : "fae595cf37ced3af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607421272936,
+        "stop" : 1607421281754,
+        "duration" : 8818
+      }
+    }, {
+      "uid" : "39f88513d2733635",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index 26 out of bounds for length 26",
+      "time" : {
+        "start" : 1607420892449,
+        "stop" : 1607420902008,
+        "duration" : 9559
+      }
+    }, {
+      "uid" : "c218314afd8af6b7",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[2]/div/div/table/tbody[1]/tr[0]/td[1]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: fb85c555139a76777cc330c154dccb76\n*** Element info: {Using=xpath, value=//div[2]/div/div/table/tbody[1]/tr[0]/td[1]}",
+      "time" : {
+        "start" : 1607420445506,
+        "stop" : 1607420449381,
+        "duration" : 3875
+      }
+    }, {
+      "uid" : "6adcd7d0aee7e4f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607418931617,
+        "stop" : 1607418945179,
+        "duration" : 13562
+      }
+    }, {
+      "uid" : "5789cf70757dfd42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607417281573,
+        "stop" : 1607417293997,
+        "duration" : 12424
+      }
+    }, {
+      "uid" : "966efa687ef11657",
+      "status" : "broken",
+      "statusDetails" : "IndexOutOfBoundsException: Index: 26, Size: 26",
+      "time" : {
+        "start" : 1607416559396,
+        "stop" : 1607416570998,
+        "duration" : 11602
+      }
+    }, {
+      "uid" : "549134b20269410a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607415907226,
+        "stop" : 1607415920245,
+        "duration" : 13019
+      }
+    }, {
+      "uid" : "e579aeaf75837ff0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607415655598,
+        "stop" : 1607415666885,
+        "duration" : 11287
+      }
+    }, {
+      "uid" : "60ebc91324a82f44",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1607415519053,
+        "stop" : 1607415519054,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bda6d4b998ef0dc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607415166768,
+        "stop" : 1607415178075,
+        "duration" : 11307
+      }
+    }, {
+      "uid" : "9c7de3f984cb6e5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607412759979,
+        "stop" : 1607412771503,
+        "duration" : 11524
+      }
+    }, {
+      "uid" : "3bb7d7f30237c91",
+      "status" : "broken",
+      "statusDetails" : "StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: 6d0b66d72ada83b305cd150b7c135a85\n*** Element info: {Using=tag name, value=td}",
+      "time" : {
+        "start" : 1604476456606,
+        "stop" : 1604476474083,
+        "duration" : 17477
+      }
+    }, {
+      "uid" : "77dc348fd69d67b4",
+      "status" : "broken",
+      "statusDetails" : "StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: bb3c48fb168e752532fb28ae84294868\n*** Element info: {Using=tag name, value=td}",
+      "time" : {
+        "start" : 1604407197160,
+        "stop" : 1604407214604,
+        "duration" : 17444
+      }
+    }, {
+      "uid" : "8a6ad0595ea7fbf2",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[2]/div/div/table/tbody[1]/tr[1]/td[7]/a[1]/button\"}\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: adfe6fd3ccf7542d0e7315dc15455152\n*** Element info: {Using=xpath, value=//div[2]/div/div/table/tbody[1]/tr[1]/td[7]/a[1]/button}",
+      "time" : {
+        "start" : 1604384026700,
+        "stop" : 1604384033031,
+        "duration" : 6331
+      }
+    }, {
+      "uid" : "3f17116f9c7078da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604383853099,
+        "stop" : 1604383872837,
+        "duration" : 19738
+      }
+    }, {
+      "uid" : "a5e90c9d8b48ddd5",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1604383683766,
+        "stop" : 1604383683767,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "745d3214fbf27bf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604383238313,
+        "stop" : 1604383259192,
+        "duration" : 20879
+      }
+    }, {
+      "uid" : "78a41d6963b63f3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604382774257,
+        "stop" : 1604382792620,
+        "duration" : 18363
+      }
+    }, {
+      "uid" : "505c79cdde8acf83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604382555604,
+        "stop" : 1604382574708,
+        "duration" : 19104
+      }
+    }, {
+      "uid" : "e74668dd90aa6e9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604298906995,
+        "stop" : 1604298926884,
+        "duration" : 19889
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c76494046393396",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/c76494046393396",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607956361594,
+          "stop" : 1607956361925,
+          "duration" : 331
+        }
+      }, {
+        "uid" : "e41b2aae93761ce4",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/e41b2aae93761ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607956361594,
+          "stop" : 1607956361925,
+          "duration" : 331
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a1598bbcdb3a19e4.json",
+  "parameterValues" : [ ]
+}

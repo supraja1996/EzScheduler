@@ -1,0 +1,95 @@
+{
+  "uid" : "de322915082ea8b4",
+  "name" : "startRecording on [AdminTest passed=0 failed=0 skipped=0]",
+  "fullName" : "Default suite : Default test.startRecording on [AdminTest passed=0 failed=0 skipped=0]",
+  "historyId" : "14a34bd2e1c100eae717b05fcd02ae45",
+  "time" : {
+    "start" : 1612525528589,
+    "stop" : 1612525528602,
+    "duration" : 13
+  },
+  "description" : "@BeforeClass",
+  "descriptionHtml" : "<p>@BeforeClass</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Error: Unresolved compilation problem: \n\tSyntax error, insert \"}\" to complete MethodBody\n",
+  "statusTrace" : "java.lang.Error: Unresolved compilation problem: \n\tSyntax error, insert \"}\" to complete MethodBody\n\r\n\tat sailotech.com.EzScheduler.AdminFunctions.AdminFunctions.<init>(AdminFunctions.java:53)\r\n\tat sailotech.com.EzScheduler.adminTests.AdminTest.startRecording(AdminTest.java:24)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "15964@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testClass",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "startRecording on [AdminTest passed=0 failed=0 skipped=0]"
+  }, {
+    "name" : "package",
+    "value" : "Default suite : Default test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fc7994a876dd3de6",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/fc7994a876dd3de6",
+        "status" : "broken",
+        "statusDetails" : "Error: Unresolved compilation problem: \n\tSyntax error, insert \"}\" to complete MethodBody\n",
+        "time" : {
+          "start" : 1612525528589,
+          "stop" : 1612525528602,
+          "duration" : 13
+        }
+      }, {
+        "uid" : "f172a94ae4415231",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/f172a94ae4415231",
+        "status" : "broken",
+        "statusDetails" : "Error: Unresolved compilation problem: \n\tSyntax error, insert \"}\" to complete MethodBody\n",
+        "time" : {
+          "start" : 1612525528589,
+          "stop" : 1612525528602,
+          "duration" : 13
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "de322915082ea8b4.json",
+  "parameterValues" : [ ]
+}

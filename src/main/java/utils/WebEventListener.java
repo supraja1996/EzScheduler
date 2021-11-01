@@ -1,0 +1,307 @@
+package utils;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Calendar;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.events.WebDriverEventListener;
+import org.testng.ITestContext;
+import org.testng.ITestResult;
+
+import sailotech.com.EzScheduler.basePages.BaseTest;
+
+//import com.aquila.testautomation.nokia.commerce.cpq.accelarators.TestBase;
+//import com.aquila.testautomation.nokia.commerce.cpq.commonutilities.TestUtil;
+
+public class WebEventListener extends BaseTest implements WebDriverEventListener {
+	
+	private static final String ROOT = System.getProperty("user.dir");
+	private static final String SEPARATOR = File.separator;
+
+	public void beforeNavigateTo(String url, WebDriver driver) {
+		System.out.println("Before navigating to: '" + url + "'");
+	}
+
+	public void afterNavigateTo(String url, WebDriver driver) {
+		System.out.println("Navigated to:'" + url + "'");
+	}
+
+	public void beforeChangeValueOf(WebElement element, WebDriver driver) {
+		System.out.println("Value of the:" + element.toString() + " before any changes made");
+	}
+
+	public void afterChangeValueOf(WebElement element, WebDriver driver) {
+		System.out.println("Element value changed to: " + element.toString());
+	}
+
+	public void beforeClickOn(WebElement element, WebDriver driver) {
+		System.out.println("Trying to click on: " + element.toString());
+	}
+
+	public void afterClickOn(WebElement element, WebDriver driver) {
+		System.out.println("Clicked on: " + element.toString());
+	}
+
+	public void beforeNavigateBack(WebDriver driver) {
+		System.out.println("Navigating back to previous page");
+	}
+
+	public void afterNavigateBack(WebDriver driver) {
+		System.out.println("Navigated back to previous page");
+	}
+
+	public void beforeNavigateForward(WebDriver driver) {
+		System.out.println("Navigating forward to next page");
+	}
+
+	public void afterNavigateForward(WebDriver driver) {
+		System.out.println("Navigated forward to next page");
+	}
+
+	public void onException(Throwable error, WebDriver driver) {
+		System.out.println("Exception occured: " + error);
+//		try {
+////			TestUtil.takeScreenshotAtEndOfTest();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+	}
+
+	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
+		System.out.println("Trying to find Element By : " + by.toString());
+
+
+		WebElement elem = driver.findElement(by);
+		// draw a border around the found element
+		if (driver instanceof JavascriptExecutor) {
+			((JavascriptExecutor) driver).executeScript("arguments[0].style.border='4px solid yellow'", elem);
+			//((JavascriptExecutor)driver).executeScript("arguments[0].setAttribute('style', arguments[1]);", elem, "color: yellow; border: 2px solid yellow;");
+		}
+	
+	}
+
+	public void afterFindBy(By by, WebElement element, WebDriver driver) {
+		System.out.println("Found Element By : " + by.toString());
+	}
+
+	/*
+	 * non overridden methods of WebListener class
+	 */
+	public void beforeScript(String script, WebDriver driver) {
+	}
+
+	public void afterScript(String script, WebDriver driver) {
+	}
+
+	public void beforeAlertAccept(WebDriver driver) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void afterAlertAccept(WebDriver driver) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void afterAlertDismiss(WebDriver driver) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void beforeAlertDismiss(WebDriver driver) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void beforeNavigateRefresh(WebDriver driver) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void afterNavigateRefresh(WebDriver driver) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void afterChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public <X> void afterGetScreenshotAs(OutputType<X> arg0, X arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void afterGetText(WebElement arg0, WebDriver arg1, String arg2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void afterSwitchToWindow(String arg0, WebDriver arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public <X> void beforeGetScreenshotAs(OutputType<X> arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void beforeGetText(WebElement arg0, WebDriver arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void beforeSwitchToWindow(String arg0, WebDriver arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+//	@Override
+//	public synchronized void onStart(ITestContext context) {
+//		System.out.println("----------------------START onStart---------------");
+//		super.onStart(context);
+//		String testSuite = context.getSuite().getName();
+//		log.info("[Test Suite START (Thread=" + Thread.currentThread().getId() + ")] " + testSuite);
+//		System.out.println("----------------------END onStart---------------");
+//	}
+
+//	@Override
+//	public synchronized void onFinish(ITestContext context) {
+//		System.out.println("----------------------START onFinish---------------");
+//		super.onFinish(context);
+//		log.info("[Test Suite Finish (Thread=" + Thread.currentThread().getId() + ")] " + context.getSuite().getName());
+//		System.out.println("----------------------END onFinish---------------");
+//	}
+//
+//	@Override
+//	public synchronized void onTestStart(ITestResult result) {
+//		System.out.println("----------------------START onTestStart---------------");
+//		super.onTestStart(result);
+//		String testClass = result.getTestClass().getName().replaceAll(".+\\.", "");
+//		String testMethod = result.getMethod().getMethodName();
+//		String[] testGroups = result.getMethod().getGroups();
+//		String testStart = "[TEST START (Thread=" + Thread.currentThread().getId() + ")] " + testClass + " - " + testMethod;
+//		log.info(testStart);
+//		System.out.println("----------------------END onTestStart---------------");	
+//	}
+//
+//	@Override
+//	public synchronized void onTestSuccess(ITestResult tr) {
+//		System.out.println("----------------------START onTestSuccess---------------");
+//		super.onTestSuccess(tr);
+//		String testName = tr.getTestClass().getName().replaceAll(".+\\.", "") + " - " + tr.getMethod().getMethodName();
+//		String testPass = "[***TEST PASS (Thread=" + Thread.currentThread().getId() + ")***] " + testName;
+//		log.info(testPass);
+//		System.out.println("----------------------END onTestSuccess---------------");
+//	}
+//
+//	@Override
+//	public synchronized void onTestFailure(ITestResult tr) {
+//		System.out.println("----------------------START onTestFailure---------------");
+//		super.onTestFailure(tr);
+//		Object currentClass = tr.getInstance();
+//		WebDriver driver = null ;
+//		try{
+//			driver= ((TestBase) currentClass).driver;
+//		}
+//		catch(Exception ex){
+//			ex.printStackTrace();
+//		}
+//		//Timestamp the screen shot
+//		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd-yy-HH-mm-ss");
+//		Calendar calendar = Calendar.getInstance();
+//		String timeStamp = simpleDateFormat.format(calendar.getTime());
+//		String baseDir = ROOT + SEPARATOR + "results" + SEPARATOR + "test-output";
+//		try {
+//			File scrFile;
+//			scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//			String fileName = tr.getMethod().getMethodName() + "_" + timeStamp + "_TestFAILED.png";
+//			File destination = new File(baseDir + SEPARATOR + fileName);
+//			FileUtils.copyFile(scrFile, destination);
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//		String errHeader = " [***TEST FAIL (Thread=" + Thread.currentThread().getId() + ")***] " + tr.getTestClass().getName().replaceAll(".+\\.", "") + " - " + tr.getMethod().getMethodName();
+//		String errMsg = errHeader + "\r\n" + tr.getThrowable().getMessage() + "\r\n\t" +Arrays.toString(tr.getThrowable().getStackTrace()).replaceAll(",", "\r\n\t");
+//		log.error(errMsg);
+//		System.out.println("----------------------END onTestFailure---------------");
+//	}
+//
+//	@Override
+//	public synchronized void onTestSkipped(ITestResult tr) {
+//		try {
+//			System.out.println("----------------------START TEST SKIPPED---------------");
+//			super.onTestSkipped(tr);
+//			System.out.println("----------------------TEST skip Reason-------------------"+tr.getThrowable().getMessage());
+//			String skipErr = " [TEST SKIP (Thread=" + Thread.currentThread().getId() + ")] " + tr.getTestClass().getName().replaceAll(".+\\.", "") + " - " + tr.getMethod().getMethodName();
+//			log.info("------------------Test Skipped as : "+skipErr+"------------------------");
+//			log.info(skipErr);
+//			System.out.println("----------------------TEST SKIP REASON---------------"+skipErr);
+//			System.out.println("----------------------END TEST SKIPPED---------------");
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//	}
+//
+//	@Override
+//	public synchronized void onConfigurationFailure(ITestResult tr) {
+//		System.out.println("----------------------START onConfigurationFailure---------------");
+//		super.onConfigurationFailure(tr);
+//		System.out.println("----------------------Configuration Failure REASON-------------------"+tr.getThrowable().getMessage());
+//		String testClass = tr.getTestClass().getName().replaceAll(".+\\.", "");
+//		String testMethod = tr.getMethod().getMethodName();
+//		Object currentClass = tr.getInstance();
+//		String errHeader = " [TEST CONFIG FAIL (Thread=" + Thread.currentThread().getId() + ")] " + testClass + " - " + testMethod;
+//		WebDriver driver = null;
+//		//Timestamp the screen shot
+//		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd-yy-HH-mm-ss");
+//		Calendar calendar = Calendar.getInstance();
+//		String timeStamp = simpleDateFormat.format(calendar.getTime());
+//		String baseDir = ROOT + SEPARATOR + "results" + SEPARATOR + "test-output";
+//		File scrFile=null;
+//		try{
+//			driver = ((TestBase) currentClass).driver;
+//			if(driver!=null)
+//			{
+//				scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//			}
+//		}
+//		catch(Exception ex){
+//			ex.printStackTrace();
+//		}
+//		String fileName = testMethod + "_ConfigFail_" + timeStamp + ".png";
+//		File destination = new File(baseDir + SEPARATOR + fileName);
+//		// adding screenshots to log
+//		try {
+//			FileUtils.copyFile(scrFile, destination);
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//		String err = errHeader + "\r\n" + tr.getThrowable().getMessage() + "\r\n\t" +
+//				Arrays.toString(tr.getThrowable().getStackTrace()).replaceAll(",", "\r\n\t");
+//		log.error(err);
+//		System.out.println("----------------------END onConfigurationFailure---------------");
+//	}
+//
+//	@Override
+//	public synchronized void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+//
+//	}
+
+}

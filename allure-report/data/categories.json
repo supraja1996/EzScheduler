@@ -1,0 +1,303 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/*[1]\"}\n  (Session info: chrome=86.0.4240.111)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}\nSession ID: 792581104ad7cc63e4c52261255aaa92\n*** Element info: {Using=xpath, value=//div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/*[1]}",
+      "children" : [ {
+        "name" : "TC03_DoctorCancelsOpenSlots",
+        "uid" : "4af8eb1c9dbde003",
+        "parentUid" : "7661ba393a7ed3976bb276a961406ab3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603983844845,
+          "stop" : 1603983849282,
+          "duration" : 4437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7661ba393a7ed3976bb276a961406ab3"
+    }, {
+      "name" : "TimeoutException: timeout\n  (Session info: chrome=86.0.4240.183)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.183, webStorageEnabled: true}\nSession ID: b8fa74a6869cc538783ad297a500fdce",
+      "children" : [ {
+        "name" : "beforeClass",
+        "uid" : "f7e19bbdd9b7f413",
+        "parentUid" : "674abe4ebe025538a34e6f813ae1d0db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605004713630,
+          "stop" : 1605004713648,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "674abe4ebe025538a34e6f813ae1d0db"
+    }, {
+      "name" : "NullPointerException: null",
+      "children" : [ {
+        "name" : "TC02_DoctorLogin",
+        "uid" : "b28fac9735399114",
+        "parentUid" : "e909c45e865b6aefd81819e149cbc10c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605609611321,
+          "stop" : 1605609626006,
+          "duration" : 14685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startRecording on [VerifyDoctorsTest passed=0 failed=0 skipped=0]",
+        "uid" : "d84c131f60088c14",
+        "parentUid" : "e909c45e865b6aefd81819e149cbc10c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611922121780,
+          "stop" : 1611922121794,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startRecording on [AdminLoginTest passed=0 failed=0 skipped=0]",
+        "uid" : "afccd5998522dc69",
+        "parentUid" : "e909c45e865b6aefd81819e149cbc10c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612176510377,
+          "stop" : 1612176510390,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC02_AdminLogin on [AdminTest passed=0 failed=0 skipped=0]",
+        "uid" : "a42a958b4dcc360d",
+        "parentUid" : "e909c45e865b6aefd81819e149cbc10c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613023582624,
+          "stop" : 1613023582825,
+          "duration" : 201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e909c45e865b6aefd81819e149cbc10c"
+    }, {
+      "name" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: otp' (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "TC04_otpPage",
+        "uid" : "2d26514b3b4852cc",
+        "parentUid" : "f5f12e717525e584a4b9d5d1a3c344e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608207199826,
+          "stop" : 1608207214833,
+          "duration" : 15007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5f12e717525e584a4b9d5d1a3c344e4"
+    }, {
+      "name" : "ExceptionInInitializerError: null",
+      "children" : [ {
+        "name" : "TC01_Navigate_to_AdminLogin on [VerifyDoctorsTest passed=0 failed=0 skipped=0]",
+        "uid" : "f6dcd655d189628b",
+        "parentUid" : "11e94304ee81bdd6aa3d21af6f57f3b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611922754573,
+          "stop" : 1611922758009,
+          "duration" : 3436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TCA_01_LoginNavigation on [AdminTest passed=0 failed=0 skipped=0]",
+        "uid" : "f60a09185e49c579",
+        "parentUid" : "11e94304ee81bdd6aa3d21af6f57f3b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614961261131,
+          "stop" : 1614961324715,
+          "duration" : 63584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11e94304ee81bdd6aa3d21af6f57f3b1"
+    }, {
+      "name" : "Error: Unresolved compilation problem: \n\tSyntax error, insert \"}\" to complete MethodBody\n",
+      "children" : [ {
+        "name" : "startRecording on [AdminTest passed=0 failed=0 skipped=0]",
+        "uid" : "de322915082ea8b4",
+        "parentUid" : "a595a9f55e9c5d03971739820bf0b840",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612525528589,
+          "stop" : 1612525528602,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a595a9f55e9c5d03971739820bf0b840"
+    }, {
+      "name" : "WebDriverException: chrome not reachable\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: bc53c17c715ea34aab75adb36437ec74",
+      "children" : [ {
+        "name" : "stopRecording on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+        "uid" : "1c9bda0af42af3d6",
+        "parentUid" : "3615e04d21cd73c094da12f8734a5c88",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613112829788,
+          "stop" : 1613112829789,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3615e04d21cd73c094da12f8734a5c88"
+    }, {
+      "name" : "WebDriverException: unknown error: Element <button class=\"fc-next-button fc-button fc-button-primary\" type=\"button\" aria-label=\"next\">...</button> is not clickable at point (81, 114). Other element would receive the click: <div class=\"MuiBackdrop-root jss36\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: 937f38f11132d28e8682732668c10eb1",
+      "children" : [ {
+        "name" : "TC04_Generate_slots_on_GenerateSlots_Page on [SlotGenerationTest passed=0 failed=0 skipped=0]",
+        "uid" : "1b4af613fcdf73ec",
+        "parentUid" : "44cc0fb7007a7d057b3d6e3a4d3ea8f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613135369549,
+          "stop" : 1613135375178,
+          "duration" : 5629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44cc0fb7007a7d057b3d6e3a4d3ea8f0"
+    }, {
+      "name" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class = 'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer']\"}\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: 773e922b0aaf1d8a1439b1c66396c9b5\n*** Element info: {Using=xpath, value=//div[@class = 'MuiPickersSlideTransition-transitionContainer MuiPickersCalendarHeader-transitionContainer']}",
+      "children" : [ {
+        "name" : "TC02_DoctorRegisterPage on [DoctorRegistrationTest passed=0 failed=0 skipped=0]",
+        "uid" : "bf02907bc855e1",
+        "parentUid" : "1bd59eead617c81e7fe8ab2ccc8039dc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613370740939,
+          "stop" : 1613370933980,
+          "duration" : 193041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bd59eead617c81e7fe8ab2ccc8039dc"
+    }, {
+      "name" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:16851\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "stopRecording on [PatientAppointmentBookingTest passed=0 failed=0 skipped=0]",
+        "uid" : "9bc5aa653d7b1b1c",
+        "parentUid" : "82ec570012e1ead4fd52552f609c7ec6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614924326350,
+          "stop" : 1614924326350,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82ec570012e1ead4fd52552f609c7ec6"
+    }, {
+      "name" : "TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //form/div/div[3]/div[2]/div[1]/p[1]' (tried for 60 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "TC03_Navigation_to_the_GenerateSLots_Page",
+        "uid" : "94aebcf5ab0b38d1",
+        "parentUid" : "5315f55d499dd09e803d692784a58583",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616593414687,
+          "stop" : 1616594210686,
+          "duration" : 795999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5315f55d499dd09e803d692784a58583"
+    }, {
+      "name" : "WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:48706\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-OGS304U', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: EventFiringWebDriver",
+      "children" : [ {
+        "name" : "stopRecording",
+        "uid" : "a0abe868ecff702d",
+        "parentUid" : "1a93d480dd14bd49b8b6a05f0865fa19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616672342781,
+          "stop" : 1616672342782,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a93d480dd14bd49b8b6a05f0865fa19"
+    }, {
+      "name" : "ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2",
+      "children" : [ {
+        "name" : "TC02_ApplyFilters",
+        "uid" : "84654e70514fb2e3",
+        "parentUid" : "c6bb2d8af7c9461035b2cc9d18a494ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617013394095,
+          "stop" : 1617013435059,
+          "duration" : 40964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c6bb2d8af7c9461035b2cc9d18a494ba"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: expected [https://demo.ezscheduler.io/doctorQueue] but found [https://demo.ezscheduler.io/adminLogin]",
+      "children" : [ {
+        "name" : "TC02_AdminLogin",
+        "uid" : "97a9d6259bf36506",
+        "parentUid" : "a6b33e820526fec6f0dfc529e203126c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609910432804,
+          "stop" : 1609910444570,
+          "duration" : 11766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6b33e820526fec6f0dfc529e203126c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

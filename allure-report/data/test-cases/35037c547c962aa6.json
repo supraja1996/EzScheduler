@@ -1,0 +1,115 @@
+{
+  "uid" : "35037c547c962aa6",
+  "name" : "TC01_DoctorLogin",
+  "fullName" : "sailotech.com.EzScheduler.doctorTests.MisMatchDayOfWeekTest.TC01_DoctorLogin",
+  "historyId" : "4fe8fe4ccb85c7a9d68d915fc6f07677",
+  "time" : {
+    "start" : 1608704430426,
+    "stop" : 1608704448538,
+    "duration" : 18112
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OGS304U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.doctorTests.MisMatchDayOfWeekTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Default test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_DoctorLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "thread",
+    "value" : "10512@DESKTOP-OGS304U.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.doctorTests.MisMatchDayOfWeekTest"
+  }, {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.doctorTests.MisMatchDayOfWeekTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d3a8398483ac1fa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640800068,
+        "stop" : 1608640816880,
+        "duration" : 16812
+      }
+    }, {
+      "uid" : "ec98a238962f6268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608640603040,
+        "stop" : 1608640620951,
+        "duration" : 17911
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "31eb4a5cba830542",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/19/allure/#testresult/31eb4a5cba830542",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608704430426,
+          "stop" : 1608704448538,
+          "duration" : 18112
+        }
+      }, {
+        "uid" : "a5537c659db00465",
+        "reportUrl" : "http://localhost:8080/job/EzScheduler/18/allure/#testresult/a5537c659db00465",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608704430426,
+          "stop" : 1608704448538,
+          "duration" : 18112
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "35037c547c962aa6.json",
+  "parameterValues" : [ ]
+}
