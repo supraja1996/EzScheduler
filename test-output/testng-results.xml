@@ -2,73 +2,73 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-30T12:47:24 IST" name="Default suite" finished-at="2021-10-30T12:54:52 IST" duration-ms="448771">
+  <suite started-at="2021-11-01T12:31:05 IST" name="Admin Suite" finished-at="2021-11-01T12:42:32 IST" duration-ms="686218">
     <groups>
     </groups>
-    <test started-at="2021-10-30T12:47:24 IST" name="Default test" finished-at="2021-10-30T12:54:52 IST" duration-ms="448771">
+    <test started-at="2021-11-01T12:31:05 IST" name="Admin Test Cases" finished-at="2021-11-01T12:42:32 IST" duration-ms="686218">
       <class name="sailotech.com.EzScheduler.adminTests.AdminTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:47:24 IST" name="beforeClass" finished-at="2021-10-30T12:47:43 IST" duration-ms="19798" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:31:06 IST" name="beforeClass" finished-at="2021-11-01T12:31:26 IST" duration-ms="19974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="startRecording()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:47:43 IST" name="startRecording" finished-at="2021-10-30T12:47:45 IST" duration-ms="1090" status="PASS">
+        <test-method is-config="true" signature="startRecording()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:31:26 IST" name="startRecording" finished-at="2021-11-01T12:31:27 IST" duration-ms="1283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startRecording -->
-        <test-method signature="TCA_01_LoginNavigation()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:47:45 IST" name="TCA_01_LoginNavigation" finished-at="2021-10-30T12:47:47 IST" duration-ms="2567" status="PASS">
+        <test-method signature="TCA_01_LoginNavigation()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:31:27 IST" name="TCA_01_LoginNavigation" finished-at="2021-11-01T12:31:35 IST" duration-ms="8014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCA_01_LoginNavigation -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:47:48 IST" name="screenShot" finished-at="2021-10-30T12:47:48 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:31:37 IST" name="screenShot" finished-at="2021-11-01T12:31:37 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TCA_01_LoginNavigation status=SUCCESS method=AdminTest.TCA_01_LoginNavigation()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5] output={null}]]]>
+                <![CDATA[[TestResult name=TCA_01_LoginNavigation status=SUCCESS method=AdminTest.TCA_01_LoginNavigation()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method signature="TC02_AdminLogin()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:47:48 IST" name="TC02_AdminLogin" description="Login with the Admin Credentials" finished-at="2021-10-30T12:48:01 IST" depends-on-methods="sailotech.com.EzScheduler.adminTests.AdminTest.TCA_01_LoginNavigation" duration-ms="12885" status="PASS">
+        <test-method signature="TC02_AdminLogin()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:31:37 IST" name="TC02_AdminLogin" description="Login with the Admin Credentials" finished-at="2021-11-01T12:31:54 IST" depends-on-methods="sailotech.com.EzScheduler.adminTests.AdminTest.TCA_01_LoginNavigation" duration-ms="17159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_AdminLogin -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:48:01 IST" name="screenShot" finished-at="2021-10-30T12:48:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:31:54 IST" name="screenShot" finished-at="2021-11-01T12:31:54 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC02_AdminLogin status=SUCCESS method=AdminTest.TC02_AdminLogin()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5] output={null}]]]>
+                <![CDATA[[TestResult name=TC02_AdminLogin status=SUCCESS method=AdminTest.TC02_AdminLogin()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method signature="TC03_VerifyDoctor()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:48:01 IST" name="TC03_VerifyDoctor" description="Login with the Admin Credentials" finished-at="2021-10-30T12:54:49 IST" depends-on-methods="sailotech.com.EzScheduler.adminTests.AdminTest.TC02_AdminLogin" duration-ms="407250" status="PASS">
+        <test-method signature="TC03_VerifyDoctor()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:31:54 IST" name="TC03_VerifyDoctor" description="Login with the Admin Credentials" finished-at="2021-11-01T12:42:28 IST" depends-on-methods="sailotech.com.EzScheduler.adminTests.AdminTest.TC02_AdminLogin" duration-ms="633585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_VerifyDoctor -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:54:49 IST" name="screenShot" finished-at="2021-10-30T12:54:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:42:28 IST" name="screenShot" finished-at="2021-11-01T12:42:28 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC03_VerifyDoctor status=SUCCESS method=AdminTest.TC03_VerifyDoctor()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5] output={null}]]]>
+                <![CDATA[[TestResult name=TC03_VerifyDoctor status=SUCCESS method=AdminTest.TC03_VerifyDoctor()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:54:49 IST" name="afterClass" finished-at="2021-10-30T12:54:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:42:28 IST" name="afterClass" finished-at="2021-11-01T12:42:28 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="stopRecording()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@4a68cbc5]" started-at="2021-10-30T12:54:49 IST" name="stopRecording" finished-at="2021-10-30T12:54:52 IST" duration-ms="3570" status="PASS">
+        <test-method is-config="true" signature="stopRecording()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@57bfca3a]" started-at="2021-11-01T12:42:28 IST" name="stopRecording" finished-at="2021-11-01T12:42:32 IST" duration-ms="3890" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopRecording -->
       </class> <!-- sailotech.com.EzScheduler.adminTests.AdminTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Admin Test Cases -->
+  </suite> <!-- Admin Suite -->
 </testng-results>
