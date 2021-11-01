@@ -27,6 +27,7 @@ import org.monte.media.FormatKeys.MediaType;
 import org.monte.media.math.Rational;
 import org.monte.screenrecorder.ScreenRecorder;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -51,6 +52,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+
 import utils.WebEventListener;
 //import com.sailotech.Infor_LN.order2cash.Order2CashPage;
 
@@ -62,6 +64,8 @@ import utils.SendMail;
 public class BaseTest {
 
 	public static WebDriver driver;
+	private static String EXECUTION_ENV = System.getProperty("os.name");
+	private static String LINUX_ENV = "Linux";
 	//public static String user_name, password;
 	
 	static String chrome = "chrome";
@@ -177,15 +181,46 @@ public class BaseTest {
 
 	public static void startSession() {
 		String browserName = prop.getProperty("browser");
-		//String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV))?"/drivers/Linux/chromedriver_87":"\\drivers\\chromedriver.exe";
+		String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV))?"/drivers/Linux/chromedriver_87":"\\drivers\\chromedriver.exe";
+		
 		
 		if (prop.getProperty("remoteWebdriver").equalsIgnoreCase("false")) {
 			if (browserName.equalsIgnoreCase("firefox")) {
 				System.setProperty("webdriver.gecko.driver", user_dir + "\\drivers\\geckodriver.exe");
 				driver = new FirefoxDriver();
 			} else if (browserName.equalsIgnoreCase("chrome")) {
+				ChromeOptions options = new ChromeOptions();
 				System.setProperty("webdriver.chrome.driver", user_dir + "\\drivers\\chromedriver.exe");
-				driver = new ChromeDriver();
+				//driver = new ChromeDriver();
+				if (EXECUTION_ENV.equals(LINUX_ENV)) {
+					options.setBinary("/opt/google/chrome/google-chrome");
+					options.addArguments("--no-sandbox"); // Bypass OS security model
+					//options.addArguments("--disable-dev-shm-usage");
+					options.addArguments("--headless");
+				    options.addArguments("--disable-extensions");
+					/*
+					 * options.addArguments("--no-proxy-server");
+					 * options.addArguments("--proxy-server='direct://'");
+					 * options.addArguments("--proxy-bypass-list=*");
+					 */
+				    options.addArguments("--start-maximized");
+				    //options.addArguments("--disable-gpu");
+				    options.addArguments("--incognito");
+				    options.addArguments("--ignore-certificate-errors");
+				} else {
+					// close the pop-ups
+					options.addArguments("--disable-notifications");
+					System.setProperty("java.awt.headless", "false");
+					// to enable screenShot and fix timeouts received from renderer
+					options.addArguments("--disable-features=VizDisplayCompositor");
+				}
+				File file = new File(System.getProperty("user.dir") + chromeDriverPath);
+				file.setExecutable(true);
+				driver = new ChromeDriver(options);
+				if (EXECUTION_ENV.equals(LINUX_ENV)) {
+					driver.manage().window().setSize(new Dimension(1920, 1080));
+				}
+				//log.info("launching chrome browser");
 				//ChromeOptions options = new ChromeOptions();
 				
 				/*String downloadFilepath = user_dir + "\\Warehouse_xls";
