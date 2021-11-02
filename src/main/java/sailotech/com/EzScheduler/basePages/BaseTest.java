@@ -181,7 +181,7 @@ public class BaseTest {
 
 	public static void startSession() {
 		String browserName = prop.getProperty("browser");
-		String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV))?"/drivers/Linux/chromedriver_87":"\\drivers\\chromedriver.exe";
+		String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV))?"/drivers/Linux/chromedriver_94":"\\drivers\\chromedriver.exe";
 		
 		
 		if (prop.getProperty("remoteWebdriver").equalsIgnoreCase("false")) {
