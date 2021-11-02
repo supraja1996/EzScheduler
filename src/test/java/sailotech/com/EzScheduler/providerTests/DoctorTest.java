@@ -2,10 +2,10 @@ package sailotech.com.EzScheduler.providerTests;
 
 
 
-import org.apache.log4j.PropertyConfigurator;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
+
 
 
 
