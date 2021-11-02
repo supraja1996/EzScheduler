@@ -5,7 +5,7 @@
  
   <test thread-count="5" verbose="2" name="Admin Test Cases">
     <classes>          
-          <class name="sailotech.com.EzScheduler.adminTests.AdminTest"/>  
+          <class name="sailotech.com.EzScheduler.adminTests.CreateDoctorTest"/>  
     </classes>
   </test> 
 </suite> 
