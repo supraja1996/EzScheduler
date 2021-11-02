@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 import sailotech.com.EzScheduler.adminPages.RepositoryClass;
 import sailotech.com.EzScheduler.basePages.BaseTest;
 import utils.ScreenRecording;
-import sailotech.com.EzScheduler.AdminFunctions.AdminFunctions;
+
 import sailotech.com.EzScheduler.AdminFunctions.AdminLogin;
 import sailotech.com.EzScheduler.AdminFunctions.CreateDoctor;
 import sailotech.com.EzScheduler.adminPages.AdminPageRepositoryClass;
