@@ -31,7 +31,7 @@ public class AdminLogin {
 		AdminPageRepositoryClass page = new AdminPageRepositoryClass(driver);
 
 		Thread.sleep(2000);
-//  try {
+  try {
 	    wait.until(ExpectedConditions.elementToBeClickable(page.buttonLoginRegister)).click();
 	    wait.until(ExpectedConditions.elementToBeClickable(page.adminLogin)).click();
 	   // driver.findElement(page.buttonLoginRegister).click();
@@ -41,9 +41,9 @@ public class AdminLogin {
 		//page.adminLogin.click();
 
 //
-//	}catch(Throwable e) {
+	}catch(Throwable e) {
 //		e.printStackTrace();
-//	}
+	}
 	}
 	public void adminLogin() throws Exception {
 		WebDriverWait wait = new WebDriverWait(driver, 5);
