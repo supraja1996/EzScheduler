@@ -29,7 +29,7 @@ public class CreateDoctorTest extends BaseTest{
 	@BeforeClass
 	public void startRecording() throws Exception {
 		
-		startSession();
+		//startSession();
 		//adminlogin = new AdminLogin(driver);
 		screenRecord.startRecording();
 		
