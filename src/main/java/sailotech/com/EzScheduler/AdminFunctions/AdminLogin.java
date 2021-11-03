@@ -12,13 +12,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import sailotech.com.EzScheduler.adminPages.AdminPageRepositoryClass;
+import sailotech.com.EzScheduler.basePages.BaseTest;
 
-public class AdminLogin {
-	WebDriver driver;
+public class AdminLogin extends BaseTest {
+	
 
-	public AdminLogin(WebDriver d) {
-		this.driver = d;
-		PageFactory.initElements(d, this);
+	public AdminLogin(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
 
 	}
 	
