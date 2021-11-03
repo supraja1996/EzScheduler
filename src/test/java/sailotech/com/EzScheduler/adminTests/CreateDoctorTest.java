@@ -24,6 +24,7 @@ import sailotech.com.EzScheduler.AdminFunctions.CreateDoctor;
 public class CreateDoctorTest extends BaseTest{
 	
 	public CreateDoctorTest() {
+		super();
 		System.out.println("*** CreateDoctorTest instantiated ***");
 		// TODO Auto-generated constructor stub
 	}
