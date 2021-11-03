@@ -14,11 +14,15 @@ package sailotech.com.EzScheduler.basePages;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -53,128 +57,126 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-
-
 import utils.WebEventListener;
 //import com.sailotech.Infor_LN.order2cash.Order2CashPage;
 
 import utils.PropertiesReaderUtility;
 import utils.SendMail;
 
-
-
 public class BaseTest {
 
 	public static WebDriver driver;
 	private static String EXECUTION_ENV = System.getProperty("os.name");
 	private static String LINUX_ENV = "Linux";
-	//public static String user_name, password;
-	
+	// public static String user_name, password;
+
 	static String chrome = "chrome";
 	static String firefox = "firefox";
 	static String ie = "ie";
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 
-	//public static EventFiringWebDriver e_driver;
-	
+	// public static EventFiringWebDriver e_driver;
+
 //	public static WebEventListener eventListener;
 //	
-	
-	
-	static String user_dir = System.getProperty("user.dir");
-	protected  static  PropertiesReaderUtility prop = new PropertiesReaderUtility(user_dir + "\\selenium.properties");
 
-	@Parameters("browser")	
-			
+	static String user_dir = System.getProperty("user.dir");
+	protected static PropertiesReaderUtility prop = new PropertiesReaderUtility(user_dir + "\\selenium.properties");
+
+	@Parameters("browser")
+
 	@BeforeClass
 	public void beforeClass() throws Exception {
-		//initBrowser();
-		
-		//loadCredentails();
-				
+		// initBrowser();
+
+		// loadCredentails();
+
 	}
 
 	@AfterClass
 	public void afterClass() {
-		//stopSession();
-		
+		// stopSession();
+
 	}
-	
-	@AfterMethod //AfterMethod annotation - This method executes after every test execution
-	 public void screenShot(ITestResult result){
-	 //using ITestResult.FAILURE is equals to result.getStatus then it enter into if condition
-	 if(ITestResult.FAILURE==result.getStatus()){
-	 try{
-	 // To create reference of TakesScreenshot
-	 TakesScreenshot screenshot=(TakesScreenshot)driver;
-	 // Call method to capture screenshot
-	 File src=screenshot.getScreenshotAs(OutputType.FILE);
-	 
-	 filesMovetoFolder();
-	 
-	
-	 
-	 // Copy files to specific location 
-	 // result.getName() will return name of test case so that screenshot name will be same as test case name
-	 
-	 DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss");
-	 Date dt = new Date();
-	 
-	 FileUtils.copyFile(src, new File(user_dir + "\\FailedScreens\\"+result.getName() + dateFormat.format(dt) +".png"));
-	 System.out.println("Successfully captured a screenshot");
-	 
-	 FileUtils.copyFile(src, new File(user_dir + "\\FailedScreens\\"+"errorscreen.png"));
-	 System.out.println("Successfully captured an error screenshot");
 
-	 
-		SendMail sm = SendMail(driver);
-		sm.main(null);
-		sm.sendEmail_attachment(result);
-		
-		System.out.println("Error ScreenShot sent");
-	 
-	 }catch (Exception e){
-	 System.out.println("Exception while taking screenshot: "+e.getMessage());
-	 } 
-	 }
+	public BaseTest() {
+
+		try {
+			System.out.println("*** BaseTest initiated ***");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
 	}
-	
-	
-	   public static void filesMovetoFolder() {
-			File destinationFolder = new File(user_dir + "\\OldFailedScreens");
-		    File sourceFolder = new File(user_dir + "\\FailedScreens");
 
-		    if (!destinationFolder.exists())
-		    {
-		        destinationFolder.mkdirs();
-		    }
+	@AfterMethod // AfterMethod annotation - This method executes after every test execution
+	public void screenShot(ITestResult result) {
+		// using ITestResult.FAILURE is equals to result.getStatus then it enter into if
+		// condition
+		if (ITestResult.FAILURE == result.getStatus()) {
+			try {
+				// To create reference of TakesScreenshot
+				TakesScreenshot screenshot = (TakesScreenshot) driver;
+				// Call method to capture screenshot
+				File src = screenshot.getScreenshotAs(OutputType.FILE);
 
-		    // Check weather source exists and it is folder.
-		    if (sourceFolder.exists() && sourceFolder.isDirectory())
-		    {
-		        // Get list of the files and iterate over them
-		        File[] listOfFiles = sourceFolder.listFiles();
+				filesMovetoFolder();
 
-		        if (listOfFiles != null)
-		        {
-		            for (File child : listOfFiles )
-		            {
-		                // Move files to destination folder
-		                child.renameTo(new File(destinationFolder + "\\" + child.getName()));
-		                
-		                System.out.println("Files Moved Successfully");
-		            }
+				// Copy files to specific location
+				// result.getName() will return name of test case so that screenshot name will
+				// be same as test case name
 
-		            // Add if you want to delete the source folder 
-		           // sourceFolder.delete();
-		        }
-		    }
-		    else
-		    {
-		        System.out.println(sourceFolder + "Folder does not exists");
-		    }
-	   }
+				DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss");
+				Date dt = new Date();
+
+				FileUtils.copyFile(src,
+						new File(user_dir + "\\FailedScreens\\" + result.getName() + dateFormat.format(dt) + ".png"));
+				System.out.println("Successfully captured a screenshot");
+
+				FileUtils.copyFile(src, new File(user_dir + "\\FailedScreens\\" + "errorscreen.png"));
+				System.out.println("Successfully captured an error screenshot");
+
+				SendMail sm = SendMail(driver);
+				sm.main(null);
+				sm.sendEmail_attachment(result);
+
+				System.out.println("Error ScreenShot sent");
+
+			} catch (Exception e) {
+				System.out.println("Exception while taking screenshot: " + e.getMessage());
+			}
+		}
+	}
+
+	public static void filesMovetoFolder() {
+		File destinationFolder = new File(user_dir + "\\OldFailedScreens");
+		File sourceFolder = new File(user_dir + "\\FailedScreens");
+
+		if (!destinationFolder.exists()) {
+			destinationFolder.mkdirs();
+		}
+
+		// Check weather source exists and it is folder.
+		if (sourceFolder.exists() && sourceFolder.isDirectory()) {
+			// Get list of the files and iterate over them
+			File[] listOfFiles = sourceFolder.listFiles();
+
+			if (listOfFiles != null) {
+				for (File child : listOfFiles) {
+					// Move files to destination folder
+					child.renameTo(new File(destinationFolder + "\\" + child.getName()));
+
+					System.out.println("Files Moved Successfully");
+				}
+
+				// Add if you want to delete the source folder
+				// sourceFolder.delete();
+			}
+		} else {
+			System.out.println(sourceFolder + "Folder does not exists");
+		}
+	}
 
 	private SendMail SendMail(WebDriver driver2) {
 		// TODO Auto-generated method stub
@@ -182,12 +184,12 @@ public class BaseTest {
 	}
 
 	public static void startSession() {
-		
+
 		System.out.println("Launching Browser");
 		String browserName = prop.getProperty("browser");
-		String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV))?"/drivers/Linux/chromedriver_94":"\\drivers\\chromedriver.exe";
-		
-		
+		String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV)) ? "/drivers/Linux/chromedriver_94"
+				: "\\drivers\\chromedriver_89.exe";
+
 		if (prop.getProperty("remoteWebdriver").equalsIgnoreCase("false")) {
 			if (browserName.equalsIgnoreCase("firefox")) {
 				System.setProperty("webdriver.gecko.driver", user_dir + "\\drivers\\geckodriver.exe");
@@ -195,22 +197,22 @@ public class BaseTest {
 			} else if (browserName.equalsIgnoreCase("chrome")) {
 				ChromeOptions options = new ChromeOptions();
 				System.setProperty("webdriver.chrome.driver", user_dir + "\\drivers\\chromedriver.exe");
-				//driver = new ChromeDriver();
+				// driver = new ChromeDriver();
 				if (EXECUTION_ENV.equals(LINUX_ENV)) {
 					options.setBinary("/opt/google/chrome/google-chrome");
 					options.addArguments("--no-sandbox"); // Bypass OS security model
-					//options.addArguments("--disable-dev-shm-usage");
+					// options.addArguments("--disable-dev-shm-usage");
 					options.addArguments("--headless");
-				    options.addArguments("--disable-extensions");
+					options.addArguments("--disable-extensions");
 					/*
 					 * options.addArguments("--no-proxy-server");
 					 * options.addArguments("--proxy-server='direct://'");
 					 * options.addArguments("--proxy-bypass-list=*");
 					 */
-				    options.addArguments("--start-maximized");
-				    //options.addArguments("--disable-gpu");
-				    options.addArguments("--incognito");
-				    options.addArguments("--ignore-certificate-errors");
+					options.addArguments("--start-maximized");
+					// options.addArguments("--disable-gpu");
+					options.addArguments("--incognito");
+					options.addArguments("--ignore-certificate-errors");
 				} else {
 					// close the pop-ups
 					options.addArguments("--disable-notifications");
@@ -224,21 +226,23 @@ public class BaseTest {
 				if (EXECUTION_ENV.equals(LINUX_ENV)) {
 					driver.manage().window().setSize(new Dimension(1920, 1080));
 				}
-				//log.info("launching chrome browser");
-				//ChromeOptions options = new ChromeOptions();
-				
-				/*String downloadFilepath = user_dir + "\\Warehouse_xls";
-				HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-				chromePrefs.put("profile.default_content_settings.popups", 0);
-				chromePrefs.put("download.default_directory", downloadFilepath);
-				
-				
-				options.setExperimentalOption("prefs", chromePrefs);*/
-				
+				// log.info("launching chrome browser");
+				// ChromeOptions options = new ChromeOptions();
+
+				/*
+				 * String downloadFilepath = user_dir + "\\Warehouse_xls"; HashMap<String,
+				 * Object> chromePrefs = new HashMap<String, Object>();
+				 * chromePrefs.put("profile.default_content_settings.popups", 0);
+				 * chromePrefs.put("download.default_directory", downloadFilepath);
+				 * 
+				 * 
+				 * options.setExperimentalOption("prefs", chromePrefs);
+				 */
+
 //				DesiredCapabilities cap = DesiredCapabilities.chrome();
 //				cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 //				cap.setCapability(ChromeOptions.CAPABILITY, options);
-				
+
 //				driver = new ChromeDriver(cap);
 
 			} else if (browserName.equalsIgnoreCase("ie")) {
@@ -286,19 +290,19 @@ public class BaseTest {
 //		eventListener = new WebEventListener();
 //		e_driver.register(eventListener);
 //		driver = e_driver;
-	
-	    
+
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		
+
 		driver.get(prop.getProperty("baseurl_qa"));
-	//	driver.manage().window.Size = new size(1024, 768);
+		// driver.manage().window.Size = new size(1024, 768);
 		driver.manage().window().maximize();
-		//driver.manage().deleteAllCookies();
+		// driver.manage().deleteAllCookies();
 		e_driver = new EventFiringWebDriver(driver);
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
 		driver = e_driver;
 	}
+
 	public static void initBrowser() {
 
 		/*
@@ -309,7 +313,7 @@ public class BaseTest {
 
 		String browserName = prop.getProperty("browser");
 		String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV)) ? "/drivers/Linux/chromedriver_94"
-				: "\\drivers\\chromedriver.exe";
+				: "\\drivers\\chromedriver_89_1.exe";
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + chromeDriverPath);
@@ -318,22 +322,22 @@ public class BaseTest {
 			options.setCapability(CapabilityType.UNHANDLED_PROMPT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
 			options.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
 			options.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
-			
+
 			if (EXECUTION_ENV.equals(LINUX_ENV)) {
 				options.setBinary("/opt/google/chrome/google-chrome");
 				options.addArguments("--no-sandbox"); // Bypass OS security model
-				//options.addArguments("--disable-dev-shm-usage");
+				// options.addArguments("--disable-dev-shm-usage");
 				options.addArguments("--headless");
-			    options.addArguments("--disable-extensions");
+				options.addArguments("--disable-extensions");
 				/*
 				 * options.addArguments("--no-proxy-server");
 				 * options.addArguments("--proxy-server='direct://'");
 				 * options.addArguments("--proxy-bypass-list=*");
 				 */
-			    options.addArguments("--start-maximized");
-			    //options.addArguments("--disable-gpu");
-			    options.addArguments("--incognito");
-			    options.addArguments("--ignore-certificate-errors");
+				options.addArguments("--start-maximized");
+				// options.addArguments("--disable-gpu");
+				options.addArguments("--incognito");
+				options.addArguments("--ignore-certificate-errors");
 			} else {
 				// close the pop-ups
 				options.addArguments("--disable-notifications");
@@ -359,7 +363,7 @@ public class BaseTest {
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
 		driver = e_driver;
-       
+
 		driver.get(prop.getProperty("baseurl_qa"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(180, TimeUnit.SECONDS);
@@ -394,7 +398,7 @@ public class BaseTest {
 			act.sendKeys(Keys.TAB).build().perform();
 		}
 	}
-	
+
 	public void click(By locator, String locatorName, WebDriver driver) {
 		try {
 //			log.info("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
@@ -413,7 +417,6 @@ public class BaseTest {
 			System.out.println(e.toString());
 		}
 	}
-	
 
 	public void stopSession() {
 		driver.close();
