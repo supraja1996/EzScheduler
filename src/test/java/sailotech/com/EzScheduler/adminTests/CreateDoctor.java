@@ -18,7 +18,6 @@ import sailotech.com.EzScheduler.basePages.BaseTest;
 import utils.ScreenRecording;
 
 import sailotech.com.EzScheduler.AdminFunctions.AdminLogin;
-import sailotech.com.EzScheduler.AdminFunctions.CreateDoctor;
 
 
 public class CreateDoctor extends BaseTest{
