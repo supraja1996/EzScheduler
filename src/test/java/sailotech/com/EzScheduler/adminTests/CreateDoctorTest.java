@@ -31,7 +31,7 @@ public class CreateDoctorTest extends BaseTest{
 		
 		//startSession();
 		//adminlogin = new AdminLogin(driver);
-		screenRecord.startRecording();
+		//screenRecord.startRecording();
 		
 		
 	}
@@ -89,7 +89,7 @@ public void TC01_Navigate_to_AdminLogin() throws Exception {
 	
 	@AfterTest
 	public void stopRecording() throws Exception {
-		screenRecord.stopRecording();
+		//screenRecord.stopRecording();
 		driver.quit();
 	}
 }
