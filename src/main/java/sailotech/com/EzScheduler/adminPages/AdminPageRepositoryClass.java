@@ -8,13 +8,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AdminPageRepositoryClass {
+import sailotech.com.EzScheduler.basePages.BaseTest;
+
+public class AdminPageRepositoryClass extends BaseTest {
 	
-	WebDriver driver;
 	
-	public AdminPageRepositoryClass(WebDriver d) {
-		this.driver = d;
-		PageFactory.initElements(d, this);
+	
+	public AdminPageRepositoryClass(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
 
 	}
 	
