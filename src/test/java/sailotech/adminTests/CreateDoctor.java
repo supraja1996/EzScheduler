@@ -1,4 +1,4 @@
-package sailotech.com.EzScheduler.adminTests;
+package sailotech.adminTests;
 
 import org.testng.annotations.Test;
 
