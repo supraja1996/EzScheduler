@@ -31,6 +31,7 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -51,6 +52,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+
 
 
 import utils.WebEventListener;
@@ -87,7 +89,7 @@ public class BaseTest {
 			
 	@BeforeClass
 	public void beforeClass() throws Exception {
-		startSession();
+		initBrowser();
 		
 		//loadCredentails();
 				
@@ -180,6 +182,8 @@ public class BaseTest {
 	}
 
 	public static void startSession() {
+		
+		System.out.println("Launching Browser");
 		String browserName = prop.getProperty("browser");
 		String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV))?"/drivers/Linux/chromedriver_94":"\\drivers\\chromedriver.exe";
 		
@@ -294,6 +298,74 @@ public class BaseTest {
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
 		driver = e_driver;
+	}
+	public static void initBrowser() {
+
+		/*
+		 * System.out.println("Build Number:" + jenkinsBuildNumber);
+		 * System.out.println("Job Name:" + jenkinsJobName);
+		 */
+		System.out.println("launching browser");
+
+		String browserName = prop.getProperty("browser");
+		String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV)) ? "/drivers/Linux/chromedriver_94"
+				: "\\drivers\\chromedriver.exe";
+
+		if (browserName.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + chromeDriverPath);
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("start-maximized");
+			options.setCapability(CapabilityType.UNHANDLED_PROMPT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
+			options.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
+			options.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
+			
+			if (EXECUTION_ENV.equals(LINUX_ENV)) {
+				options.setBinary("/opt/google/chrome/google-chrome");
+				options.addArguments("--no-sandbox"); // Bypass OS security model
+				//options.addArguments("--disable-dev-shm-usage");
+				options.addArguments("--headless");
+			    options.addArguments("--disable-extensions");
+				/*
+				 * options.addArguments("--no-proxy-server");
+				 * options.addArguments("--proxy-server='direct://'");
+				 * options.addArguments("--proxy-bypass-list=*");
+				 */
+			    options.addArguments("--start-maximized");
+			    //options.addArguments("--disable-gpu");
+			    options.addArguments("--incognito");
+			    options.addArguments("--ignore-certificate-errors");
+			} else {
+				// close the pop-ups
+				options.addArguments("--disable-notifications");
+				System.setProperty("java.awt.headless", "false");
+				// to enable screenShot and fix timeouts received from renderer
+				options.addArguments("--disable-features=VizDisplayCompositor");
+			}
+			File file = new File(System.getProperty("user.dir") + chromeDriverPath);
+			file.setExecutable(true);
+			driver = new ChromeDriver(options);
+			if (EXECUTION_ENV.equals(LINUX_ENV)) {
+				driver.manage().window().setSize(new Dimension(1920, 1080));
+			}
+//			log.info("launching chrome browser");
+		} else if (browserName.equalsIgnoreCase("firefox")) {
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\drivers\\geckodriver.exe");
+			driver = new FirefoxDriver();
+//			log.info("launching firefox browser");
+		} else {
+			System.out.println("no proper browser initialized");
+		}
+		e_driver = new EventFiringWebDriver(driver);
+		eventListener = new WebEventListener();
+		e_driver.register(eventListener);
+		driver = e_driver;
+       
+		driver.get(prop.getProperty("baseurl_qa"));
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(180, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(TestUtil.implicit_wait, TimeUnit.SECONDS);
+
+		// driver.get(prop.getProperty("inforLNUrl"));
 	}
 //	private ScreenRecorder screenRecorder;
 //
