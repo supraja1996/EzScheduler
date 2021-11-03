@@ -2,22 +2,7 @@ package sailotech.com.EzScheduler.adminTests;
 
 import org.testng.annotations.Test;
 
-import ru.yandex.qatools.allure.annotations.Description;
-import ru.yandex.qatools.allure.annotations.Step;
-import ru.yandex.qatools.allure.annotations.TestCaseId;
-
-import org.testng.annotations.BeforeClass;
-import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
-
-
-
 import sailotech.com.EzScheduler.basePages.BaseTest;
-import utils.ScreenRecording;
-
-import sailotech.com.EzScheduler.AdminFunctions.AdminLogin;
 
 
 public class CreateDoctor extends BaseTest{
