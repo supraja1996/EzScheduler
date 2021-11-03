@@ -43,7 +43,7 @@ public class AdminLogin extends BaseTest {
 
 //
 	}catch(Throwable e) {
-//		e.printStackTrace();
+		e.printStackTrace();
 	}
 	}
 	public void adminLogin() throws Exception {

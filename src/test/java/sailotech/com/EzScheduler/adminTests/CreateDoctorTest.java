@@ -13,13 +13,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
-import sailotech.com.EzScheduler.adminPages.RepositoryClass;
+
 import sailotech.com.EzScheduler.basePages.BaseTest;
 import utils.ScreenRecording;
 
 import sailotech.com.EzScheduler.AdminFunctions.AdminLogin;
 import sailotech.com.EzScheduler.AdminFunctions.CreateDoctor;
-import sailotech.com.EzScheduler.adminPages.AdminPageRepositoryClass;
+
 
 public class CreateDoctorTest extends BaseTest{
 	
@@ -42,14 +42,14 @@ public class CreateDoctorTest extends BaseTest{
 @Test(description = "Login as Admin with Admin Credentials")
 
 public void TC01_Navigate_to_AdminLogin() throws Exception {
-try {	  
+	  
 	   AdminLogin adminlogin = new AdminLogin(driver);
 	   adminlogin.adminLogin_Navigation();
 	   adminlogin.adminLogin();
-	   }catch (Throwable e) {
+	
 //
-e.printStackTrace();
-}	
+
+
 }
 @TestCaseId("TC_02")
 	@Step("Create a Doctor")
