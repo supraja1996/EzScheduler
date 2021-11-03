@@ -20,12 +20,13 @@ import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import sailotech.com.EzScheduler.adminPages.AdminPageRepositoryClass;
+import sailotech.com.EzScheduler.basePages.BaseTest;
 import utils.DateParsing;
 
 import org.testng.asserts.SoftAssert;
-public class CreateDoctor {
+public class CreateDoctor extends BaseTest{
 	
-	WebDriver driver;
+	
 	String fromDate;
 	Date FormattedDate;
 	Date FromatedDate;
@@ -36,9 +37,9 @@ public class CreateDoctor {
 	String fromYear;
 	String inputDate;
 	String monthonCalendar;
-	public CreateDoctor(WebDriver d) {
-		this.driver = d;
-		PageFactory.initElements(d, this);
+	public CreateDoctor(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
 		
 	}
 	
