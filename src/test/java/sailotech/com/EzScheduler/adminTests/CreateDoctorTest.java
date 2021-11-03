@@ -28,7 +28,7 @@ public class CreateDoctorTest extends BaseTest{
 	
 	@BeforeClass
 	public void startRecording() throws Exception {
-		
+		initBrowser();
 		//startSession();
 		//adminlogin = new AdminLogin(driver);
 		//screenRecord.startRecording();

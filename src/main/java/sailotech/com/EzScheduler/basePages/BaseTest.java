@@ -89,7 +89,7 @@ public class BaseTest {
 			
 	@BeforeClass
 	public void beforeClass() throws Exception {
-		initBrowser();
+		//initBrowser();
 		
 		//loadCredentails();
 				
