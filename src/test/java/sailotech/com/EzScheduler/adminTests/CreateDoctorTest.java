@@ -23,8 +23,13 @@ import sailotech.com.EzScheduler.AdminFunctions.CreateDoctor;
 
 public class CreateDoctorTest extends BaseTest{
 	
+	public CreateDoctorTest() {
+		System.out.println("*** CreateDoctorTest instantiated ***");
+		// TODO Auto-generated constructor stub
+	}
 	
-	ScreenRecording screenRecord = new ScreenRecording();
+	
+	//ScreenRecording screenRecord = new ScreenRecording();
 	
 	@BeforeClass
 	public void startRecording() throws Exception {
