@@ -313,7 +313,7 @@ public class BaseTest {
 
 		String browserName = prop.getProperty("browser");
 		String chromeDriverPath = (EXECUTION_ENV.equals(LINUX_ENV)) ? "/drivers/Linux/chromedriver_94"
-				: "\\drivers\\chromedriver_89_1.exe";
+				: "\\drivers\\chromedriver.exe";
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + chromeDriverPath);
