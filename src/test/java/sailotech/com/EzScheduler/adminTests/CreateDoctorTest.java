@@ -28,6 +28,7 @@ public class CreateDoctorTest extends BaseTest{
 	
 	@BeforeClass
 	public void startRecording() throws Exception {
+		System.out.println("headless=>"+System.getProperty("java.awt.headless"));
 		initBrowser();
 		//startSession();
 		//adminlogin = new AdminLogin(driver);
