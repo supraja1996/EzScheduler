@@ -69,7 +69,7 @@ public class BaseTest {
 	private static String EXECUTION_ENV = System.getProperty("os.name");
 	private static String LINUX_ENV = "Linux";
 	// public static String user_name, password;
-
+	public static Properties prop;
 	static String chrome = "chrome";
 	static String firefox = "firefox";
 	static String ie = "ie";
@@ -82,7 +82,7 @@ public class BaseTest {
 //	
 
 	static String user_dir = System.getProperty("user.dir");
-	protected static PropertiesReaderUtility prop = new PropertiesReaderUtility(user_dir + "\\selenium.properties");
+	//public static PropertiesReaderUtility prop = new PropertiesReaderUtility(user_dir + "\\selenium.properties");
 
 	@Parameters("browser")
 
@@ -99,12 +99,26 @@ public class BaseTest {
 		// stopSession();
 
 	}
+	public static String envRelativePath(String windowsPath) {
+		if (EXECUTION_ENV.equals(LINUX_ENV)) {
+			return windowsPath.replaceAll("\\\\", "/");
+		}
+		return windowsPath;
+	}
 
 	public BaseTest() {
-
+		prop = new Properties();
+		FileInputStream fis = null;
 		try {
-			System.out.println("*** BaseTest initiated ***");
-		} catch (Exception e) {
+			fis = new FileInputStream(
+					System.getProperty("user.dir") + envRelativePath("\\selenium.properties"));
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		try {
+			prop.load(fis);
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
