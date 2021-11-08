@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import ru.yandex.qatools.allure.annotations.Attachment;
 import sailotech.com.EzScheduler.basePages.BaseTest;
 import sailotech.com.EzScheduler.providerPages.Repository;
 
@@ -64,8 +65,8 @@ public class GenerateSlots extends BaseTest{
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
-	public byte[] login(WebDriver driver) {
+    @Attachment
+	public byte[] navigateToGenerateSlots() {
 		return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 	}
 
@@ -97,9 +98,13 @@ public class GenerateSlots extends BaseTest{
 
 		// wait.until(ExpectedConditions.elementToBeClickable(page.generateSlotsMenu));
 		Thread.sleep(2000);
-
+		navigateToGenerateSlots();
 	}
 
+	 @Attachment
+		public byte[] generateSlotPage() {
+			return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+		}
 	public void generate_slots_page() throws Exception {
 
 		WebDriverWait wait = new WebDriverWait(driver, 60);
@@ -232,15 +237,23 @@ public class GenerateSlots extends BaseTest{
 				}
 			
 			}
-			}	
+			}
+			generateSlotPage();	
 			driver.navigate().refresh();
 			Thread.sleep(2000);
 		}
-		
-		FileOutputStream fout = new FileOutputStream(user_dir + "\\inputFiles\\Doctor_Login.xlsx");
+		FileOutputStream fout = null;
+		fout = new FileOutputStream(
+				System.getProperty("user.dir") + envRelativePath("\\inputFiles\\Doctor_Login.xlsx"));
+
+		//FileOutputStream fout = new FileOutputStream(user_dir + "\\inputFiles\\Doctor_Login.xlsx");
 		wb.write(fout);
 	}
-
+  
+	 @Attachment
+		public byte[] checkSlots() {
+			return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+		}
 	@SuppressWarnings("unused")
 	public void check_the_slots() throws Exception {
 
@@ -320,6 +333,7 @@ public class GenerateSlots extends BaseTest{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			checkSlots();
 		}
 
 	}
