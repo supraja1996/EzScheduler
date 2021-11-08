@@ -66,7 +66,11 @@ public class CreateDoctor extends BaseTest{
 	    String url = driver.getCurrentUrl();
 	    Assert.assertEquals(url, "https://demo.ezscheduler.io/doctorView");
 	    String user_dir = System.getProperty("user.dir");
-		FileInputStream fis = new FileInputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
+	    FileInputStream fis = null;
+		fis = new FileInputStream(
+				System.getProperty("user.dir") + envRelativePath("\\inputFiles\\Admin_Login.xlsx"));
+
+		//FileInputStream fis = new FileInputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		// Header Sheet
 		XSSFSheet s = wb.getSheetAt(3);
@@ -258,7 +262,11 @@ public class CreateDoctor extends BaseTest{
 	
 //		String message = wait.until(ExpectedConditions.elementToBeClickable(page.alertMessage)).getText();
 //        s.getRow(i).createCell(12).setCellValue(message);
-        FileOutputStream fout = new FileOutputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
+		FileOutputStream fout = null;
+		fout = new FileOutputStream(
+				System.getProperty("user.dir") + envRelativePath("\\inputFiles\\Admin_Login.xlsx"));
+
+       // FileOutputStream fout = new FileOutputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
 		wb.write(fout);
 		 driver.navigate().refresh();
 		 Thread.sleep(5000);

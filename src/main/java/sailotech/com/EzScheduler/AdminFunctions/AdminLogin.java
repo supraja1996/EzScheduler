@@ -51,7 +51,11 @@ public class AdminLogin extends BaseTest {
 		AdminPageRepositoryClass page = new AdminPageRepositoryClass(driver);
 		Actions action = new Actions(driver);
 		String user_dir = System.getProperty("user.dir");
-		FileInputStream fis = new FileInputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
+		FileInputStream fis = null;
+		fis = new FileInputStream(
+				System.getProperty("user.dir") + envRelativePath("\\inputFiles\\Admin_Login.xlsx"));
+
+		//FileInputStream fis = new FileInputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		// Header Sheet
 		XSSFSheet s = wb.getSheetAt(0);
