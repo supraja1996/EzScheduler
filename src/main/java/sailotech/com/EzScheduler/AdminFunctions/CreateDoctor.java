@@ -19,6 +19,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
+import ru.yandex.qatools.allure.annotations.Attachment;
 import sailotech.com.EzScheduler.adminPages.AdminPageRepositoryClass;
 import sailotech.com.EzScheduler.basePages.BaseTest;
 import utils.DateParsing;
@@ -43,8 +44,8 @@ public class CreateDoctor extends BaseTest{
 		
 	}
 	
-	
-	public byte[] login() {
+	@Attachment
+	public byte[] navigateToDoctor() {
 		return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 		
 	}
@@ -56,6 +57,14 @@ public class CreateDoctor extends BaseTest{
 	    Actions action = new Actions(driver); 
 	    wait.until(ExpectedConditions.elementToBeClickable(page.createbutton)).click();
 	    
+	    navigateToDoctor();
+	    
+	}
+	
+	@Attachment
+	public byte[] createDoctor() {
+		return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+		
 	}
 	public void createDoctorProfile() throws Exception{
 		
@@ -273,9 +282,10 @@ public class CreateDoctor extends BaseTest{
 //		softAssertion.assertEquals(message, "Physicican Saved");
 		
 	}
-
+		createDoctor();
 		}
 	   
+	
 	    
 	}
 		

@@ -5,12 +5,15 @@ import java.io.FileOutputStream;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import ru.yandex.qatools.allure.annotations.Attachment;
 import sailotech.com.EzScheduler.adminPages.AdminPageRepositoryClass;
 import sailotech.com.EzScheduler.basePages.BaseTest;
 
@@ -23,7 +26,10 @@ public class AdminLogin extends BaseTest {
 
 	}
 	
-
+	@Attachment
+	   public byte[] adminLoginNavigation() {
+	       return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+	   }
 
 	public void adminLogin_Navigation()  throws Exception{
 
@@ -45,7 +51,14 @@ public class AdminLogin extends BaseTest {
 	}catch(Throwable e) {
 		e.printStackTrace();
 	}
+      adminLoginNavigation();
 	}
+	
+	@Attachment
+	   public byte[] adminLoginScreen() {
+	       return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+	   }
+	
 	public void adminLogin() throws Exception {
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		AdminPageRepositoryClass page = new AdminPageRepositoryClass(driver);
@@ -92,7 +105,7 @@ public class AdminLogin extends BaseTest {
 				e.printStackTrace();
 
 			}
-
+			adminLoginScreen();
 		}
 	}
 
