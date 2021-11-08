@@ -27,7 +27,7 @@ public class SlotGenerationTest extends BaseTest {
 	   }
 	@BeforeClass
 	   public void screenRecord() throws Exception {
-	       startSession();
+		initBrowser();
 	  }
 	
 	@TestCaseId("TC_01")
