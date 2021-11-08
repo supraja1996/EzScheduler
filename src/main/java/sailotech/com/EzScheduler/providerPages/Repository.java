@@ -12,12 +12,12 @@ import sailotech.com.EzScheduler.basePages.BaseTest;
 
 public class Repository extends BaseTest {
 	
-	static WebDriver driver;
+	
 
 	
-	public Repository(WebDriver d) {
-		this.driver = d;
-		PageFactory.initElements(d, this);
+	public Repository(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
 	}
 
 	
