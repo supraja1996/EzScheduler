@@ -21,13 +21,14 @@ import sailotech.com.EzScheduler.providerPages.Navigations;
 import utils.ScreenRecording;
 
 public class SlotGenerationTest extends BaseTest {
-	ScreenRecording screenRecord = new ScreenRecording();
+	
+	public SlotGenerationTest() {
+	       super();
+	   }
 	@BeforeClass
-	public void startRecording() throws Exception {
-		
-		screenRecord.startRecording();
-		
-	}
+	   public void screenRecord() throws Exception {
+	       startSession();
+	  }
 	
 	@TestCaseId("TC_01")
 	@Step("Naviagtion to Doctor Login")
@@ -86,7 +87,7 @@ public class SlotGenerationTest extends BaseTest {
 	
 	@AfterTest
 	public void stopRecording() throws Exception {
-		screenRecord.stopRecording();
+		//screenRecord.stopRecording();
 		driver.close();
 	}
 
