@@ -93,12 +93,20 @@ public class AdminLogin extends BaseTest {
 
 					s.getRow(i).createCell(3).setCellValue(strUrl);
 					// s.getRow(i).createCell(5).setCellValue("Success");
-					FileOutputStream fout = new FileOutputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
+					FileOutputStream fout = null;
+					fout = new FileOutputStream(
+							System.getProperty("user.dir") + envRelativePath("\\inputFiles\\Admin_Login.xlsx"));
+
+					//FileOutputStream fout = new FileOutputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
 					wb.write(fout);
 				} else {
 					s.getRow(i).createCell(3).setCellValue(strUrl);
 					// s.getRow(i).createCell(5).setCellValue("Success");
-					FileOutputStream fout = new FileOutputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
+					FileOutputStream fout = null;
+					fout = new FileOutputStream(
+							System.getProperty("user.dir") + envRelativePath("\\inputFiles\\Admin_Login.xlsx"));
+					
+					//FileOutputStream fout = new FileOutputStream(user_dir + "\\inputFiles\\Admin_Login.xlsx");
 					wb.write(fout);
 				}
 			} catch (Exception e) {

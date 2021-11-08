@@ -7,18 +7,20 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Logout {
+import sailotech.com.EzScheduler.basePages.BaseTest;
+
+public class Logout extends BaseTest{
 	
-	WebDriver driver;
 	
-	 public Logout(WebDriver d) { 
-		 this.driver = d;
-	 PageFactory.initElements(d, this); 
+	
+	 public Logout(WebDriver driver) { 
+		 this.driver = driver;
+	 PageFactory.initElements(driver, this); 
 	 }
 	 
 	 
 	 
-	public byte[] login(WebDriver driver) {
+	public byte[] doctorLogout() {
 		return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 	}
 
@@ -32,6 +34,6 @@ public class Logout {
 		action.moveToElement(page.menu).click().perform();
 		Thread.sleep(2000);
 		action.moveToElement(page.logoutMenu).click().perform();
-		
+		doctorLogout();
 	}
 }

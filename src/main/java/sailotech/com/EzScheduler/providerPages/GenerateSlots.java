@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import sailotech.com.EzScheduler.basePages.BaseTest;
 import sailotech.com.EzScheduler.providerPages.Repository;
 
 import java.text.ParseException;
@@ -30,8 +31,8 @@ import java.util.Date;
 import java.util.List;
 
 @SuppressWarnings("unused")
-public class GenerateSlots {
-	WebDriver driver;
+public class GenerateSlots extends BaseTest{
+	
 	String romDate;
 	String fromDate;
 	String toDate;
@@ -59,9 +60,9 @@ public class GenerateSlots {
 	int div;
 	int flag = 0;
 
-	public GenerateSlots(WebDriver d) {
-		this.driver = d;
-		PageFactory.initElements(d, this);
+	public GenerateSlots(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
 	}
 
 	public byte[] login(WebDriver driver) {
@@ -104,7 +105,11 @@ public class GenerateSlots {
 		WebDriverWait wait = new WebDriverWait(driver, 60);
 		Repository page = new Repository(driver);
 		String user_dir = System.getProperty("user.dir");
-		FileInputStream fis = new FileInputStream(user_dir + "\\inputFiles\\Doctor_Login.xlsx");
+		FileInputStream fis = null;
+		fis = new FileInputStream(
+				System.getProperty("user.dir") + envRelativePath("\\inputFiles\\Doctor_Login.xlsx"));
+
+		//FileInputStream fis = new FileInputStream(user_dir + "\\inputFiles\\Doctor_Login.xlsx");
 		Actions action = new Actions(driver);
 		DateParsing p = new DateParsing();
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
@@ -245,7 +250,12 @@ public class GenerateSlots {
 		Actions action = new Actions(driver);
 		DateParsing p = new DateParsing();
 		String user_dir = System.getProperty("user.dir");
-		FileInputStream fis = new FileInputStream(user_dir + "\\inputFiles\\Doctor_Login.xlsx");
+		FileInputStream fis = null;
+		fis = new FileInputStream(
+				System.getProperty("user.dir") + envRelativePath("\\inputFiles\\Doctor_Login.xlsx"));
+
+		
+		//FileInputStream fis = new FileInputStream(user_dir + "\\inputFiles\\Doctor_Login.xlsx");
 
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		// Header Sheet

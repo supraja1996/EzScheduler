@@ -271,6 +271,7 @@ public class CreateDoctor extends BaseTest{
 	
 //		String message = wait.until(ExpectedConditions.elementToBeClickable(page.alertMessage)).getText();
 //        s.getRow(i).createCell(12).setCellValue(message);
+		createDoctor();
 		FileOutputStream fout = null;
 		fout = new FileOutputStream(
 				System.getProperty("user.dir") + envRelativePath("\\inputFiles\\Admin_Login.xlsx"));
@@ -282,7 +283,7 @@ public class CreateDoctor extends BaseTest{
 //		softAssertion.assertEquals(message, "Physicican Saved");
 		
 	}
-		createDoctor();
+		
 		}
 	   
 	
